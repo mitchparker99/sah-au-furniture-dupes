@@ -49,6 +49,14 @@ if (process.argv.includes('--test')) {
   for (const f of ['style.css', 'robots.txt', 'sitemap.xml', '404.html']) {
     assert.ok(fs.existsSync(path.join(tmp, f)), `${f} generated`);
   }
+  // Non-ASCII data must land as numeric entities (e.g. IKEA's JATTEBO with a
+  // diaeresis), and the 404 must be styled + linked at any path depth.
+  const { esc } = require('../lib/site-builder');
+  assert.strictEqual(esc('JÄTTEBO'), 'J&#196;TTEBO', 'non-ascii data entity-encoded');
+  const notFound = fs.readFileSync(path.join(tmp, '404.html'), 'utf8');
+  assert.ok(notFound.includes('<style>'), '404 inlines its CSS (served at any depth)');
+  assert.ok(notFound.includes('href="https://example.org/index.html"'), '404 links home absolutely when SITE_URL set');
+  assert.ok(!/[^\x00-\x7F]/.test(notFound), '404 is ASCII-only');
   // House rules: no emoji, ASCII-only source.
   for (const page of [index, compare, method]) {
     assert.ok(!/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/u.test(page), 'no emoji in generated pages');

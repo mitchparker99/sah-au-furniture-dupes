@@ -38,6 +38,11 @@ function rankByAttributes(catalogue, attrs, topN = 10) {
 
 async function main() {
   const log = makeLogger('photo-match');
+  const { isPaused } = require('../lib/killswitch');
+  if (isPaused()) {
+    log.warn('PAUSED - kill-switch engaged, not spending API calls');
+    return;
+  }
   const idx = process.argv.indexOf('--image');
   const image = idx > -1 ? process.argv[idx + 1] : null;
   if (!image) {

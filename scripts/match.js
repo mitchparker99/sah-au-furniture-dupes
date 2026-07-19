@@ -11,7 +11,7 @@ require('dotenv').config({ path: require('path').join(__dirname, '..', '.env'), 
 const fs = require('fs');
 const path = require('path');
 const { loadCatalogue } = require('../lib/catalogue');
-const { similarity, savingsPct, blendVision, MIN_SCORE } = require('../lib/similarity');
+const { similarity, savingsPct, blendVision, bandFor, MIN_SCORE } = require('../lib/similarity');
 const { boolEnv, intEnv } = require('../lib/env');
 const { isPaused } = require('../lib/killswitch');
 const { makeLogger } = require('../lib/logger');
@@ -39,6 +39,18 @@ function computeMatches(catalogue) {
   return out;
 }
 
+// Blend a vision score into a match, then re-apply every invariant the
+// pre-blend pipeline established: the no-dims 89 cap, the band label, and
+// (via the caller) the MIN_SCORE floor. Blending must never let a match
+// contradict the published methodology.
+function applyVisionScore(m, visionScore) {
+  m.vision_score = visionScore;
+  m.score = blendVision(m.score, visionScore);
+  if (m.components && m.components.dimensions === null) m.score = Math.min(m.score, 89);
+  m.band = bandFor(m.score);
+  return m;
+}
+
 async function applyVision(catalogue, matches, log) {
   const { visionAvailable, imagePairScore } = require('../lib/vision');
   if (!boolEnv('VISION_ENABLED') || !visionAvailable()) {
@@ -56,13 +68,14 @@ async function applyVision(catalogue, matches, log) {
       if (!alt || !alt.image_url) continue;
       try {
         const v = await imagePairScore(orig.image_url, alt.image_url);
-        m.vision_score = v.score;
-        m.score = blendVision(m.score, v.score);
+        applyVisionScore(m, v.score);
         budget--;
       } catch (err) {
         log.warn(`vision pair ${group.original_id} x ${m.alt_id} failed: ${err.message}`);
       }
     }
+    // Re-apply the publishable floor: a blend can drag a match under 55.
+    group.matches = group.matches.filter((m) => m.score >= MIN_SCORE);
     group.matches.sort((x, y) => y.score - x.score);
   }
   return matches;
@@ -98,9 +111,18 @@ if (require.main === module && process.argv.includes('--test')) {
   assert.strictEqual(lamp.matches[0].alt_id, 'lampland-dome-lamp', 'lamp matched');
   assert.ok(lamp.matches[0].savings_pct >= 85, 'lamp savings computed');
   assert.ok(sofa.matches.every((m) => m.score >= MIN_SCORE), 'floor respected');
-  console.log('[ok] match self-test passed (grouping, exclusions, floor, savings)');
+  // Vision blending must preserve every published invariant.
+  const noDims = applyVisionScore({ score: 89, band: 'Close alternative', components: { dimensions: null } }, 100);
+  assert.ok(noDims.score <= 89, `no-dims cap survives vision blend, got ${noDims.score}`);
+  assert.strictEqual(noDims.band, 'Close alternative', 'band re-derived after blend');
+  const dragged = applyVisionScore({ score: 100, band: 'Very close match', components: { dimensions: 0.9 } }, 0);
+  assert.strictEqual(dragged.score, 65, 'blend math');
+  assert.strictEqual(dragged.band, 'Same style family', 'band must follow the blended score, not the spec score');
+  const sunk = applyVisionScore({ score: 60, band: 'Same style family', components: { dimensions: 0.9 } }, 0);
+  assert.ok(sunk.score < MIN_SCORE, 'a blend can sink below floor; caller filters it out');
+  console.log('[ok] match self-test passed (grouping, exclusions, floor, savings, vision invariants)');
 } else if (require.main === module) {
   main().catch((err) => { console.error('[fail]', err.message); process.exit(1); });
 }
 
-module.exports = { computeMatches, MATCHES_PATH };
+module.exports = { computeMatches, applyVisionScore, MATCHES_PATH };
