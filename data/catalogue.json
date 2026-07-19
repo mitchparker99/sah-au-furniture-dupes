@@ -1,0 +1,36 @@
+{
+  "updated": "2026-07-20",
+  "products": [
+    {
+      "id": "kartell-componibili-3-tier",
+      "role": "original",
+      "category": "bedroom",
+      "brand": "Kartell",
+      "name": "Componibili Classic 3-Tier Storage Unit",
+      "price_aud": 395,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.spacefurniture.com.au/componibili-classic-3-tier.html",
+      "dimensions_cm": { "w": 32, "d": 32, "h": 58.5 },
+      "materials": ["abs plastic"],
+      "style_tags": ["cylindrical", "modular", "sculptural", "space-age"],
+      "colour": "white"
+    },
+    {
+      "id": "kmart-3-tier-round-storage",
+      "role": "alternative",
+      "for": "kartell-componibili-3-tier",
+      "category": "bedroom",
+      "retailer": "Kmart",
+      "name": "3 Tier Round Storage Unit",
+      "price_aud": 32,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.kmart.com.au/product/3-tier-round-storage-unit/",
+      "dimensions_cm": { "w": 32, "d": 32, "h": 59 },
+      "materials": ["plastic"],
+      "style_tags": ["cylindrical", "modular", "sculptural"],
+      "colour": "white"
+    }
+  ]
+}

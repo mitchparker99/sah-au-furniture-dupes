@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lookalike Living - Designer furniture lookalikes in Australia</title>
+  <meta name="description" content="Compare designer furniture with visually similar budget alternatives sold in Australia, scored on published dimensions, materials and styling.">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lookalike Living - Designer furniture lookalikes in Australia">
+  <meta property="og:description" content="Compare designer furniture with visually similar budget alternatives sold in Australia, scored on published dimensions, materials and styling.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LOOKALIKE<span class="brand-thin">LIVING</span></a>
+      <span class="nav-tag">AU designer lookalike index</span>
+      <a class="nav-link" href="methodology.html">Methodology</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="scanline"></div>
+    <div class="wrap hero-inner">
+      <p class="eyebrow">Australia &middot; furniture price intelligence</p>
+      <h1 class="hero-h1">The designer look.<br>A fraction of the price.</h1>
+      <p class="hero-sub">We index designer furniture sold in Australia and score budget pieces on how closely
+      their published dimensions, materials and styling resemble them. You choose where the money goes.</p>
+      <div class="stats">
+        <div class="stat"><span class="stat-n">1</span><span class="stat-l">Designer pieces tracked</span></div>
+        <div class="stat"><span class="stat-n">1</span><span class="stat-l">Lookalikes scored</span></div>
+        <div class="stat"><span class="stat-n">92%</span><span class="stat-l">Average saving</span></div>
+      </div>
+    </div>
+  </header>
+  <main class="wrap main">
+
+
+
+
+<section class="cat-block reveal" id="bedroom">
+      <h2 class="cat-title"><span class="cat-index">Bedroom</span></h2>
+      <div class="grid"><a class="card reveal" href="compare/kartell-componibili-3-tier.html">
+        <div class="card-head">
+          <span class="card-brand">Kartell</span>
+          <span class="card-price">$395</span>
+        </div>
+        <h3 class="card-name">Componibili Classic 3-Tier Storage Unit</h3>
+        <div class="card-match">
+          <span class="match-score">100/100</span>
+          <span class="match-detail">Kmart &middot; $32 &middot; save 92%</span>
+        </div>
+        <span class="card-cta">1 lookalike found</span>
+      </a></div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p class="footer-brand">LOOKALIKE LIVING</p>
+      <p class="footer-legal">Independent comparisons based on published dimensions, materials and styling.
+      Similarity scores measure resemblance of published specifications and appearance only. Every product is
+      presented as a visually similar alternative &mdash; never as being made by, endorsed by, or affiliated
+      with the original brand. All trademarks belong to their owners. Prices are checked periodically and may
+      have changed &mdash; always confirm on the retailer's site. Some outbound links may earn us a commission
+      at no cost to you.</p>
+      <p class="footer-links"><a href="index.html">Home</a> &middot; <a href="methodology.html">How scoring works</a></p>
+    </div>
+  </footer>
+
+  <script>
+  (function () {
+    var els = document.querySelectorAll('.reveal');
+    if (!('IntersectionObserver' in window)) { els.forEach(function (e) { e.classList.add('in'); }); return; }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+    }, { threshold: 0.12 });
+    els.forEach(function (e) { io.observe(e); });
+    document.querySelectorAll('.ring').forEach(function (r) {
+      var v = Number(r.getAttribute('data-score') || 0);
+      requestAnimationFrame(function () { r.style.setProperty('--p', v); });
+    });
+  })();
+  </script>
+</body>
+</html>

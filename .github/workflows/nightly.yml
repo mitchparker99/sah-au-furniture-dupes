@@ -1,0 +1,106 @@
+name: AU Furniture Lookalikes Pipeline
+
+on:
+  schedule:
+    - cron: '0 13 * * *'   # 11pm AEST nightly (13:00 UTC)
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      step:
+        description: 'Single step to run (blank = full pipeline + deploy)'
+        required: false
+        default: ''
+        type: choice
+        options: ['', match, build, staleness, report]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SITE_NAME:          ${{ vars.SITE_NAME }}
+      SITE_URL:           ${{ vars.SITE_URL }}
+      ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+      CLAUDE_MODEL:       ${{ vars.CLAUDE_MODEL }}
+      VISION_ENABLED:     ${{ vars.VISION_ENABLED }}
+      VISION_MAX_PAIRS:   ${{ vars.VISION_MAX_PAIRS }}
+      AFFILIATE_CF_ID:    ${{ secrets.AFFILIATE_CF_ID }}
+      AFFILIATE_IMPACT_ID: ${{ secrets.AFFILIATE_IMPACT_ID }}
+      UTM_SOURCE:         ${{ vars.UTM_SOURCE }}
+      STALE_DAYS:         ${{ vars.STALE_DAYS }}
+      # Kill-switch: set repo variable PAUSED=true to halt API-spending steps.
+      PAUSED:             ${{ vars.PAUSED }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install
+
+      # ── 0. Preflight: report problems without going red pre-launch ──────
+      - name: Preflight doctor
+        continue-on-error: true
+        run: node scripts/doctor.js --soft
+
+      - name: Test suite
+        run: npm run test:all
+
+      # ── 1. Score alternatives against originals ─────────────────────────
+      - name: Match
+        if: ${{ !github.event.inputs.step || github.event.inputs.step == 'match' }}
+        run: node scripts/match.js
+
+      # ── 2. Regenerate the static comparison site ────────────────────────
+      - name: Build site
+        if: ${{ !github.event.inputs.step || github.event.inputs.step == 'build' }}
+        run: node scripts/build-site.js
+
+      # ── 3. Ops digests (informational) ──────────────────────────────────
+      - name: Staleness report
+        if: ${{ !github.event.inputs.step || github.event.inputs.step == 'staleness' }}
+        continue-on-error: true
+        run: node scripts/staleness.js
+
+      - name: Catalogue digest
+        if: ${{ !github.event.inputs.step || github.event.inputs.step == 'report' }}
+        continue-on-error: true
+        run: node scripts/report.js
+
+      - name: Upload reports artifact
+        if: ${{ always() }}
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports
+          path: |
+            report.md
+            staleness.md
+          if-no-files-found: ignore
+
+      - name: Upload pages artifact
+        if: ${{ !github.event.inputs.step }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/
+
+  deploy:
+    if: ${{ !github.event.inputs.step }}
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

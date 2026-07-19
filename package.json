@@ -1,0 +1,34 @@
+{
+  "name": "sah-au-furniture-dupes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SAH Studios AU Furniture Lookalikes — an Australian designer-furniture comparison engine. Curated catalogue of designer originals + budget lookalikes, a spec-based similarity score (optional Claude vision blend), and a generated static comparison site monetised with affiliate links and featured placements.",
+  "scripts": {
+    "doctor": "node scripts/doctor.js",
+    "pause": "node -e \"require('fs').writeFileSync('PAUSED','paused '+new Date().toISOString()+'\\n')\" && echo \"Kill-switch ENGAGED (PAUSED file created). Run npm run resume to lift.\"",
+    "resume": "node -e \"try{require('fs').unlinkSync('PAUSED')}catch(e){}\" && echo \"Kill-switch lifted (PAUSED file removed).\"",
+    "match": "node scripts/match.js",
+    "build": "node scripts/build-site.js",
+    "add": "node scripts/add-product.js",
+    "photo": "node scripts/photo-match.js",
+    "staleness": "node scripts/staleness.js",
+    "report": "node scripts/report.js",
+    "test:doctor": "node scripts/doctor.js --test",
+    "test:match": "node scripts/match.js --test",
+    "test:build": "node scripts/build-site.js --test",
+    "test:add": "node scripts/add-product.js --test",
+    "test:photo": "node scripts/photo-match.js --test",
+    "test:staleness": "node scripts/staleness.js --test",
+    "test:report": "node scripts/report.js --test",
+    "test:similarity": "node lib/similarity.js --test",
+    "test:affiliates": "node lib/affiliates.js --test",
+    "test:catalogue": "node lib/catalogue.js --test",
+    "test:all": "npm run test:doctor && npm run test:catalogue && npm run test:similarity && npm run test:affiliates && npm run test:match && npm run test:build && npm run test:add && npm run test:photo && npm run test:staleness && npm run test:report"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
