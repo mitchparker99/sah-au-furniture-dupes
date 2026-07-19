@@ -11,9 +11,20 @@
       "price_confidence": "estimate",
       "price_last_checked": "2026-07-20",
       "url": "https://www.spacefurniture.com.au/componibili-classic-3-tier.html",
-      "dimensions_cm": { "w": 32, "d": 32, "h": 58.5 },
-      "materials": ["abs plastic"],
-      "style_tags": ["cylindrical", "modular", "sculptural", "space-age"],
+      "dimensions_cm": {
+        "w": 32,
+        "d": 32,
+        "h": 58.5
+      },
+      "materials": [
+        "abs plastic"
+      ],
+      "style_tags": [
+        "cylindrical",
+        "modular",
+        "sculptural",
+        "space-age"
+      ],
       "colour": "white"
     },
     {
@@ -27,10 +38,1783 @@
       "price_confidence": "estimate",
       "price_last_checked": "2026-07-20",
       "url": "https://www.kmart.com.au/product/3-tier-round-storage-unit/",
-      "dimensions_cm": { "w": 32, "d": 32, "h": 59 },
-      "materials": ["plastic"],
-      "style_tags": ["cylindrical", "modular", "sculptural"],
+      "dimensions_cm": {
+        "w": 32,
+        "d": 32,
+        "h": 59
+      },
+      "materials": [
+        "plastic"
+      ],
+      "style_tags": [
+        "cylindrical",
+        "modular",
+        "sculptural"
+      ],
       "colour": "white"
+    },
+    {
+      "id": "louis-poulsen-panthella-250-portable-lamp",
+      "role": "original",
+      "category": "lighting",
+      "brand": "Louis Poulsen",
+      "name": "Panthella 250 Portable Lamp",
+      "price_aud": 825,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://cultdesign.com.au/collections/panthella-lighting-collection/products/panthella-250-portable-lamp",
+      "dimensions_cm": {
+        "w": 25,
+        "h": 34.7
+      },
+      "materials": [
+        "acrylic",
+        "aluminium"
+      ],
+      "style_tags": [
+        "mushroom",
+        "curved",
+        "mid-century",
+        "sculptural",
+        "portable"
+      ],
+      "colour": "opal white"
+    },
+    {
+      "id": "ikea-australia-tokabo-table-lamp-glass-opal-white",
+      "role": "alternative",
+      "for": "louis-poulsen-panthella-250-portable-lamp",
+      "category": "lighting",
+      "retailer": "IKEA Australia",
+      "name": "TOKABO Table Lamp, Glass Opal White",
+      "price_aud": 15.99,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.ikea.com/au/en/p/tokabo-table-lamp-glass-opal-white-30358012/",
+      "image_url": "https://www.ikea.com/au/en/images/products/tokabo-table-lamp-glass-opal-white__0714489_pe730101_s5.jpg?f=u",
+      "dimensions_cm": {
+        "w": 13,
+        "h": 15
+      },
+      "materials": [
+        "glass",
+        "plastic"
+      ],
+      "style_tags": [
+        "mushroom",
+        "curved",
+        "compact",
+        "minimalist"
+      ],
+      "colour": "opal white"
+    },
+    {
+      "id": "kmart-mushroom-portable-rechargeable-lamp",
+      "role": "alternative",
+      "for": "louis-poulsen-panthella-250-portable-lamp",
+      "category": "lighting",
+      "retailer": "Kmart",
+      "name": "Mushroom Portable Rechargeable Lamp",
+      "price_aud": 19,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.kmart.com.au/product/mushroom-portable-rechargeable-lamp-43556328/",
+      "dimensions_cm": {
+        "w": 15.5,
+        "h": 18
+      },
+      "materials": [
+        "glass"
+      ],
+      "style_tags": [
+        "mushroom",
+        "curved",
+        "portable",
+        "retro"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "temple-webster-halle-resin-mushroom-table-lamp",
+      "role": "alternative",
+      "for": "louis-poulsen-panthella-250-portable-lamp",
+      "category": "lighting",
+      "retailer": "Temple & Webster",
+      "name": "Halle Resin Mushroom Table Lamp",
+      "price_aud": 59.95,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.templeandwebster.com.au/Halle-Resin-Mushroom-Table-Lamp-TMPL6213.html",
+      "dimensions_cm": {
+        "h": 33
+      },
+      "materials": [
+        "resin"
+      ],
+      "style_tags": [
+        "mushroom",
+        "curved",
+        "sculptural",
+        "minimalist"
+      ]
+    },
+    {
+      "id": "flos-arco-floor-lamp",
+      "role": "original",
+      "category": "lighting",
+      "brand": "Flos",
+      "name": "Arco Floor Lamp",
+      "price_aud": 6690,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://livingedge.com.au/lighting/floor-lamps/flos-arco_floor_lamp/FLS-ARCO.html",
+      "image_url": "https://livingedge.com.au/dw/image/v2/BDDH_PRD/on/demandware.static/-/Sites-livingedge-master/default/dw0eab204f/Flos_Arco_0001_Side_1600x1600.jpg?sw=1220&sh=1220",
+      "dimensions_cm": {
+        "w": 220,
+        "h": 240
+      },
+      "materials": [
+        "marble",
+        "steel",
+        "aluminium"
+      ],
+      "style_tags": [
+        "arc",
+        "curved",
+        "mid-century",
+        "sculptural",
+        "dome"
+      ],
+      "colour": "silver"
+    },
+    {
+      "id": "temple-webster-lorah-metal-arc-floor-lamp",
+      "role": "alternative",
+      "for": "flos-arco-floor-lamp",
+      "category": "lighting",
+      "retailer": "Temple & Webster",
+      "name": "Lorah Metal Arc Floor Lamp",
+      "price_aud": 249,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.templeandwebster.com.au/Lorah-Metal-Arc-Floor-Lamp-TMPL6707.html",
+      "dimensions_cm": {
+        "h": 203
+      },
+      "materials": [
+        "marble",
+        "metal",
+        "fabric"
+      ],
+      "style_tags": [
+        "arc",
+        "curved",
+        "minimalist",
+        "mid-century"
+      ]
+    },
+    {
+      "id": "temple-webster-zander-lighting-dome-arc-floor-lamp-oriel-sl91201",
+      "role": "alternative",
+      "for": "flos-arco-floor-lamp",
+      "category": "lighting",
+      "retailer": "Temple & Webster",
+      "name": "Zander Lighting Dome ARC Floor Lamp (Oriel SL91201)",
+      "price_aud": 269,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.templeandwebster.com.au/Dome-ARC-Floor-Lamp-ORIB2140.html",
+      "dimensions_cm": {
+        "w": 95,
+        "h": 170
+      },
+      "materials": [
+        "metal"
+      ],
+      "style_tags": [
+        "arc",
+        "curved",
+        "dome",
+        "retro",
+        "mid-century"
+      ],
+      "colour": "chrome"
+    },
+    {
+      "id": "vitra-isamu-noguchi-akari-10a-floor-lamp",
+      "role": "original",
+      "category": "lighting",
+      "brand": "Vitra (Isamu Noguchi)",
+      "name": "Akari 10A Floor Lamp",
+      "price_aud": 1795,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://top3.com.au/products/vitra-akari-floor-lamp-10a",
+      "image_url": "https://top3.com.au/cdn/shop/products/vitra_akari_10a_floor_lamp_01a_1500.jpg?v=1633412487&width=1080",
+      "dimensions_cm": {
+        "w": 53,
+        "h": 123
+      },
+      "materials": [
+        "washi",
+        "bamboo",
+        "metal"
+      ],
+      "style_tags": [
+        "organic",
+        "sculptural",
+        "japandi",
+        "lantern",
+        "rice-paper"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "ikea-australia-solleftea-floor-lamp-oval-white",
+      "role": "alternative",
+      "for": "vitra-isamu-noguchi-akari-10a-floor-lamp",
+      "category": "lighting",
+      "retailer": "IKEA Australia",
+      "name": "SOLLEFTEA Floor Lamp, Oval White",
+      "price_aud": 39.99,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.ikea.com/au/en/p/solleftea-floor-lamp-oval-white-80300113/",
+      "image_url": "https://www.ikea.com/au/en/images/products/solleftea-floor-lamp-oval-white__0684002_pe720965_s5.jpg?f=u",
+      "dimensions_cm": {
+        "w": 33,
+        "h": 128
+      },
+      "materials": [
+        "rice paper",
+        "steel"
+      ],
+      "style_tags": [
+        "organic",
+        "japandi",
+        "lantern",
+        "rice-paper",
+        "oval"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "ikea-australia-strandad-floor-lamp-whiteblack",
+      "role": "alternative",
+      "for": "vitra-isamu-noguchi-akari-10a-floor-lamp",
+      "category": "lighting",
+      "retailer": "IKEA Australia",
+      "name": "STRANDAD Floor Lamp, White/Black",
+      "price_aud": 15.99,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.ikea.com/au/en/p/strandad-floor-lamp-white-black-80594832/",
+      "image_url": "https://www.ikea.com/au/en/images/products/strandad-floor-lamp-white-black__1403319_pe969302_s5.jpg?f=u",
+      "dimensions_cm": {
+        "w": 21,
+        "h": 112
+      },
+      "materials": [
+        "rice paper",
+        "steel"
+      ],
+      "style_tags": [
+        "lantern",
+        "japandi",
+        "rice-paper",
+        "minimalist",
+        "column"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "ellison-studios-sarah-ellison-float-4-seat-sofa-byron-oyster",
+      "role": "original",
+      "category": "sofas",
+      "brand": "Ellison Studios (Sarah Ellison)",
+      "name": "Float 4 Seat Sofa - Byron Oyster",
+      "price_aud": 7299,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://ellisonstudios.com/products/float-4-seat-sofa-byron-oyster",
+      "image_url": "https://ellisonstudios.com/cdn/shop/files/EY8RezcpB05InJjfIjKvCT0BbkFoIXbLKXvvwDfxj6PrzQ_1024x.png?v=1740659042",
+      "dimensions_cm": {
+        "w": 332,
+        "d": 127,
+        "h": 70
+      },
+      "materials": [
+        "linen",
+        "viscose",
+        "polyester",
+        "engineered wood",
+        "foam"
+      ],
+      "style_tags": [
+        "channel-stitched",
+        "low-profile",
+        "modular",
+        "sculptural",
+        "organic"
+      ],
+      "colour": "oyster"
+    },
+    {
+      "id": "luxo-living-talven-5-seater-modular-curved-boucle-sofa-in-cream-white",
+      "role": "alternative",
+      "for": "ellison-studios-sarah-ellison-float-4-seat-sofa-byron-oyster",
+      "category": "sofas",
+      "retailer": "Luxo Living",
+      "name": "Talven 5 Seater Modular Curved Boucle Sofa in Cream White",
+      "price_aud": 2029,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.luxoliving.com.au/products/talven-5-seater-modular-curved-boucle-sofa-in-cream-white",
+      "image_url": "https://www.luxoliving.com.au/cdn/shop/files/LZTALVEN-CWT_photo1.jpg?v=1776219914",
+      "dimensions_cm": {
+        "w": 425,
+        "d": 121,
+        "h": 69
+      },
+      "materials": [
+        "boucle",
+        "eucalyptus",
+        "engineered wood",
+        "foam"
+      ],
+      "style_tags": [
+        "curved",
+        "modular",
+        "low-profile",
+        "sculptural"
+      ],
+      "colour": "cream"
+    },
+    {
+      "id": "luxo-living-parisa-3-seater-tufted-boucle-sofa-in-cream-white",
+      "role": "alternative",
+      "for": "ellison-studios-sarah-ellison-float-4-seat-sofa-byron-oyster",
+      "category": "sofas",
+      "retailer": "Luxo Living",
+      "name": "Parisa 3 Seater Tufted Boucle Sofa in Cream White",
+      "price_aud": 699,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.luxoliving.com.au/products/parisa-3-seater-tufted-boucle-sofa-in-cream-white",
+      "image_url": "https://www.luxoliving.com.au/cdn/shop/files/LZPARISA-3-CWT_2.jpg?v=1768285399&width=1946",
+      "dimensions_cm": {
+        "w": 230,
+        "d": 93,
+        "h": 75
+      },
+      "materials": [
+        "boucle",
+        "engineered wood",
+        "foam"
+      ],
+      "style_tags": [
+        "channel-stitched",
+        "low-profile"
+      ],
+      "colour": "cream"
+    },
+    {
+      "id": "ligne-roset-togo-large-settee-without-arms-via-domo-australia",
+      "role": "original",
+      "category": "sofas",
+      "brand": "Ligne Roset",
+      "name": "Togo Large Settee without Arms (via DOMO Australia)",
+      "price_aud": 9650,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://domo.com.au/product/togo-large-settee-without-arms/",
+      "image_url": "https://domo.com.au/wp-content/uploads/2021/07/LR_TOGO-LargeSettee_Alcantara-Kiwi.jpg",
+      "dimensions_cm": {
+        "w": 174,
+        "d": 102,
+        "h": 70
+      },
+      "materials": [
+        "foam",
+        "polyester",
+        "fabric"
+      ],
+      "style_tags": [
+        "low-profile",
+        "channel-stitched",
+        "slouchy",
+        "organic",
+        "armless"
+      ],
+      "colour": "green"
+    },
+    {
+      "id": "temple-webster-oakleigh-home-vega-2-seater-togo-lazy-caterpillar-replica-lounge-sofa",
+      "role": "alternative",
+      "for": "ligne-roset-togo-large-settee-without-arms-via-domo-australia",
+      "category": "sofas",
+      "retailer": "Temple & Webster",
+      "name": "Oakleigh Home Vega 2 Seater Togo Lazy Caterpillar Replica Lounge Sofa",
+      "price_aud": 387,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.templeandwebster.com.au/Vega-2-Seater-Togo-Lazy-Caterpillar-Replica-Lounge-Sofa-LEVE3720.html",
+      "materials": [
+        "fabric",
+        "foam"
+      ],
+      "style_tags": [
+        "low-profile",
+        "channel-stitched",
+        "slouchy",
+        "organic",
+        "armless"
+      ]
+    },
+    {
+      "id": "temple-webster-oakleigh-home-vega-3-seater-togo-lazy-caterpillar-replica-lounge-sofa",
+      "role": "alternative",
+      "for": "ligne-roset-togo-large-settee-without-arms-via-domo-australia",
+      "category": "sofas",
+      "retailer": "Temple & Webster",
+      "name": "Oakleigh Home Vega 3 Seater Togo Lazy Caterpillar Replica Lounge Sofa",
+      "price_aud": 654,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.templeandwebster.com.au/Vega-3-Seater-Togo-Lazy-Caterpillar-Replica-Lounge-Sofa-LEVE3724.html",
+      "materials": [
+        "fabric",
+        "foam"
+      ],
+      "style_tags": [
+        "low-profile",
+        "channel-stitched",
+        "slouchy",
+        "organic",
+        "armless"
+      ]
+    },
+    {
+      "id": "mcm-house-joe-deep-sofa-3-seater-2500mm",
+      "role": "original",
+      "category": "sofas",
+      "brand": "MCM House",
+      "name": "Joe Deep Sofa (3 Seater, 2500mm)",
+      "price_aud": 4395,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.mcmhouse.com/products/joe-deep-sofa",
+      "image_url": "https://cdn.accentuate.io/2664446951509/1696982635821/231009_WoollahraShoot_SFWMob_38.jpg?v=1696982635821",
+      "dimensions_cm": {
+        "w": 250,
+        "d": 107,
+        "h": 78
+      },
+      "materials": [
+        "linen",
+        "cotton",
+        "feather",
+        "foam"
+      ],
+      "style_tags": [
+        "slouchy",
+        "deep-seat",
+        "slipcover",
+        "relaxed",
+        "coastal"
+      ],
+      "colour": "off-white"
+    },
+    {
+      "id": "temple-webster-temple-webster-softy-3-seater-premium-slipcover-sofa",
+      "role": "alternative",
+      "for": "mcm-house-joe-deep-sofa-3-seater-2500mm",
+      "category": "sofas",
+      "retailer": "Temple & Webster",
+      "name": "Temple & Webster Softy 3 Seater Premium Slipcover Sofa",
+      "price_aud": 1499,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.templeandwebster.com.au/Softy-3-Seater-Premium-Slipcover-Sofa-TMPL5094.html",
+      "materials": [
+        "fabric",
+        "foam"
+      ],
+      "style_tags": [
+        "slipcover",
+        "slouchy",
+        "deep-seat",
+        "relaxed"
+      ]
+    },
+    {
+      "id": "ikea-australia-jattebo-3-seat-modular-sofa-tonerud-grey",
+      "role": "alternative",
+      "for": "mcm-house-joe-deep-sofa-3-seater-2500mm",
+      "category": "sofas",
+      "retailer": "IKEA Australia",
+      "name": "JÄTTEBO 3-seat modular sofa, Tonerud grey",
+      "price_aud": 1200,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.ikea.com/au/en/p/jaettebo-3-seat-modular-sofa-tonerud-grey-s99485140/",
+      "dimensions_cm": {
+        "w": 210,
+        "d": 94,
+        "h": 71
+      },
+      "materials": [
+        "polyester",
+        "foam"
+      ],
+      "style_tags": [
+        "modular",
+        "deep-seat",
+        "low-profile"
+      ],
+      "colour": "grey"
+    },
+    {
+      "id": "carl-hansen-son-via-cult-design-au-ch24-wishbone-chair",
+      "role": "original",
+      "category": "dining",
+      "brand": "Carl Hansen & Son (via Cult Design AU)",
+      "name": "CH24 Wishbone Chair",
+      "price_aud": 1350,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://cultdesign.com.au/products/ch24-wishbone-chair",
+      "image_url": "https://cdn.shopify.com/s/files/1/0261/6809/8904/files/64edd254b1561c23bebd2e98_e1e45d62-40b5-4f5e-af4d-f8f7e6f1396d.jpg?v=1770730162",
+      "dimensions_cm": {
+        "w": 55,
+        "d": 51,
+        "h": 76
+      },
+      "materials": [
+        "beech",
+        "oak",
+        "paper cord"
+      ],
+      "style_tags": [
+        "wishbone",
+        "curved",
+        "mid-century",
+        "organic",
+        "handwoven"
+      ],
+      "colour": "natural"
+    },
+    {
+      "id": "temple-webster-hans-wegner-wishbone-replica-solid-beech-wood-dining-chairs-set-of-2",
+      "role": "alternative",
+      "for": "carl-hansen-son-via-cult-design-au-ch24-wishbone-chair",
+      "category": "dining",
+      "retailer": "Temple & Webster",
+      "name": "Hans Wegner Wishbone Replica Solid Beech Wood Dining Chairs (Set of 2)",
+      "price_aud": 349,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.templeandwebster.com.au/Hans-Wegner-Wishbone-Replica-Solid-Beech-Wood-Dining-Chairs-TMPL4967.html",
+      "dimensions_cm": {
+        "w": 56,
+        "d": 53,
+        "h": 78
+      },
+      "materials": [
+        "beech",
+        "paper cord"
+      ],
+      "style_tags": [
+        "wishbone",
+        "curved",
+        "mid-century",
+        "organic"
+      ],
+      "colour": "natural"
+    },
+    {
+      "id": "life-interiors-noris-paper-cord-dining-chair-natural-ash",
+      "role": "alternative",
+      "for": "carl-hansen-son-via-cult-design-au-ch24-wishbone-chair",
+      "category": "dining",
+      "retailer": "Life Interiors",
+      "name": "Noris Paper Cord Dining Chair (Natural / Ash)",
+      "price_aud": 424.15,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://lifeinteriors.com.au/products/life-interiors-noris-paper-cord-dining-chair",
+      "image_url": "https://cdn.shopify.com/s/files/1/0295/7151/4467/files/LifeBrisbaneday191481_1ba0e533-2e12-4821-a873-33e1fe5d04c3.jpg?v=1747616088",
+      "dimensions_cm": {
+        "w": 52.5,
+        "d": 57,
+        "h": 79
+      },
+      "materials": [
+        "ash",
+        "paper cord"
+      ],
+      "style_tags": [
+        "curved",
+        "organic",
+        "mid-century",
+        "scandinavian"
+      ],
+      "colour": "natural"
+    },
+    {
+      "id": "mcm-house-travertine-kora-round-dining-table-1200d",
+      "role": "original",
+      "category": "dining",
+      "brand": "MCM House",
+      "name": "Travertine Kora Round Dining Table (1200D)",
+      "price_aud": 6895,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.mcmhouse.com/products/travertine-kora-round-dining-table",
+      "image_url": "https://cdn.shopify.com/s/files/1/0096/1603/1829/files/SFW_Desktop_Rnd24_e18fbf1f-1ae3-49aa-b723-ed3b33471624.jpg?v=1770262479",
+      "dimensions_cm": {
+        "w": 120,
+        "d": 120,
+        "h": 73.5
+      },
+      "materials": [
+        "travertine"
+      ],
+      "style_tags": [
+        "pedestal",
+        "round",
+        "sculptural",
+        "organic",
+        "minimalist"
+      ],
+      "colour": "beige"
+    },
+    {
+      "id": "luxo-living-avlon-round-outdoor-concrete-dining-table-in-travertine",
+      "role": "alternative",
+      "for": "mcm-house-travertine-kora-round-dining-table-1200d",
+      "category": "dining",
+      "retailer": "Luxo Living",
+      "name": "Avlon Round Outdoor Concrete Dining Table in Travertine",
+      "price_aud": 849,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.luxoliving.com.au/products/avlon-round-outdoor-concrete-dining-table-in-travertine",
+      "image_url": "https://cdn.shopify.com/s/files/1/0681/6445/2549/files/LTAVLON-TRA_1.jpg?v=1768546167",
+      "dimensions_cm": {
+        "w": 100,
+        "d": 100,
+        "h": 76
+      },
+      "materials": [
+        "concrete",
+        "fibreglass"
+      ],
+      "style_tags": [
+        "pedestal",
+        "round",
+        "sculptural",
+        "stone-look",
+        "tapered"
+      ],
+      "colour": "beige"
+    },
+    {
+      "id": "life-interiors-cosmos-travertine-dining-table-105cm-oak-base",
+      "role": "alternative",
+      "for": "mcm-house-travertine-kora-round-dining-table-1200d",
+      "category": "dining",
+      "retailer": "Life Interiors",
+      "name": "Cosmos Travertine Dining Table (105cm, Oak base)",
+      "price_aud": 1724.65,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://lifeinteriors.com.au/products/life-interiors-cosmos-travertine-dining-table",
+      "image_url": "https://cdn.shopify.com/s/files/1/0295/7151/4467/files/LifeBrisbaneNov15948_2_oak105_1.jpg?v=1747884584",
+      "dimensions_cm": {
+        "w": 105,
+        "d": 105,
+        "h": 75
+      },
+      "materials": [
+        "travertine",
+        "oak",
+        "mdf"
+      ],
+      "style_tags": [
+        "pedestal",
+        "round",
+        "column",
+        "organic",
+        "minimalist"
+      ],
+      "colour": "beige"
+    },
+    {
+      "id": "interior-secrets-palatino-22m-oval-dining-table-light-travertine-look",
+      "role": "alternative",
+      "for": "mcm-house-travertine-kora-round-dining-table-1200d",
+      "category": "dining",
+      "retailer": "Interior Secrets",
+      "name": "Palatino 2.2m Oval Dining Table - Light Travertine Look",
+      "price_aud": 2235,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.interiorsecrets.com.au/products/palatino-2-2m-oval-dining-table-light-travertine-look",
+      "image_url": "https://cdn.shopify.com/s/files/1/2135/0257/files/DT12287-CO_2.2m_Oval_Dining_Table_-_Light_Travertine_Look_3.jpg?v=1762836295",
+      "dimensions_cm": {
+        "w": 220,
+        "d": 90,
+        "h": 76
+      },
+      "materials": [
+        "concrete"
+      ],
+      "style_tags": [
+        "pedestal",
+        "oval",
+        "sculptural",
+        "curved",
+        "stone-look"
+      ],
+      "colour": "ivory"
+    },
+    {
+      "id": "globewest-huxley-curve-dining-table-oak-w3000",
+      "role": "original",
+      "category": "dining",
+      "brand": "GlobeWest",
+      "name": "Huxley Curve Dining Table - Oak (W3000)",
+      "price_aud": 5600,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.globewest.com.au/huxley-curve-dining-tables-oak-dt-huxley-crv-x",
+      "image_url": "https://www.globewest.com.au/media/catalog/product/D/T/DT-HUXLEY-CRV-6S-OAK-1_3_1.jpg",
+      "dimensions_cm": {
+        "w": 300,
+        "d": 100,
+        "h": 76
+      },
+      "materials": [
+        "oak",
+        "veneer"
+      ],
+      "style_tags": [
+        "curved",
+        "organic",
+        "sculptural",
+        "japandi",
+        "panelled"
+      ],
+      "colour": "oak"
+    },
+    {
+      "id": "life-interiors-noir-oval-dining-table-220cm-oak",
+      "role": "alternative",
+      "for": "globewest-huxley-curve-dining-table-oak-w3000",
+      "category": "dining",
+      "retailer": "Life Interiors",
+      "name": "Noir Oval Dining Table (220cm, Oak)",
+      "price_aud": 1839.2,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://lifeinteriors.com.au/products/life-interiors-noir-oval-dining-table-220cm",
+      "dimensions_cm": {
+        "w": 220,
+        "d": 100,
+        "h": 76
+      },
+      "materials": [
+        "oak",
+        "veneer",
+        "mdf"
+      ],
+      "style_tags": [
+        "curved",
+        "oval",
+        "organic",
+        "panelled",
+        "japandi"
+      ],
+      "colour": "oak"
+    },
+    {
+      "id": "interior-secrets-valdis-24m-dining-table-natural-oak",
+      "role": "alternative",
+      "for": "globewest-huxley-curve-dining-table-oak-w3000",
+      "category": "dining",
+      "retailer": "Interior Secrets",
+      "name": "Valdis 2.4m Dining Table - Natural Oak",
+      "price_aud": 2085,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.interiorsecrets.com.au/products/valdis-2-4m-dining-table-natural-oak",
+      "image_url": "https://cdn.shopify.com/s/files/1/2135/0257/files/DT10543-CN2.4mDiningTable-NaturalOak_2.jpg?v=1753054154",
+      "dimensions_cm": {
+        "w": 240,
+        "d": 110,
+        "h": 75
+      },
+      "materials": [
+        "oak",
+        "veneer"
+      ],
+      "style_tags": [
+        "curved",
+        "oval",
+        "sculptural",
+        "organic"
+      ],
+      "colour": "oak"
+    },
+    {
+      "id": "interior-secrets-roshan-3m-pill-shape-dining-table-caramel-oak",
+      "role": "alternative",
+      "for": "globewest-huxley-curve-dining-table-oak-w3000",
+      "category": "dining",
+      "retailer": "Interior Secrets",
+      "name": "Roshan 3m Pill Shape Dining Table - Caramel Oak",
+      "price_aud": 2355,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.interiorsecrets.com.au/products/roshan-3m-pill-shape-dining-table-caramel-oak",
+      "image_url": "https://cdn.shopify.com/s/files/1/2135/0257/files/DT8698-VA3mPillShapeDiningTable-CaramelOak_2_9d388964-3cd1-406e-8b7f-325e146e179e.jpg?v=1718777011",
+      "dimensions_cm": {
+        "w": 300,
+        "d": 110,
+        "h": 75
+      },
+      "materials": [
+        "oak",
+        "veneer"
+      ],
+      "style_tags": [
+        "curved",
+        "pill-shaped",
+        "organic",
+        "minimalist"
+      ],
+      "colour": "caramel"
+    },
+    {
+      "id": "globewest-kennedy-tenner-occasional-chair-beige-boucle",
+      "role": "original",
+      "category": "armchairs",
+      "brand": "GlobeWest",
+      "name": "Kennedy Tenner Occasional Chair - Beige Boucle",
+      "price_aud": 2310,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.globewest.com.au/kennedy-tenner-occasional-chair-beige-boucle-ch-ken-ten-occ",
+      "image_url": "https://www.globewest.com.au/media/catalog/product/C/H/CH-KEN-TEN-OCC-BEIBC-1_3_1.jpg?quality=80&fit=bounds&height=650&width=650&canvas=650:650",
+      "dimensions_cm": {
+        "w": 77,
+        "d": 73,
+        "h": 74
+      },
+      "materials": [
+        "boucle",
+        "polyester",
+        "acrylic",
+        "foam"
+      ],
+      "style_tags": [
+        "barrel",
+        "curved",
+        "organic",
+        "sculptural"
+      ],
+      "colour": "beige"
+    },
+    {
+      "id": "interior-secrets-delacruz-lounge-chair-black-boucle",
+      "role": "alternative",
+      "for": "globewest-kennedy-tenner-occasional-chair-beige-boucle",
+      "category": "armchairs",
+      "retailer": "Interior Secrets",
+      "name": "Delacruz Lounge Chair - Black Boucle",
+      "price_aud": 510,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.interiorsecrets.com.au/products/delacruz-lounge-chair-black-boucle",
+      "image_url": "https://www.interiorsecrets.com.au/cdn/shop/products/LC8219-IG-2.jpg?crop=center&height=1080&v=1676939442&width=1080",
+      "dimensions_cm": {
+        "w": 83,
+        "d": 81.7,
+        "h": 70.2
+      },
+      "materials": [
+        "boucle",
+        "polyester",
+        "timber",
+        "foam",
+        "steel"
+      ],
+      "style_tags": [
+        "barrel",
+        "curved",
+        "rounded-back",
+        "minimalist"
+      ],
+      "colour": "black"
+    },
+    {
+      "id": "luxo-living-liora-boucle-curved-accent-armchair-in-beige",
+      "role": "alternative",
+      "for": "globewest-kennedy-tenner-occasional-chair-beige-boucle",
+      "category": "armchairs",
+      "retailer": "Luxo Living",
+      "name": "Liora Boucle Curved Accent Armchair in Beige",
+      "price_aud": 329,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.luxoliving.com.au/products/liora-boucle-curved-accent-armchair-in-beige",
+      "image_url": "https://www.luxoliving.com.au/cdn/shop/files/download_011be058-5bd9-429f-b279-fcfb31856337.jpg?v=1759804838&width=1946",
+      "dimensions_cm": {
+        "w": 57,
+        "d": 45,
+        "h": 76
+      },
+      "materials": [
+        "boucle",
+        "foam",
+        "veneer"
+      ],
+      "style_tags": [
+        "barrel",
+        "curved",
+        "tub",
+        "sculptural",
+        "wraparound"
+      ],
+      "colour": "beige"
+    },
+    {
+      "id": "temple-webster-gala-boucle-armchair",
+      "role": "alternative",
+      "for": "globewest-kennedy-tenner-occasional-chair-beige-boucle",
+      "category": "armchairs",
+      "retailer": "Temple & Webster",
+      "name": "Gala Boucle Armchair",
+      "price_aud": 599,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.templeandwebster.com.au/Gala-Boucle-Armchair-TMPL6011.html",
+      "materials": [
+        "boucle",
+        "polyester",
+        "plywood",
+        "foam",
+        "polypropylene"
+      ],
+      "style_tags": [
+        "barrel",
+        "curved",
+        "hugging",
+        "low-profile"
+      ],
+      "colour": "ivory"
+    },
+    {
+      "id": "herman-miller-eames-lounge-chair-ottoman",
+      "role": "original",
+      "category": "armchairs",
+      "brand": "Herman Miller",
+      "name": "Eames Lounge Chair & Ottoman",
+      "price_aud": 14865,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://livingedge.com.au/chairs/lounge_chairs/herman_miller-eames_lounge_chair_and_ottoman/HM-ES6707-0011.html",
+      "image_url": "https://livingedge.com.au/dw/image/v2/BDDH_PRD/on/demandware.static/-/Sites-livingedge-master/default/dw63395979/ELO_WalnutBlack_Tall-FrontAngled.jpg?sw=1220&sh=1220",
+      "dimensions_cm": {
+        "w": 85.1,
+        "d": 88.9,
+        "h": 80
+      },
+      "materials": [
+        "plywood",
+        "walnut",
+        "veneer",
+        "leather",
+        "aluminium"
+      ],
+      "style_tags": [
+        "mid-century",
+        "curved",
+        "low-profile",
+        "tufted",
+        "swivel"
+      ],
+      "colour": "black"
+    },
+    {
+      "id": "matt-blatt-eames-premium-replica-leather-lounge-chair-and-ottoman-black-leatherwalnut",
+      "role": "alternative",
+      "for": "herman-miller-eames-lounge-chair-ottoman",
+      "category": "armchairs",
+      "retailer": "Matt Blatt",
+      "name": "Eames Premium Replica Leather Lounge Chair and Ottoman (Black Leather/Walnut)",
+      "price_aud": 1999.99,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.mattblatt.com.au/mb/buy/matt-blatt-eames-premium-replica-leather-lounge-chair-and-ottoman-black-leatherwalnut-matt-blatt/",
+      "materials": [
+        "leather",
+        "plywood",
+        "walnut",
+        "veneer",
+        "aluminium"
+      ],
+      "style_tags": [
+        "mid-century",
+        "curved",
+        "tufted",
+        "swivel",
+        "low-profile"
+      ],
+      "colour": "black"
+    },
+    {
+      "id": "matt-blatt-shangri-la-eames-replica-lounge-chair-and-ottoman-blackwalnut",
+      "role": "alternative",
+      "for": "herman-miller-eames-lounge-chair-ottoman",
+      "category": "armchairs",
+      "retailer": "Matt Blatt",
+      "name": "Shangri-La Eames Replica Lounge Chair and Ottoman (Black/Walnut)",
+      "price_aud": 999.99,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.mattblatt.com.au/mb/buy/shangri-la-eames-replica-leather-lounge-chair-and-ottoman-black-puwalnut-shangri-la/",
+      "materials": [
+        "faux leather",
+        "plywood",
+        "walnut",
+        "veneer"
+      ],
+      "style_tags": [
+        "mid-century",
+        "curved",
+        "tufted",
+        "low-profile"
+      ],
+      "colour": "black"
+    },
+    {
+      "id": "gubi-beetle-dining-chair-front-upholstered-conic-base-via-cult-design",
+      "role": "original",
+      "category": "armchairs",
+      "brand": "Gubi",
+      "name": "Beetle Dining Chair - Front Upholstered, Conic Base (via Cult Design)",
+      "price_aud": 1499,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://cultdesign.com.au/products/beetle-dining-front-upholstered-conic",
+      "image_url": "https://cultdesign.com.au/cdn/shop/files/5fc9ad498faafa06380464b8_300x300.jpg?v=1771721541",
+      "dimensions_cm": {
+        "w": 56,
+        "d": 55,
+        "h": 87
+      },
+      "materials": [
+        "polypropylene",
+        "fabric",
+        "leather",
+        "steel"
+      ],
+      "style_tags": [
+        "curved",
+        "shell",
+        "sculptural",
+        "conical-legs",
+        "organic"
+      ],
+      "colour": "black"
+    },
+    {
+      "id": "life-interiors-belmont-boucle-dining-chair",
+      "role": "alternative",
+      "for": "gubi-beetle-dining-chair-front-upholstered-conic-base-via-cult-design",
+      "category": "armchairs",
+      "retailer": "Life Interiors",
+      "name": "Belmont Boucle Dining Chair",
+      "price_aud": 194.35,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://lifeinteriors.com.au/products/life-interiors-belmont-boucle-dining-chair",
+      "image_url": "https://lifeinteriors.com.au/cdn/shop/files/Lifeinteriorsday223601-2.jpg?v=1718932475",
+      "dimensions_cm": {
+        "w": 55,
+        "d": 59,
+        "h": 83
+      },
+      "materials": [
+        "boucle",
+        "polyester",
+        "plywood",
+        "steel"
+      ],
+      "style_tags": [
+        "curved",
+        "shell",
+        "slim-legs",
+        "contemporary"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "life-interiors-ellie-boucle-dining-chair",
+      "role": "alternative",
+      "for": "gubi-beetle-dining-chair-front-upholstered-conic-base-via-cult-design",
+      "category": "armchairs",
+      "retailer": "Life Interiors",
+      "name": "Ellie Boucle Dining Chair",
+      "price_aud": 351.75,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://lifeinteriors.com.au/products/sofacompany-ellie-boucle-dining-chair",
+      "image_url": "https://lifeinteriors.com.au/cdn/shop/files/DC-SCD-ELLI-FABR-BLME-MCBL2.jpg?v=1700191223&width=800",
+      "dimensions_cm": {
+        "w": 56,
+        "d": 55,
+        "h": 74
+      },
+      "materials": [
+        "fabric",
+        "polyester",
+        "boucle",
+        "steel"
+      ],
+      "style_tags": [
+        "curved",
+        "shell",
+        "semi-circular",
+        "mid-century"
+      ],
+      "colour": "blue"
+    },
+    {
+      "id": "ellison-studios-sarah-ellison-lull-queen-bed-malibu-piccolo",
+      "role": "original",
+      "category": "bedroom",
+      "brand": "Ellison Studios (Sarah Ellison)",
+      "name": "Lull Queen Bed - Malibu Piccolo",
+      "price_aud": 2699,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://ellisonstudios.com/collections/beds-1/products/lull-queen-bed-malibu-piccolo",
+      "image_url": "https://ellisonstudios.com/cdn/shop/files/EllisonStudios_LullBed_MalibuPiccolo_01_1fb63fa5-c15d-4fbb-ac8d-f7322a942790_1024x.png?v=1760491669",
+      "dimensions_cm": {
+        "w": 182,
+        "d": 247,
+        "h": 104
+      },
+      "materials": [
+        "velvet",
+        "fabric",
+        "plywood",
+        "foam"
+      ],
+      "style_tags": [
+        "curved",
+        "upholstered",
+        "low-profile",
+        "organic",
+        "cloud"
+      ],
+      "colour": "caramel"
+    },
+    {
+      "id": "luxo-living-ginnie-queen-curved-boucle-cloud-bed-frame-in-cream-white",
+      "role": "alternative",
+      "for": "ellison-studios-sarah-ellison-lull-queen-bed-malibu-piccolo",
+      "category": "bedroom",
+      "retailer": "Luxo Living",
+      "name": "Ginnie Queen Curved Boucle Cloud Bed Frame in Cream White",
+      "price_aud": 419,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.luxoliving.com.au/ginnie-boucle-bed-frame-with-curved-headboard-cream-white",
+      "image_url": "https://www.luxoliving.com.au/cdn/shop/files/LBGINNIE-QN-CWT_2.jpg?v=1750826865",
+      "dimensions_cm": {
+        "w": 173,
+        "d": 223,
+        "h": 103
+      },
+      "materials": [
+        "boucle",
+        "fabric",
+        "timber",
+        "engineered wood"
+      ],
+      "style_tags": [
+        "curved",
+        "upholstered",
+        "cloud",
+        "padded"
+      ],
+      "colour": "cream"
+    },
+    {
+      "id": "temple-webster-paloma-boucle-bed-queen",
+      "role": "alternative",
+      "for": "ellison-studios-sarah-ellison-lull-queen-bed-malibu-piccolo",
+      "category": "bedroom",
+      "retailer": "Temple & Webster",
+      "name": "Paloma Boucle Bed (Queen)",
+      "price_aud": 699,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.templeandwebster.com.au/Paloma-Boucle-Bed-TMPL4981.html",
+      "materials": [
+        "boucle",
+        "fabric",
+        "timber"
+      ],
+      "style_tags": [
+        "curved",
+        "upholstered",
+        "low-profile"
+      ],
+      "colour": "beige"
+    },
+    {
+      "id": "globewest-willow-woven-bedside-table",
+      "role": "original",
+      "category": "bedroom",
+      "brand": "GlobeWest",
+      "name": "Willow Woven Bedside Table",
+      "price_aud": 1030,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.sundaysociety.com.au/products/globewest-willow-woven-bedside-table",
+      "image_url": "https://www.sundaysociety.com.au/cdn/shop/products/SIDE-WILLOW-WV-NTK-2.jpg?v=1751594186&width=1946",
+      "dimensions_cm": {
+        "w": 50,
+        "d": 45,
+        "h": 55
+      },
+      "materials": [
+        "teak",
+        "rattan"
+      ],
+      "style_tags": [
+        "woven",
+        "japandi",
+        "coastal",
+        "textural"
+      ],
+      "colour": "natural"
+    },
+    {
+      "id": "adairs-home-republic-anjuna-natural-2-drawer-bedside-table",
+      "role": "alternative",
+      "for": "globewest-willow-woven-bedside-table",
+      "category": "bedroom",
+      "retailer": "Adairs",
+      "name": "Home Republic Anjuna Natural 2 Drawer Bedside Table",
+      "price_aud": 399.99,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.adairs.com.au/furniture/tables/home-republic/anjuna-collection-natural-2-drawers-bedside-table/",
+      "image_url": "https://www.adairs.com.au/globalassets/13.-ecommerce/03.-product-images/2023_images/furniture/bedside-tables--nightstands/46328_naturalanjuna_new_1.jpg",
+      "dimensions_cm": {
+        "w": 45,
+        "d": 35,
+        "h": 58
+      },
+      "materials": [
+        "mango wood",
+        "rattan"
+      ],
+      "style_tags": [
+        "woven",
+        "coastal",
+        "natural"
+      ],
+      "colour": "natural"
+    },
+    {
+      "id": "mocka-noosa-rattan-bedside-table-natural",
+      "role": "alternative",
+      "for": "globewest-willow-woven-bedside-table",
+      "category": "bedroom",
+      "retailer": "Mocka",
+      "name": "Noosa Rattan Bedside Table - Natural",
+      "price_aud": 110.49,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.mocka.com.au/products/noosa-rattan-bedside-table-natural",
+      "image_url": "https://cdn.shopify.com/s/files/1/0814/6065/8451/files/T04315_Lowres_003_39dfb9a0-2038-4ba2-8a89-1bbc4caf8005.jpg?v=1768569663",
+      "materials": [
+        "rattan",
+        "engineered wood"
+      ],
+      "style_tags": [
+        "woven",
+        "coastal",
+        "mid-century"
+      ],
+      "colour": "natural"
+    },
+    {
+      "id": "temple-webster-kayla-bay-by-temple-webster-iman-rattan-bedside-table",
+      "role": "alternative",
+      "for": "globewest-willow-woven-bedside-table",
+      "category": "bedroom",
+      "retailer": "Temple & Webster",
+      "name": "Kayla Bay by Temple & Webster Iman Rattan Bedside Table",
+      "price_aud": 149,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.templeandwebster.com.au/Iman-Bedside-Table-TMPL2251.html",
+      "dimensions_cm": {
+        "w": 45,
+        "d": 30,
+        "h": 60
+      },
+      "materials": [
+        "rattan",
+        "timber"
+      ],
+      "style_tags": [
+        "woven",
+        "coastal"
+      ],
+      "colour": "natural"
+    },
+    {
+      "id": "ethnicraft-via-globewest-spindle-bed-oak-queen",
+      "role": "original",
+      "category": "bedroom",
+      "brand": "Ethnicraft (via GlobeWest)",
+      "name": "Spindle Bed - Oak (Queen)",
+      "price_aud": 3485,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.globewest.com.au/ethnicraft-spindle-beds-oak-bed-eth-spin-x",
+      "image_url": "https://www.globewest.com.au/media/catalog/product/B/E/BED-ETH-SPIN-QS-OAK-1_2_1_1.jpg?quality=80&fit=bounds&height=650&width=650&canvas=650:650",
+      "dimensions_cm": {
+        "w": 163,
+        "d": 213,
+        "h": 96.5
+      },
+      "materials": [
+        "oak"
+      ],
+      "style_tags": [
+        "spindle",
+        "slatted",
+        "japandi",
+        "scandi",
+        "natural"
+      ],
+      "colour": "oak"
+    },
+    {
+      "id": "ikea-australia-tarva-bed-frame-pine-queen",
+      "role": "alternative",
+      "for": "ethnicraft-via-globewest-spindle-bed-oak-queen",
+      "category": "bedroom",
+      "retailer": "Ikea Australia",
+      "name": "TARVA Bed Frame, Pine, Queen",
+      "price_aud": 259,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.ikea.com/au/en/p/tarva-bed-frame-pine-s19930111/",
+      "image_url": "https://www.ikea.com/au/en/images/products/tarva-bed-frame-pine__0637611_pe698421_s5.jpg?f=u",
+      "dimensions_cm": {
+        "w": 160,
+        "d": 209,
+        "h": 92
+      },
+      "materials": [
+        "pine",
+        "steel"
+      ],
+      "style_tags": [
+        "slatted",
+        "scandi",
+        "minimalist",
+        "natural"
+      ],
+      "colour": "pine"
+    },
+    {
+      "id": "mocka-napier-queen-bed-natural",
+      "role": "alternative",
+      "for": "ethnicraft-via-globewest-spindle-bed-oak-queen",
+      "category": "bedroom",
+      "retailer": "Mocka",
+      "name": "Napier Queen Bed - Natural",
+      "price_aud": 799.99,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.mocka.com.au/products/napier-queen-bed-natural/",
+      "dimensions_cm": {
+        "w": 165,
+        "d": 213,
+        "h": 100
+      },
+      "materials": [
+        "rubberwood",
+        "plywood"
+      ],
+      "style_tags": [
+        "spindle",
+        "slatted",
+        "coastal",
+        "scandi"
+      ],
+      "colour": "natural"
+    },
+    {
+      "id": "vitra-at-living-edge-noguchi-coffee-table",
+      "role": "original",
+      "category": "coffee-tables",
+      "brand": "Vitra (at Living Edge)",
+      "name": "Noguchi Coffee Table",
+      "price_aud": 5355,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://livingedge.com.au/tables/coffee-tables/vitra-noguchi_coffee_table/VT-NOGUCT.html",
+      "image_url": "https://livingedge.com.au/dw/image/v2/BDDH_PRD/on/demandware.static/-/Sites-livingedge-master/default/dw2fa59af6/Vitra_Noguchi_CoffeeTable_Black_0000_1600x1600.jpg?sw=1220&sh=1220",
+      "dimensions_cm": {
+        "w": 128,
+        "d": 93,
+        "h": 40
+      },
+      "materials": [
+        "glass",
+        "ash",
+        "walnut"
+      ],
+      "style_tags": [
+        "sculptural",
+        "organic",
+        "mid-century",
+        "freeform",
+        "low-profile"
+      ],
+      "colour": "black"
+    },
+    {
+      "id": "lounge-lovers-tokyo-coffee-table-replica-isamu-noguchi-design",
+      "role": "alternative",
+      "for": "vitra-at-living-edge-noguchi-coffee-table",
+      "category": "coffee-tables",
+      "retailer": "Lounge Lovers",
+      "name": "Tokyo Coffee Table (Replica Isamu Noguchi Design)",
+      "price_aud": 339,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.loungelovers.com.au/tokyo-coffee-table",
+      "image_url": "https://www.loungelovers.com.au/media/catalog/product/l/i/licttokyash00_1_1.jpg",
+      "dimensions_cm": {
+        "w": 90,
+        "d": 90,
+        "h": 37
+      },
+      "materials": [
+        "glass",
+        "ash"
+      ],
+      "style_tags": [
+        "sculptural",
+        "organic",
+        "mid-century",
+        "freeform",
+        "low-profile"
+      ],
+      "colour": "natural"
+    },
+    {
+      "id": "lounge-lovers-tokyo-coffee-table-walnut-replica-isamu-noguchi-table",
+      "role": "alternative",
+      "for": "vitra-at-living-edge-noguchi-coffee-table",
+      "category": "coffee-tables",
+      "retailer": "Lounge Lovers",
+      "name": "Tokyo Coffee Table - Walnut (Replica Isamu Noguchi Table)",
+      "price_aud": 499,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.loungelovers.com.au/tokyo-coffee-table-walnut",
+      "image_url": "https://www.loungelovers.com.au/media/catalog/product/l/o/lounge-lounge-tokyo-walnut-coffee-table-solid-timber-glass-front-website_ready_image_size-2400x1600.jpg",
+      "dimensions_cm": {
+        "w": 126,
+        "d": 90,
+        "h": 37
+      },
+      "materials": [
+        "glass",
+        "walnut"
+      ],
+      "style_tags": [
+        "sculptural",
+        "organic",
+        "mid-century",
+        "freeform",
+        "low-profile"
+      ],
+      "colour": "walnut"
+    },
+    {
+      "id": "globewest-amara-curve-side-table-natural-travertine",
+      "role": "original",
+      "category": "coffee-tables",
+      "brand": "GlobeWest",
+      "name": "Amara Curve Side Table - Natural Travertine",
+      "price_aud": 2275,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.globewest.com.au/amara-curve-side-table-natural-travertine-lto-amar-crv",
+      "image_url": "https://www.globewest.com.au/media/catalog/product/L/T/LTO-AMAR-CRV-NATRV-1_3_1.jpg?quality=80&fit=bounds&height=650&width=650&canvas=650:650",
+      "dimensions_cm": {
+        "w": 50,
+        "d": 50,
+        "h": 50
+      },
+      "materials": [
+        "travertine"
+      ],
+      "style_tags": [
+        "plinth",
+        "pedestal",
+        "curved",
+        "sculptural",
+        "organic"
+      ],
+      "colour": "natural"
+    },
+    {
+      "id": "life-interiors-alba-round-travertine-side-table",
+      "role": "alternative",
+      "for": "globewest-amara-curve-side-table-natural-travertine",
+      "category": "coffee-tables",
+      "retailer": "Life Interiors",
+      "name": "Alba Round Travertine Side Table",
+      "price_aud": 611.1,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://lifeinteriors.com.au/products/sol-studio-alba-round-travertine-side-table",
+      "image_url": "https://lifeinteriors.com.au/cdn/shop/files/ST-EAW-ALBA-BROA-55_03.jpg?v=1763095777",
+      "dimensions_cm": {
+        "w": 57,
+        "d": 57,
+        "h": 48
+      },
+      "materials": [
+        "travertine",
+        "oak"
+      ],
+      "style_tags": [
+        "pedestal",
+        "round",
+        "organic",
+        "japandi"
+      ],
+      "colour": "cream"
+    },
+    {
+      "id": "life-interiors-cosmos-travertine-side-table-oak-travertine",
+      "role": "alternative",
+      "for": "globewest-amara-curve-side-table-natural-travertine",
+      "category": "coffee-tables",
+      "retailer": "Life Interiors",
+      "name": "Cosmos Travertine Side Table (Oak, Travertine)",
+      "price_aud": 560.15,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://lifeinteriors.com.au/products/life-interiors-cosmos-travertine-side-table-oak-travertine",
+      "image_url": "https://lifeinteriors.com.au/cdn/shop/files/ST-WIL-COSM-TRAV-OAK-50.jpg?v=1709074073&width=800",
+      "dimensions_cm": {
+        "w": 50,
+        "d": 50,
+        "h": 57.5
+      },
+      "materials": [
+        "travertine",
+        "oak"
+      ],
+      "style_tags": [
+        "pedestal",
+        "column",
+        "round",
+        "sculptural"
+      ],
+      "colour": "natural"
+    },
+    {
+      "id": "freedom-porteno-side-table-45cm",
+      "role": "alternative",
+      "for": "globewest-amara-curve-side-table-natural-travertine",
+      "category": "coffee-tables",
+      "retailer": "Freedom",
+      "name": "Porteno Side Table 45cm",
+      "price_aud": 559,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.freedom.com.au/product/24747561",
+      "dimensions_cm": {
+        "w": 51,
+        "d": 47,
+        "h": 45
+      },
+      "materials": [
+        "travertine",
+        "teak"
+      ],
+      "style_tags": [
+        "pedestal",
+        "organic",
+        "round",
+        "chunky"
+      ],
+      "colour": "natural"
+    },
+    {
+      "id": "west-elm-au-travertine-side-table-53-cm",
+      "role": "alternative",
+      "for": "globewest-amara-curve-side-table-natural-travertine",
+      "category": "coffee-tables",
+      "retailer": "West Elm AU",
+      "name": "Travertine Side Table (53 cm)",
+      "price_aud": 1199,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.westelm.com.au/travertine-side-table-h12106",
+      "dimensions_cm": {
+        "w": 53,
+        "d": 51,
+        "h": 48
+      },
+      "materials": [
+        "travertine",
+        "mango wood"
+      ],
+      "style_tags": [
+        "sculptural",
+        "organic",
+        "modern"
+      ],
+      "colour": "natural"
+    },
+    {
+      "id": "sarah-ellison-ellison-studios-yoko-capsule-coffee-table-oak",
+      "role": "original",
+      "category": "coffee-tables",
+      "brand": "Sarah Ellison (Ellison Studios)",
+      "name": "Yoko Capsule Coffee Table - Oak",
+      "price_aud": 2399,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://ellisonstudios.com/products/yoko-coffee-table-capsule-oak",
+      "image_url": "https://ellisonstudios.com/cdn/shop/files/ERPYJUF1cs9GlLVViKdbycABGcwDYcjVC0NTNmRiGnzIwQ_aab1d3cf-509f-4712-bddc-70389c67aa1a_1024x.png?v=1708297519",
+      "dimensions_cm": {
+        "w": 150,
+        "d": 85,
+        "h": 29.2
+      },
+      "materials": [
+        "oak",
+        "veneer"
+      ],
+      "style_tags": [
+        "pill",
+        "capsule",
+        "curved",
+        "low-profile",
+        "japandi",
+        "minimalist"
+      ],
+      "colour": "oak"
+    },
+    {
+      "id": "interior-secrets-holt-13m-coffee-table-natural-oak",
+      "role": "alternative",
+      "for": "sarah-ellison-ellison-studios-yoko-capsule-coffee-table-oak",
+      "category": "coffee-tables",
+      "retailer": "Interior Secrets",
+      "name": "Holt 1.3m Coffee Table - Natural Oak",
+      "price_aud": 790,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.interiorsecrets.com.au/products/holt-1-3m-coffee-table-natural-oak",
+      "image_url": "https://www.interiorsecrets.com.au/cdn/shop/files/CF8303-CN_01.jpg?crop=center&height=1080&v=1688360818&width=1080",
+      "dimensions_cm": {
+        "w": 130,
+        "d": 59,
+        "h": 33
+      },
+      "materials": [
+        "oak",
+        "veneer"
+      ],
+      "style_tags": [
+        "oval",
+        "curved",
+        "low-profile",
+        "japandi"
+      ],
+      "colour": "oak"
+    },
+    {
+      "id": "ikea-australia-stockholm-coffee-table-walnut-veneer-180x59-cm",
+      "role": "alternative",
+      "for": "sarah-ellison-ellison-studios-yoko-capsule-coffee-table-oak",
+      "category": "coffee-tables",
+      "retailer": "Ikea Australia",
+      "name": "STOCKHOLM Coffee Table, Walnut Veneer, 180x59 cm",
+      "price_aud": 499,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://www.ikea.com/au/en/p/stockholm-coffee-table-walnut-veneer-90353078/",
+      "image_url": "https://www.ikea.com/au/en/images/products/stockholm-coffee-table-walnut-veneer__0181245_pe332924_s5.jpg?f=u",
+      "dimensions_cm": {
+        "w": 180,
+        "d": 59,
+        "h": 40
+      },
+      "materials": [
+        "walnut",
+        "veneer"
+      ],
+      "style_tags": [
+        "oval",
+        "pill",
+        "mid-century",
+        "low-profile"
+      ],
+      "colour": "walnut"
+    },
+    {
+      "id": "life-interiors-clover-oval-oak-coffee-table",
+      "role": "alternative",
+      "for": "sarah-ellison-ellison-studios-yoko-capsule-coffee-table-oak",
+      "category": "coffee-tables",
+      "retailer": "Life Interiors",
+      "name": "Clover Oval Oak Coffee Table",
+      "price_aud": 899.1,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-20",
+      "url": "https://lifeinteriors.com.au/products/linea-house-clover-oval-oak-coffee-table",
+      "image_url": "https://lifeinteriors.com.au/cdn/shop/files/CT-EAW-CLOV-OVA-OAK_1.jpg?v=1715049703&width=800",
+      "dimensions_cm": {
+        "w": 130,
+        "d": 75,
+        "h": 34
+      },
+      "materials": [
+        "oak",
+        "plywood"
+      ],
+      "style_tags": [
+        "oval",
+        "organic",
+        "curved",
+        "sculptural",
+        "low-profile"
+      ],
+      "colour": "oak"
     }
   ]
 }
