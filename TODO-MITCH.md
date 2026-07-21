@@ -1,20 +1,26 @@
 # TODO — Mitch (operator tasks)
 
-Everything the engine cannot do for itself. Nothing here blocks local runs;
-items 1–2 make it public, 3 turns on revenue.
-
-- [ ] 1. Create GitHub repo `sah-au-furniture-dupes` in the browser (gh CLI broken),
-       `git remote add origin ... && git push -u origin main`, then Settings ->
-       Pages -> Source: GitHub Actions. Site deploys itself from then on.
-- [ ] 2. Skim the seed catalogue (`data/catalogue.json`) before the site goes
-       public — especially any product marked `"price_confidence": "estimate"`:
-       open the URL, confirm price, flip to `"checked"` + today's date.
-- [ ] 3. Apply to Commission Factory + Impact (affiliate networks). On approval
-       add repo secrets `AFFILIATE_CF_ID` / `AFFILIATE_IMPACT_ID` — links
-       upgrade automatically next build.
-- [ ] 4. Brand/domain: check "Lookalike Living" is clean (trademark + domain
-       search), buy the domain, set repo variable `SITE_URL`.
+- [x] 1. GitHub repo + Pages — DONE 2026-07-21. Repo:
+       https://github.com/mitchparker99/sah-au-furniture-dupes (public; needed
+       for free Pages). Live site:
+       https://mitchparker99.github.io/sah-au-furniture-dupes/
+       CI deploys nightly at 11pm AEST and on every push.
+- [x] 2. Indicative prices — verified against live retailer pages by the
+       price-verify fleet 2026-07-21 (see data/catalogue.json confidence
+       flags). Only ones it could not confirm are listed in staleness.md /
+       flagged "estimate" — spot-check those when convenient.
+- [ ] 3. Apply to Commission Factory + Impact. Everything you need is in
+       AFFILIATES.md (what to say, which advertiser programs, where the IDs
+       go). On approval add repo secrets `AFFILIATE_CF_ID` /
+       `AFFILIATE_IMPACT_ID` — links upgrade automatically next build.
+- [ ] 4. Brand + domain. Checked 2026-07-21: lookalikeliving.com.au, .com and
+       .au are ALL available to register, and no existing "Lookalike Living"
+       furniture business or indexed AU trademark was found. Remaining: run
+       the name through IP Australia's TM Checker (5 min), then buy
+       lookalikeliving.com.au (+.com if cheap), point it at GitHub Pages, and
+       update the SITE_URL repo variable.
 - [ ] 5. Optional: repo secret `ANTHROPIC_API_KEY` + variable
        `VISION_ENABLED=true` to blend image-pair scores into rankings.
-- [ ] 6. Tell Ashley — this was Ashley's idea (2026-07-15); decide if this is a
-       collab and on what terms before it earns a dollar.
+- [ ] 6. Ashley — this was Ashley's idea (2026-07-15). Options + a
+       ready-to-send message are in ASHLEY-COLLAB.md (kept out of the public
+       repo). Decide the split before it earns a dollar.

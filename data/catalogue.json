@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20",
+  "updated": "2026-07-21",
   "products": [
     {
       "id": "kartell-componibili-3-tier",
@@ -7,10 +7,10 @@
       "category": "bedroom",
       "brand": "Kartell",
       "name": "Componibili Classic 3-Tier Storage Unit",
-      "price_aud": 395,
-      "price_confidence": "estimate",
-      "price_last_checked": "2026-07-20",
-      "url": "https://www.spacefurniture.com.au/componibili-classic-3-tier.html",
+      "price_aud": 365,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-21",
+      "url": "https://www.spacefurniture.com.au/products/kartell-componibili-3-round",
       "dimensions_cm": {
         "w": 32,
         "d": 32,
@@ -24,32 +24,6 @@
         "modular",
         "sculptural",
         "space-age"
-      ],
-      "colour": "white"
-    },
-    {
-      "id": "kmart-3-tier-round-storage",
-      "role": "alternative",
-      "for": "kartell-componibili-3-tier",
-      "category": "bedroom",
-      "retailer": "Kmart",
-      "name": "3 Tier Round Storage Unit",
-      "price_aud": 32,
-      "price_confidence": "estimate",
-      "price_last_checked": "2026-07-20",
-      "url": "https://www.kmart.com.au/product/3-tier-round-storage-unit/",
-      "dimensions_cm": {
-        "w": 32,
-        "d": 32,
-        "h": 59
-      },
-      "materials": [
-        "plastic"
-      ],
-      "style_tags": [
-        "cylindrical",
-        "modular",
-        "sculptural"
       ],
       "colour": "white"
     },
@@ -115,9 +89,9 @@
       "category": "lighting",
       "retailer": "Kmart",
       "name": "Mushroom Portable Rechargeable Lamp",
-      "price_aud": 19,
-      "price_confidence": "estimate",
-      "price_last_checked": "2026-07-20",
+      "price_aud": 13,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-21",
       "url": "https://www.kmart.com.au/product/mushroom-portable-rechargeable-lamp-43556328/",
       "dimensions_cm": {
         "w": 15.5,
@@ -142,8 +116,8 @@
       "retailer": "Temple & Webster",
       "name": "Halle Resin Mushroom Table Lamp",
       "price_aud": 59.95,
-      "price_confidence": "estimate",
-      "price_last_checked": "2026-07-20",
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-21",
       "url": "https://www.templeandwebster.com.au/Halle-Resin-Mushroom-Table-Lamp-TMPL6213.html",
       "dimensions_cm": {
         "h": 33
@@ -195,8 +169,8 @@
       "retailer": "Temple & Webster",
       "name": "Lorah Metal Arc Floor Lamp",
       "price_aud": 249,
-      "price_confidence": "estimate",
-      "price_last_checked": "2026-07-20",
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-21",
       "url": "https://www.templeandwebster.com.au/Lorah-Metal-Arc-Floor-Lamp-TMPL6707.html",
       "dimensions_cm": {
         "h": 203
@@ -212,33 +186,6 @@
         "minimalist",
         "mid-century"
       ]
-    },
-    {
-      "id": "temple-webster-zander-lighting-dome-arc-floor-lamp-oriel-sl91201",
-      "role": "alternative",
-      "for": "flos-arco-floor-lamp",
-      "category": "lighting",
-      "retailer": "Temple & Webster",
-      "name": "Zander Lighting Dome ARC Floor Lamp (Oriel SL91201)",
-      "price_aud": 269,
-      "price_confidence": "estimate",
-      "price_last_checked": "2026-07-20",
-      "url": "https://www.templeandwebster.com.au/Dome-ARC-Floor-Lamp-ORIB2140.html",
-      "dimensions_cm": {
-        "w": 95,
-        "h": 170
-      },
-      "materials": [
-        "metal"
-      ],
-      "style_tags": [
-        "arc",
-        "curved",
-        "dome",
-        "retro",
-        "mid-century"
-      ],
-      "colour": "chrome"
     },
     {
       "id": "vitra-isamu-noguchi-akari-10a-floor-lamp",
@@ -455,9 +402,9 @@
       "category": "sofas",
       "retailer": "Temple & Webster",
       "name": "Oakleigh Home Vega 2 Seater Togo Lazy Caterpillar Replica Lounge Sofa",
-      "price_aud": 387,
-      "price_confidence": "estimate",
-      "price_last_checked": "2026-07-20",
+      "price_aud": 467,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-21",
       "url": "https://www.templeandwebster.com.au/Vega-2-Seater-Togo-Lazy-Caterpillar-Replica-Lounge-Sofa-LEVE3720.html",
       "materials": [
         "fabric",
@@ -479,8 +426,8 @@
       "retailer": "Temple & Webster",
       "name": "Oakleigh Home Vega 3 Seater Togo Lazy Caterpillar Replica Lounge Sofa",
       "price_aud": 654,
-      "price_confidence": "estimate",
-      "price_last_checked": "2026-07-20",
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-21",
       "url": "https://www.templeandwebster.com.au/Vega-3-Seater-Togo-Lazy-Caterpillar-Replica-Lounge-Sofa-LEVE3724.html",
       "materials": [
         "fabric",
@@ -532,9 +479,9 @@
       "category": "sofas",
       "retailer": "Temple & Webster",
       "name": "Temple & Webster Softy 3 Seater Premium Slipcover Sofa",
-      "price_aud": 1499,
-      "price_confidence": "estimate",
-      "price_last_checked": "2026-07-20",
+      "price_aud": 1599,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-21",
       "url": "https://www.templeandwebster.com.au/Softy-3-Seater-Premium-Slipcover-Sofa-TMPL5094.html",
       "materials": [
         "fabric",
@@ -546,33 +493,6 @@
         "deep-seat",
         "relaxed"
       ]
-    },
-    {
-      "id": "ikea-australia-jattebo-3-seat-modular-sofa-tonerud-grey",
-      "role": "alternative",
-      "for": "mcm-house-joe-deep-sofa-3-seater-2500mm",
-      "category": "sofas",
-      "retailer": "IKEA Australia",
-      "name": "JÄTTEBO 3-seat modular sofa, Tonerud grey",
-      "price_aud": 1200,
-      "price_confidence": "estimate",
-      "price_last_checked": "2026-07-20",
-      "url": "https://www.ikea.com/au/en/p/jaettebo-3-seat-modular-sofa-tonerud-grey-s99485140/",
-      "dimensions_cm": {
-        "w": 210,
-        "d": 94,
-        "h": 71
-      },
-      "materials": [
-        "polyester",
-        "foam"
-      ],
-      "style_tags": [
-        "modular",
-        "deep-seat",
-        "low-profile"
-      ],
-      "colour": "grey"
     },
     {
       "id": "carl-hansen-son-via-cult-design-au-ch24-wishbone-chair",
@@ -611,9 +531,9 @@
       "category": "dining",
       "retailer": "Temple & Webster",
       "name": "Hans Wegner Wishbone Replica Solid Beech Wood Dining Chairs (Set of 2)",
-      "price_aud": 349,
-      "price_confidence": "estimate",
-      "price_last_checked": "2026-07-20",
+      "price_aud": 449,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-21",
       "url": "https://www.templeandwebster.com.au/Hans-Wegner-Wishbone-Replica-Solid-Beech-Wood-Dining-Chairs-TMPL4967.html",
       "dimensions_cm": {
         "w": 56,
@@ -996,9 +916,9 @@
       "category": "armchairs",
       "retailer": "Temple & Webster",
       "name": "Gala Boucle Armchair",
-      "price_aud": 599,
-      "price_confidence": "estimate",
-      "price_last_checked": "2026-07-20",
+      "price_aud": 649,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-21",
       "url": "https://www.templeandwebster.com.au/Gala-Boucle-Armchair-TMPL6011.html",
       "materials": [
         "boucle",
@@ -1055,8 +975,8 @@
       "retailer": "Matt Blatt",
       "name": "Eames Premium Replica Leather Lounge Chair and Ottoman (Black Leather/Walnut)",
       "price_aud": 1999.99,
-      "price_confidence": "estimate",
-      "price_last_checked": "2026-07-20",
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-21",
       "url": "https://www.mattblatt.com.au/mb/buy/matt-blatt-eames-premium-replica-leather-lounge-chair-and-ottoman-black-leatherwalnut-matt-blatt/",
       "materials": [
         "leather",
@@ -1082,8 +1002,8 @@
       "retailer": "Matt Blatt",
       "name": "Shangri-La Eames Replica Lounge Chair and Ottoman (Black/Walnut)",
       "price_aud": 999.99,
-      "price_confidence": "estimate",
-      "price_last_checked": "2026-07-20",
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-21",
       "url": "https://www.mattblatt.com.au/mb/buy/shangri-la-eames-replica-leather-lounge-chair-and-ottoman-black-puwalnut-shangri-la/",
       "materials": [
         "faux leather",
@@ -1261,9 +1181,9 @@
       "category": "bedroom",
       "retailer": "Temple & Webster",
       "name": "Paloma Boucle Bed (Queen)",
-      "price_aud": 699,
-      "price_confidence": "estimate",
-      "price_last_checked": "2026-07-20",
+      "price_aud": 749,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-21",
       "url": "https://www.templeandwebster.com.au/Paloma-Boucle-Bed-TMPL4981.html",
       "materials": [
         "boucle",
@@ -1353,32 +1273,6 @@
         "woven",
         "coastal",
         "mid-century"
-      ],
-      "colour": "natural"
-    },
-    {
-      "id": "temple-webster-kayla-bay-by-temple-webster-iman-rattan-bedside-table",
-      "role": "alternative",
-      "for": "globewest-willow-woven-bedside-table",
-      "category": "bedroom",
-      "retailer": "Temple & Webster",
-      "name": "Kayla Bay by Temple & Webster Iman Rattan Bedside Table",
-      "price_aud": 149,
-      "price_confidence": "estimate",
-      "price_last_checked": "2026-07-20",
-      "url": "https://www.templeandwebster.com.au/Iman-Bedside-Table-TMPL2251.html",
-      "dimensions_cm": {
-        "w": 45,
-        "d": 30,
-        "h": 60
-      },
-      "materials": [
-        "rattan",
-        "timber"
-      ],
-      "style_tags": [
-        "woven",
-        "coastal"
       ],
       "colour": "natural"
     },

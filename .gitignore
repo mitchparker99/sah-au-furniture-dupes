@@ -1,5 +1,7 @@
 node_modules/
 .env
+# private business terms - never push to the public repo
+ASHLEY-COLLAB.md
 *.log
 PAUSED
 report.md
