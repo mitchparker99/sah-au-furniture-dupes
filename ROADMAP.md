@@ -21,7 +21,7 @@ Status: v1 engine + site shipped 2026-07-20. Items ordered inside each phase.
 
 ## Phase 2 — Catalogue depth
 
-- [ ] 14. 30+ originals across all 6 categories (dupe-culture icons first: Camaleonda, Togo, wishbone, Componibili, Panthella, Eames, Noguchi)
+- [x] 14. 30+ originals across all 6 categories (34 as of 2026-07-23; Camaleonda, Togo, Wishbone, Componibili, Panthella, Eames, Noguchi, Barcelona, Louis Ghost, Cesca, Saarinen, Ultrafragola all in)
 - [ ] 15. Image URLs recorded for every product (for vision + future UI)
 - [ ] 16. Weekly "new lookalikes" additions cadence (batch add via CSV import script)
 - [x] 17. CSV bulk import (npm run import, data/inbox.csv, per-row validation)
