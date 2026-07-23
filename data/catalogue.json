@@ -2930,6 +2930,530 @@
         "angular"
       ],
       "colour": "black"
+    },
+    {
+      "id": "bb-italia-camaleonda-sofa-mario-bellini",
+      "role": "original",
+      "category": "sofas",
+      "brand": "B&B Italia",
+      "name": "Camaleonda Sofa (Mario Bellini)",
+      "price_aud": 32395,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.spacefurniture.com.au/products/b-b-italia-camaleonda",
+      "dimensions_cm": {
+        "w": 288,
+        "d": 96,
+        "h": 67
+      },
+      "materials": [
+        "fabric",
+        "foam",
+        "steel"
+      ],
+      "style_tags": [
+        "modular",
+        "tufted",
+        "curved",
+        "low-profile",
+        "retro",
+        "sculptural"
+      ],
+      "colour": "chalk white"
+    },
+    {
+      "id": "luxo-living-keila-2-seater-modular-tufted-boucle-sofa-set-in-cream-white",
+      "role": "alternative",
+      "for": "bb-italia-camaleonda-sofa-mario-bellini",
+      "category": "sofas",
+      "retailer": "Luxo Living",
+      "name": "Keila 2 Seater Modular Tufted Boucle Sofa Set in Cream White",
+      "price_aud": 839,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.luxoliving.com.au/products/keila-2-seater-modular-tufted-boucle-sofa-set-in-cream-white",
+      "dimensions_cm": {
+        "w": 176,
+        "d": 88,
+        "h": 66
+      },
+      "materials": [
+        "boucle",
+        "solid wood",
+        "engineered wood",
+        "foam"
+      ],
+      "style_tags": [
+        "modular",
+        "tufted",
+        "low-profile",
+        "rounded"
+      ],
+      "colour": "cream white"
+    },
+    {
+      "id": "temple-webster-ever-dreaming-living-leia-35-seater-boucle-modular-sofa",
+      "role": "alternative",
+      "for": "bb-italia-camaleonda-sofa-mario-bellini",
+      "category": "sofas",
+      "retailer": "Temple & Webster",
+      "name": "Ever Dreaming Living Leia 3.5 Seater Boucle Modular Sofa",
+      "price_aud": 1957,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.templeandwebster.com.au/Leia-3.5-Seater-Boucle-Modular-Sofa-DRAM1136.html",
+      "materials": [
+        "boucle"
+      ],
+      "style_tags": [
+        "modular",
+        "tufted",
+        "low-profile",
+        "curved"
+      ]
+    },
+    {
+      "id": "luxo-living-kazumi-4-seater-boucle-modular-sofa-set-in-cream-white",
+      "role": "alternative",
+      "for": "bb-italia-camaleonda-sofa-mario-bellini",
+      "category": "sofas",
+      "retailer": "Luxo Living",
+      "name": "Kazumi 4 Seater Boucle Modular Sofa Set in Cream White",
+      "price_aud": 719,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.luxoliving.com.au/products/kazumi-4-seater-boucle-modular-sofa-set-in-cream-white",
+      "dimensions_cm": {
+        "w": 234,
+        "d": 155,
+        "h": 72
+      },
+      "materials": [
+        "boucle",
+        "solid wood",
+        "foam"
+      ],
+      "style_tags": [
+        "modular",
+        "low-profile",
+        "rounded",
+        "armless"
+      ],
+      "colour": "cream white"
+    },
+    {
+      "id": "king-living-jasper-modular-sofa-package-13",
+      "role": "original",
+      "category": "sofas",
+      "brand": "King Living",
+      "name": "Jasper Modular Sofa (Package 13)",
+      "price_aud": 8478,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.kingliving.com.au/shop/living/sofas/jasper",
+      "dimensions_cm": {
+        "w": 286,
+        "d": 182
+      },
+      "materials": [
+        "steel",
+        "timber",
+        "fabric",
+        "foam",
+        "feather"
+      ],
+      "style_tags": [
+        "modular",
+        "low-profile",
+        "boxy",
+        "wide-arm",
+        "contemporary"
+      ]
+    },
+    {
+      "id": "castlery-au-adams-l-shape-sectional-sofa",
+      "role": "alternative",
+      "for": "king-living-jasper-modular-sofa-package-13",
+      "category": "sofas",
+      "retailer": "Castlery AU",
+      "name": "Adams L-Shape Sectional Sofa",
+      "price_aud": 2209,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.castlery.com/au/products/adams-l-shape-sectional-sofa",
+      "dimensions_cm": {
+        "w": 260,
+        "d": 260,
+        "h": 84
+      },
+      "materials": [
+        "fabric",
+        "engineered wood",
+        "metal"
+      ],
+      "style_tags": [
+        "modular",
+        "low-profile",
+        "boxy",
+        "wide-arm"
+      ],
+      "colour": "dove grey"
+    },
+    {
+      "id": "lounge-lovers-long-beach-3-seat-sofa",
+      "role": "alternative",
+      "for": "king-living-jasper-modular-sofa-package-13",
+      "category": "sofas",
+      "retailer": "Lounge Lovers",
+      "name": "Long Beach 3 Seat Sofa",
+      "price_aud": 1799,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.loungelovers.com.au/long-beach-3-seat-sofa",
+      "dimensions_cm": {
+        "w": 230,
+        "d": 113,
+        "h": 86
+      },
+      "materials": [
+        "fabric",
+        "linen",
+        "pine",
+        "feather",
+        "foam"
+      ],
+      "style_tags": [
+        "low-profile",
+        "boxy",
+        "deep-seat",
+        "contemporary"
+      ],
+      "colour": "ivory"
+    },
+    {
+      "id": "freedom-aspect-fabric-modular-sofa-6-seater-ottoman",
+      "role": "alternative",
+      "for": "king-living-jasper-modular-sofa-package-13",
+      "category": "sofas",
+      "retailer": "Freedom",
+      "name": "Aspect Fabric Modular Sofa (6 Seater + Ottoman)",
+      "price_aud": 3549,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.freedom.com.au/product/24130974",
+      "dimensions_cm": {
+        "w": 296,
+        "d": 329,
+        "h": 86
+      },
+      "materials": [
+        "fabric",
+        "timber",
+        "foam",
+        "fibre"
+      ],
+      "style_tags": [
+        "modular",
+        "low-profile",
+        "wide-arm",
+        "deep-seat",
+        "boxy"
+      ],
+      "colour": "grey"
+    },
+    {
+      "id": "jardan-valley-sofa-25-seater-va196",
+      "role": "original",
+      "category": "sofas",
+      "brand": "Jardan",
+      "name": "Valley Sofa 2.5 Seater (VA196)",
+      "price_aud": 9036,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.jardan.com.au/products/va196",
+      "dimensions_cm": {
+        "w": 196,
+        "d": 111,
+        "h": 68.5
+      },
+      "materials": [
+        "fabric",
+        "oak",
+        "hardwood",
+        "foam"
+      ],
+      "style_tags": [
+        "curved",
+        "low-profile",
+        "rounded",
+        "sculptural",
+        "contemporary"
+      ]
+    },
+    {
+      "id": "temple-webster-gala-3-seater-boucle-sofa",
+      "role": "alternative",
+      "for": "jardan-valley-sofa-25-seater-va196",
+      "category": "sofas",
+      "retailer": "Temple & Webster",
+      "name": "Gala 3 Seater Boucle Sofa",
+      "price_aud": 999,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.templeandwebster.com.au/Gala-3-Seater-Boucle-Sofa-TMPL7502.html",
+      "dimensions_cm": {
+        "w": 200,
+        "d": 84,
+        "h": 70
+      },
+      "materials": [
+        "boucle",
+        "plywood",
+        "foam",
+        "polypropylene"
+      ],
+      "style_tags": [
+        "curved",
+        "rounded",
+        "low-profile"
+      ]
+    },
+    {
+      "id": "big-w-black-barcelona-chair-classic-version-replica",
+      "role": "alternative",
+      "for": "knoll-barcelona-lounge-chair-chrome-mies-van-der-rohe",
+      "category": "armchairs",
+      "retailer": "Big W",
+      "name": "Black Barcelona Chair - Classic Version - Replica",
+      "price_aud": 469,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.bigw.com.au/product/black-barcelona-chair-classic-version-replica/p/9902667910",
+      "materials": [
+        "leather",
+        "steel"
+      ],
+      "style_tags": [
+        "x-frame",
+        "tufted",
+        "low-profile",
+        "mid-century"
+      ],
+      "colour": "black"
+    },
+    {
+      "id": "big-w-white-barcelona-chair-classic-version-replica",
+      "role": "alternative",
+      "for": "knoll-barcelona-lounge-chair-chrome-mies-van-der-rohe",
+      "category": "armchairs",
+      "retailer": "Big W",
+      "name": "White Barcelona Chair - Classic Version - Replica",
+      "price_aud": 469,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.bigw.com.au/product/white-barcelona-chair-classic-version-replica/p/9901393821",
+      "materials": [
+        "leather",
+        "steel"
+      ],
+      "style_tags": [
+        "x-frame",
+        "tufted",
+        "low-profile",
+        "mid-century"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "big-w-sk-designer-living-replica-philippe-starck-louis-ghost-arm-chair-clear",
+      "role": "alternative",
+      "for": "kartell-louis-ghost-chair-by-philippe-starck",
+      "category": "dining",
+      "retailer": "Big W",
+      "name": "SK Designer Living - Replica Philippe Starck Louis Ghost Arm Chair - Clear",
+      "price_aud": 109,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.bigw.com.au/product/sk-designer-living-replica-philippe-starck-louis-ghost-arm-chair-clear/p/9900602519",
+      "dimensions_cm": {
+        "w": 54,
+        "d": 57.5,
+        "h": 92.5
+      },
+      "materials": [
+        "polycarbonate"
+      ],
+      "style_tags": [
+        "transparent",
+        "baroque",
+        "curved",
+        "stackable"
+      ],
+      "colour": "clear"
+    },
+    {
+      "id": "big-w-sk-designer-living-pack-of-4-replica-philippe-starck-louis-ghost-arm-chair-clear",
+      "role": "alternative",
+      "for": "kartell-louis-ghost-chair-by-philippe-starck",
+      "category": "dining",
+      "retailer": "Big W",
+      "name": "SK Designer Living - Pack of 4 - Replica Philippe Starck Louis Ghost Arm Chair - Clear",
+      "price_aud": 399,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.bigw.com.au/product/sk-designer-living-pack-of-4-replica-philippe-starck-louis-ghost-arm-chair-clear/p/9902544918",
+      "dimensions_cm": {
+        "w": 54,
+        "d": 57.5,
+        "h": 92.5
+      },
+      "materials": [
+        "polycarbonate"
+      ],
+      "style_tags": [
+        "transparent",
+        "baroque",
+        "curved",
+        "stackable"
+      ],
+      "colour": "clear"
+    },
+    {
+      "id": "big-w-sk-designer-living-replica-philippe-starck-louis-ghost-victoria-chair-clear",
+      "role": "alternative",
+      "for": "kartell-louis-ghost-chair-by-philippe-starck",
+      "category": "dining",
+      "retailer": "Big W",
+      "name": "SK Designer Living - Replica Philippe Starck Louis Ghost Victoria Chair - Clear",
+      "price_aud": 89,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.bigw.com.au/product/sk-designer-living-replica-philippe-starck-louis-ghost-victoria-chair-clear/p/9900607454",
+      "dimensions_cm": {
+        "w": 39,
+        "d": 47,
+        "h": 90
+      },
+      "materials": [
+        "polycarbonate"
+      ],
+      "style_tags": [
+        "transparent",
+        "baroque",
+        "curved",
+        "stackable",
+        "armless"
+      ],
+      "colour": "clear"
+    },
+    {
+      "id": "freedom-beilen-set-of-2-dining-chair-kulta-home-rattan-cantilever-cesca-reproduction",
+      "role": "alternative",
+      "for": "thonet-s-32-v-cantilever-chair-cesca-by-marcel-breuer",
+      "category": "dining",
+      "retailer": "Freedom",
+      "name": "BEILEN Set of 2 Dining Chair (Kulta Home) - Rattan Cantilever, Cesca reproduction",
+      "price_aud": 670,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.freedom.com.au/product/10013095",
+      "dimensions_cm": {
+        "w": 47,
+        "d": 55,
+        "h": 83
+      },
+      "materials": [
+        "beech",
+        "rattan",
+        "cane",
+        "stainless steel"
+      ],
+      "style_tags": [
+        "cantilever",
+        "mid-century",
+        "curved"
+      ],
+      "colour": "natural and black"
+    },
+    {
+      "id": "freedom-futtsu-set-of-2-dining-chair-green-rattan-back-cantilever",
+      "role": "alternative",
+      "for": "thonet-s-32-v-cantilever-chair-cesca-by-marcel-breuer",
+      "category": "dining",
+      "retailer": "Freedom",
+      "name": "FUTTSU Set of 2 Dining Chair - Green (rattan-back cantilever)",
+      "price_aud": 199,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.freedom.com.au/product/13143718",
+      "dimensions_cm": {
+        "w": 53,
+        "d": 47,
+        "h": 83
+      },
+      "materials": [
+        "chrome",
+        "steel",
+        "rubberwood",
+        "rattan",
+        "velvet"
+      ],
+      "style_tags": [
+        "cantilever",
+        "curved",
+        "mid-century"
+      ],
+      "colour": "green"
+    },
+    {
+      "id": "temple-webster-palm-cove-living-curved-cuba-rattan-bedhead",
+      "role": "alternative",
+      "for": "republic-of-rattan-carmel-bedhead-queen",
+      "category": "bedroom",
+      "retailer": "Temple & Webster",
+      "name": "Palm Cove Living Curved Cuba Rattan Bedhead",
+      "price_aud": 749,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.templeandwebster.com.au/Curved-Cuba-Rattan-Bedhead-HDLI1027.html",
+      "materials": [
+        "rattan"
+      ],
+      "style_tags": [
+        "arched",
+        "woven",
+        "coastal",
+        "boho",
+        "curved"
+      ],
+      "colour": "natural"
+    },
+    {
+      "id": "big-w-156cm-artiss-bed-head-headboard-queen-rattan-ribo-pine",
+      "role": "alternative",
+      "for": "republic-of-rattan-carmel-bedhead-queen",
+      "category": "bedroom",
+      "retailer": "Big W",
+      "name": "156cm Artiss Bed Head Headboard Queen Rattan - RIBO Pine",
+      "price_aud": 139.95,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.bigw.com.au/product/156cm-artiss-bed-head-headboard-queen-rattan-ribo-pine/p/9900026327",
+      "dimensions_cm": {
+        "w": 156.5,
+        "d": 4,
+        "h": 110
+      },
+      "materials": [
+        "rattan",
+        "pine"
+      ],
+      "style_tags": [
+        "woven",
+        "coastal",
+        "boho"
+      ],
+      "colour": "natural pine"
     }
   ]
 }
