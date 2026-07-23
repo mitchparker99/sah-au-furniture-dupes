@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21",
+  "updated": "2026-07-23",
   "products": [
     {
       "id": "kartell-componibili-3-tier",
@@ -1709,6 +1709,1227 @@
         "low-profile"
       ],
       "colour": "oak"
+    },
+    {
+      "id": "knoll-platner-coffee-table",
+      "role": "original",
+      "category": "coffee-tables",
+      "brand": "Knoll",
+      "name": "Platner Coffee Table",
+      "price_aud": 4440,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://livingedge.com.au/tables/coffee-tables/knoll-platner_coffee_table/KN-PLATCTB.html",
+      "image_url": "https://livingedge.com.au/dw/image/v2/BDDH_PRD/on/demandware.static/-/Sites-livingedge-master/default/dw3249d4f8/Knoll_Platner_Coffee_Table_clear_glass_nickel_0001_1600x1600.jpg?sw=1220&sh=1220",
+      "dimensions_cm": {
+        "w": 91.5,
+        "d": 91.5,
+        "h": 38.5
+      },
+      "materials": [
+        "steel",
+        "glass"
+      ],
+      "style_tags": [
+        "sculptural",
+        "wire",
+        "curved",
+        "mid-century",
+        "round"
+      ],
+      "colour": "polished nickel"
+    },
+    {
+      "id": "temple-webster-trevi-wire-coffee-table",
+      "role": "alternative",
+      "for": "knoll-platner-coffee-table",
+      "category": "coffee-tables",
+      "retailer": "Temple & Webster",
+      "name": "Trevi Wire Coffee Table",
+      "price_aud": 99.99,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.templeandwebster.com.au/Trevi-Wire-Coffee-Table-GEPAWCBK-TMPL1003.html",
+      "materials": [
+        "steel"
+      ],
+      "style_tags": [
+        "wire",
+        "cage",
+        "round",
+        "sculptural"
+      ]
+    },
+    {
+      "id": "ikea-au-kvistbro-storage-table-white-44-cm",
+      "role": "alternative",
+      "for": "knoll-platner-coffee-table",
+      "category": "coffee-tables",
+      "retailer": "Ikea AU",
+      "name": "KVISTBRO Storage Table, white, 44 cm",
+      "price_aud": 49.99,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.ikea.com/au/en/p/kvistbro-storage-table-white-10349453/",
+      "image_url": "https://www.ikea.com/au/en/images/products/kvistbro-storage-table-white__0477822_pe618485_s5.jpg",
+      "dimensions_cm": {
+        "w": 44,
+        "d": 44,
+        "h": 42
+      },
+      "materials": [
+        "steel"
+      ],
+      "style_tags": [
+        "wire",
+        "cage",
+        "round",
+        "storage"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "knoll-saarinen-side-table-round-tulip",
+      "role": "original",
+      "category": "coffee-tables",
+      "brand": "Knoll",
+      "name": "Saarinen Side Table, Round (Tulip)",
+      "price_aud": 1870,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://livingedge.com.au/tables/side-tables/knoll-saarinen_side_table_round/KN-SAARSTR.html",
+      "image_url": "https://livingedge.com.au/dw/image/v2/BDDH_PRD/on/demandware.static/-/Sites-livingedge-master/default/dw4586d55b/Saarinen_Side_Table_410_laminate_white_1600x1600.jpg?sw=1220&sh=1220",
+      "dimensions_cm": {
+        "w": 41,
+        "d": 41,
+        "h": 51
+      },
+      "materials": [
+        "aluminium",
+        "laminate",
+        "marble"
+      ],
+      "style_tags": [
+        "pedestal",
+        "mid-century",
+        "space-age",
+        "round"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "interior-secrets-tulip-50cm-round-marble-side-table-eero-saarinen-replica-aluminium",
+      "role": "alternative",
+      "for": "knoll-saarinen-side-table-round-tulip",
+      "category": "coffee-tables",
+      "retailer": "Interior Secrets",
+      "name": "Tulip 50cm Round Marble Side Table - Eero Saarinen Replica - Aluminium",
+      "price_aud": 325,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.interiorsecrets.com.au/products/tulip-side-table-50cm-eero-saarinen-replica-marble-top-aluminium",
+      "image_url": "https://www.interiorsecrets.com.au/cdn/shop/products/tulip-side-table-50cm-eero-saarinen-replica-marble-top-aluminium-side-table-swady-core-276950.jpg",
+      "dimensions_cm": {
+        "w": 50,
+        "d": 50,
+        "h": 51.5
+      },
+      "materials": [
+        "marble",
+        "aluminium"
+      ],
+      "style_tags": [
+        "pedestal",
+        "round",
+        "mid-century"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "matt-blatt-matt-blatt-eero-saarinen-tulip-side-table-in-marble-replica",
+      "role": "alternative",
+      "for": "knoll-saarinen-side-table-round-tulip",
+      "category": "coffee-tables",
+      "retailer": "Matt Blatt",
+      "name": "Matt Blatt Eero Saarinen Tulip Side Table in Marble - Replica",
+      "price_aud": 395,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.mattblatt.com.au/mb/buy/matt-blatt-eero-saarinen-tulip-side-table-in-marble-replica-matt-blatt/",
+      "materials": [
+        "marble",
+        "aluminium"
+      ],
+      "style_tags": [
+        "pedestal",
+        "round",
+        "mid-century"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "gubi-pacha-lounge-chair-pierre-paulin",
+      "role": "original",
+      "category": "armchairs",
+      "brand": "Gubi",
+      "name": "Pacha Lounge Chair (Pierre Paulin)",
+      "price_aud": 4999,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.bodhiliving.com.au/products/pacha-lounge-chair",
+      "image_url": "https://www.bodhiliving.com.au/cdn/shop/products/PachaLoungeChair.png?v=1705890197",
+      "dimensions_cm": {
+        "w": 77,
+        "d": 85,
+        "h": 65
+      },
+      "materials": [
+        "boucle",
+        "fabric",
+        "wood",
+        "foam"
+      ],
+      "style_tags": [
+        "curved",
+        "rounded",
+        "low-slung",
+        "swivel",
+        "retro",
+        "space-age"
+      ],
+      "colour": "cream"
+    },
+    {
+      "id": "luxo-living-beare-boucle-swivel-accent-chair-in-cream-white",
+      "role": "alternative",
+      "for": "gubi-pacha-lounge-chair-pierre-paulin",
+      "category": "armchairs",
+      "retailer": "Luxo Living",
+      "name": "Beare Boucle Swivel Accent Chair in Cream White",
+      "price_aud": 559,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.luxoliving.com.au/products/beare-boucle-swivel-accent-chair-in-cream-white",
+      "image_url": "https://www.luxoliving.com.au/cdn/shop/files/LZBEARE-CWT_1.jpg?v=1751006505",
+      "dimensions_cm": {
+        "w": 99,
+        "d": 99,
+        "h": 69
+      },
+      "materials": [
+        "boucle",
+        "wood",
+        "foam",
+        "stainless steel"
+      ],
+      "style_tags": [
+        "rounded",
+        "curved",
+        "low-slung",
+        "swivel"
+      ],
+      "colour": "cream white"
+    },
+    {
+      "id": "life-interiors-linea-house-elise-boucle-swivel-armchair",
+      "role": "alternative",
+      "for": "gubi-pacha-lounge-chair-pierre-paulin",
+      "category": "armchairs",
+      "retailer": "Life Interiors",
+      "name": "Linea House Elise Boucle Swivel Armchair",
+      "price_aud": 1169.1,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://lifeinteriors.com.au/products/linea-house-elise-boucle-swivel-armchair",
+      "image_url": "https://lifeinteriors.com.au/cdn/shop/products/AM-EAW-ELIS-SWIV-BOU-CREA-2_600x.jpg?v=1678927305",
+      "dimensions_cm": {
+        "w": 84,
+        "d": 85,
+        "h": 74.5
+      },
+      "materials": [
+        "boucle",
+        "steel",
+        "foam"
+      ],
+      "style_tags": [
+        "curved",
+        "rounded",
+        "swivel",
+        "deco"
+      ],
+      "colour": "cream"
+    },
+    {
+      "id": "interior-secrets-howard-swivel-armchair-ash-grey-boucle",
+      "role": "alternative",
+      "for": "gubi-pacha-lounge-chair-pierre-paulin",
+      "category": "armchairs",
+      "retailer": "Interior Secrets",
+      "name": "Howard Swivel Armchair - Ash Grey Boucle",
+      "price_aud": 1190,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.interiorsecrets.com.au/products/howard-swivel-armchair-ash-grey-boucle",
+      "image_url": "https://www.interiorsecrets.com.au/cdn/shop/files/LC8538-FS-2.jpg?crop=center&height=1080&v=1701651419&width=1080",
+      "dimensions_cm": {
+        "w": 103,
+        "d": 93,
+        "h": 71
+      },
+      "materials": [
+        "boucle",
+        "pine",
+        "steel",
+        "foam"
+      ],
+      "style_tags": [
+        "rounded",
+        "curved",
+        "swivel"
+      ],
+      "colour": "ash grey"
+    },
+    {
+      "id": "kmart-boucle-swivel-chair",
+      "role": "alternative",
+      "for": "gubi-pacha-lounge-chair-pierre-paulin",
+      "category": "armchairs",
+      "retailer": "Kmart",
+      "name": "Boucle Swivel Chair",
+      "price_aud": 349,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.kmart.com.au/product/boucle-swivel-chair-43152513/",
+      "dimensions_cm": {
+        "w": 82,
+        "d": 90,
+        "h": 73
+      },
+      "materials": [
+        "boucle",
+        "foam"
+      ],
+      "style_tags": [
+        "rounded",
+        "curved",
+        "low-slung",
+        "swivel",
+        "armless"
+      ]
+    },
+    {
+      "id": "knoll-barcelona-lounge-chair-chrome-mies-van-der-rohe",
+      "role": "original",
+      "category": "armchairs",
+      "brand": "Knoll",
+      "name": "Barcelona Lounge Chair, Chrome (Mies van der Rohe)",
+      "price_aud": 13480,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://livingedge.com.au/chairs/lounge_chairs/knoll-barcelona_lounge_chair_chrome/KN-BARCLC.html",
+      "image_url": "https://livingedge.com.au/dw/image/v2/BDDH_PRD/on/demandware.static/-/Sites-livingedge-master/default/dwd3e1071f/Knoll_Barcelona_Chair_Venezia_Cognac_1600x1600.jpg?sw=1220&sh=1220",
+      "dimensions_cm": {
+        "w": 75,
+        "d": 76.2,
+        "h": 76.9
+      },
+      "materials": [
+        "leather",
+        "chrome",
+        "stainless steel"
+      ],
+      "style_tags": [
+        "tufted",
+        "x-frame",
+        "modernist",
+        "bauhaus",
+        "low-profile"
+      ],
+      "colour": "cognac"
+    },
+    {
+      "id": "matt-blatt-black-barcelona-chair-classic-version-replica",
+      "role": "alternative",
+      "for": "knoll-barcelona-lounge-chair-chrome-mies-van-der-rohe",
+      "category": "armchairs",
+      "retailer": "Matt Blatt",
+      "name": "Black Barcelona Chair - Classic Version - Replica",
+      "price_aud": 469,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.mattblatt.com.au/mb/buy/skyblue-furniture-black-barcelona-chair-classic-version-replica-jmc-1085-black/",
+      "dimensions_cm": {
+        "w": 76,
+        "d": 76,
+        "h": 83
+      },
+      "materials": [
+        "bonded leather",
+        "stainless steel"
+      ],
+      "style_tags": [
+        "tufted",
+        "x-frame",
+        "modernist",
+        "bauhaus"
+      ],
+      "colour": "black"
+    },
+    {
+      "id": "matt-blatt-white-barcelona-chair-classic-version-replica",
+      "role": "alternative",
+      "for": "knoll-barcelona-lounge-chair-chrome-mies-van-der-rohe",
+      "category": "armchairs",
+      "retailer": "Matt Blatt",
+      "name": "White Barcelona Chair - Classic Version - Replica",
+      "price_aud": 469,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.mattblatt.com.au/mb/buy/skyblue-furniture-white-barcelona-chair-classic-version-replica-jmc-1085-white/",
+      "dimensions_cm": {
+        "w": 76,
+        "d": 76,
+        "h": 83
+      },
+      "materials": [
+        "bonded leather",
+        "stainless steel"
+      ],
+      "style_tags": [
+        "tufted",
+        "x-frame",
+        "modernist",
+        "bauhaus"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "kartell-louis-ghost-chair-by-philippe-starck",
+      "role": "original",
+      "category": "dining",
+      "brand": "Kartell",
+      "name": "Louis Ghost Chair by Philippe Starck",
+      "price_aud": 750,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.spacefurniture.com.au/products/kartell-louis-ghost",
+      "dimensions_cm": {
+        "w": 54,
+        "d": 55,
+        "h": 94
+      },
+      "materials": [
+        "polycarbonate"
+      ],
+      "style_tags": [
+        "transparent",
+        "baroque",
+        "curved",
+        "sculptural"
+      ],
+      "colour": "clear"
+    },
+    {
+      "id": "replica-furniture-replica-louis-ghost-chair-transparent-polycarbonate",
+      "role": "alternative",
+      "for": "kartell-louis-ghost-chair-by-philippe-starck",
+      "category": "dining",
+      "retailer": "Replica Furniture",
+      "name": "Replica Louis Ghost Chair - Transparent Polycarbonate",
+      "price_aud": 119,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.replicafurniture.com.au/replica-louis-ghost-chair",
+      "dimensions_cm": {
+        "w": 54,
+        "d": 56,
+        "h": 93
+      },
+      "materials": [
+        "polycarbonate"
+      ],
+      "style_tags": [
+        "transparent",
+        "baroque",
+        "curved"
+      ],
+      "colour": "clear"
+    },
+    {
+      "id": "replica-furniture-replica-victoria-ghost-chair",
+      "role": "alternative",
+      "for": "kartell-louis-ghost-chair-by-philippe-starck",
+      "category": "dining",
+      "retailer": "Replica Furniture",
+      "name": "Replica Victoria Ghost Chair",
+      "price_aud": 109,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.replicafurniture.com.au/replica-victoria-ghost-chair",
+      "dimensions_cm": {
+        "w": 39,
+        "d": 49,
+        "h": 90
+      },
+      "materials": [
+        "polycarbonate"
+      ],
+      "style_tags": [
+        "transparent",
+        "baroque",
+        "curved"
+      ],
+      "colour": "clear"
+    },
+    {
+      "id": "thonet-s-32-v-cantilever-chair-cesca-by-marcel-breuer",
+      "role": "original",
+      "category": "dining",
+      "brand": "Thonet",
+      "name": "S 32 V Cantilever Chair (Cesca) by Marcel Breuer",
+      "price_aud": 2615,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.anibou.com.au/product/s-32/",
+      "image_url": "https://www.anibou.com.au/wp-content/uploads/2019/05/Thonet_Stuhl__S_32__FS0_1_CM.jpg",
+      "dimensions_cm": {
+        "w": 46,
+        "d": 60,
+        "h": 82
+      },
+      "materials": [
+        "beech",
+        "cane",
+        "steel",
+        "chrome"
+      ],
+      "style_tags": [
+        "cantilever",
+        "bauhaus",
+        "mid-century"
+      ],
+      "colour": "natural"
+    },
+    {
+      "id": "replica-furniture-replica-cesca-cane-dining-chair-marcel-breuer-rattan-chair",
+      "role": "alternative",
+      "for": "thonet-s-32-v-cantilever-chair-cesca-by-marcel-breuer",
+      "category": "dining",
+      "retailer": "Replica Furniture",
+      "name": "Replica Cesca Cane Dining Chair - Marcel Breuer Rattan Chair",
+      "price_aud": 175,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.replicafurniture.com.au/replica-marcel-breuer-cesca-cane-dining-chair",
+      "image_url": "https://www.replicafurniture.com.au/media/catalog/product/cache/d24a34bded6d2df740ef66d66d2112c9/r/e/replica_marcel_breuer_cesca_cane_dining_chair.jpg",
+      "dimensions_cm": {
+        "w": 46,
+        "d": 51,
+        "h": 83
+      },
+      "materials": [
+        "ash",
+        "cane",
+        "steel",
+        "chrome"
+      ],
+      "style_tags": [
+        "cantilever",
+        "bauhaus",
+        "mid-century"
+      ],
+      "colour": "natural"
+    },
+    {
+      "id": "replica-furniture-replica-cesca-cane-dining-chair-with-black-frame-marcel-breuer",
+      "role": "alternative",
+      "for": "thonet-s-32-v-cantilever-chair-cesca-by-marcel-breuer",
+      "category": "dining",
+      "retailer": "Replica Furniture",
+      "name": "Replica Cesca Cane Dining Chair with Black Frame - Marcel Breuer",
+      "price_aud": 175,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.replicafurniture.com.au/replica-marcel-breuer-cesca-cane-black-dining-chair",
+      "image_url": "https://www.replicafurniture.com.au/media/catalog/product/cache/d24a34bded6d2df740ef66d66d2112c9/r/e/replica_cesca_cane_black_dining_chair_marcel_breuer_rattan_chair_front_angle_2.jpg",
+      "dimensions_cm": {
+        "w": 46,
+        "d": 51,
+        "h": 83
+      },
+      "materials": [
+        "timber",
+        "cane",
+        "steel",
+        "chrome"
+      ],
+      "style_tags": [
+        "cantilever",
+        "bauhaus",
+        "mid-century"
+      ],
+      "colour": "black"
+    },
+    {
+      "id": "knoll-saarinen-dining-table-round",
+      "role": "original",
+      "category": "dining",
+      "brand": "Knoll",
+      "name": "Saarinen Dining Table, Round",
+      "price_aud": 6450,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://livingedge.com.au/tables/dining-tables-2/knoll-saarinen_dining_table_round/KN-SAARDTR.html",
+      "image_url": "https://livingedge.com.au/dw/image/v2/BDDH_PRD/on/demandware.static/-/Sites-livingedge-master/default/dwe59b260d/Saarinen_dining_table_round_laminated_white_1600x1600.jpg?sw=1220&sh=1220",
+      "dimensions_cm": {
+        "w": 91,
+        "h": 72
+      },
+      "materials": [
+        "laminate",
+        "marble",
+        "aluminium"
+      ],
+      "style_tags": [
+        "pedestal",
+        "sculptural",
+        "mid-century"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "interior-secrets-tulip-120cm-round-marble-dining-table-aluminium",
+      "role": "alternative",
+      "for": "knoll-saarinen-dining-table-round",
+      "category": "dining",
+      "retailer": "Interior Secrets",
+      "name": "Tulip 120cm Round Marble Dining Table - Aluminium",
+      "price_aud": 1635,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.interiorsecrets.com.au/products/tulip-marble-dining-table-120cm-eero-saarinen-replica-marble-top-aluminium",
+      "image_url": "https://www.interiorsecrets.com.au/cdn/shop/products/tulip-marble-dining-table-120cm-aluminium-dining-table-swady-core-665449.jpg?crop=center&height=1200&v=1569699080&width=1200",
+      "dimensions_cm": {
+        "w": 120,
+        "h": 73
+      },
+      "materials": [
+        "marble",
+        "aluminium"
+      ],
+      "style_tags": [
+        "pedestal",
+        "sculptural",
+        "mid-century"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "replica-furniture-replica-eero-saarinen-marble-tulip-dining-table-120-cm-round",
+      "role": "alternative",
+      "for": "knoll-saarinen-dining-table-round",
+      "category": "dining",
+      "retailer": "Replica Furniture",
+      "name": "Replica Eero Saarinen Marble Tulip Dining Table 120 cm Round",
+      "price_aud": 1275,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.replicafurniture.com.au/replica-marble-tulip-table-120cm",
+      "dimensions_cm": {
+        "w": 120,
+        "h": 74
+      },
+      "materials": [
+        "marble",
+        "aluminium"
+      ],
+      "style_tags": [
+        "pedestal",
+        "sculptural",
+        "mid-century"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "replica-furniture-tulip-table-replica-eero-saarinen-90cm-tulip-dining-table",
+      "role": "alternative",
+      "for": "knoll-saarinen-dining-table-round",
+      "category": "dining",
+      "retailer": "Replica Furniture",
+      "name": "Tulip Table - Replica Eero Saarinen 90cm Tulip Dining Table",
+      "price_aud": 475,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.replicafurniture.com.au/tulip-dining-table-90cm-fibreglass",
+      "dimensions_cm": {
+        "w": 90,
+        "h": 72
+      },
+      "materials": [
+        "fibreglass",
+        "steel",
+        "concrete"
+      ],
+      "style_tags": [
+        "pedestal",
+        "sculptural",
+        "mid-century"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "poltronova-ultrafragola-mirror-by-ettore-sottsass-pink-neon",
+      "role": "original",
+      "category": "bedroom",
+      "brand": "Poltronova",
+      "name": "Ultrafragola Mirror by Ettore Sottsass (Pink Neon)",
+      "price_aud": 17443,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.pamono.com.au/pink-neon-ultrafragola-mirror-lamp-by-ettore-sottsass-1",
+      "image_url": "https://cdn20.pamono.com/p/z/2/1/2101789_1yuzm3vjti/pink-neon-ultrafragola-mirror-lamp-by-ettore-sottsass-1.jpg",
+      "dimensions_cm": {
+        "w": 100,
+        "d": 13,
+        "h": 195
+      },
+      "materials": [
+        "opaline plastic",
+        "mirrored glass",
+        "steel",
+        "neon"
+      ],
+      "style_tags": [
+        "wavy",
+        "sculptural",
+        "space-age",
+        "illuminated",
+        "full-length"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "luxo-living-davor-160cm-organic-waves-full-length-led-mirror-in-white",
+      "role": "alternative",
+      "for": "poltronova-ultrafragola-mirror-by-ettore-sottsass-pink-neon",
+      "category": "bedroom",
+      "retailer": "Luxo Living",
+      "name": "Davor 160cm Organic Waves Full Length LED Mirror in White",
+      "price_aud": 369,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.luxoliving.com.au/products/davor-160cm-organic-waves-full-length-led-mirror-in-white",
+      "dimensions_cm": {
+        "w": 55,
+        "d": 2.5,
+        "h": 160
+      },
+      "materials": [
+        "acrylic",
+        "tempered glass",
+        "engineered wood",
+        "led"
+      ],
+      "style_tags": [
+        "wavy",
+        "sculptural",
+        "illuminated",
+        "full-length"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "fantastic-furniture-milos-160cm-white-wavy-mirror",
+      "role": "alternative",
+      "for": "poltronova-ultrafragola-mirror-by-ettore-sottsass-pink-neon",
+      "category": "bedroom",
+      "retailer": "Fantastic Furniture",
+      "name": "Milos 160cm White Wavy Mirror",
+      "price_aud": 209,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.fantasticfurniture.com.au/milos-160cm-white-wavy-mirror/p/MILMIRARCOOOGFAWHI",
+      "image_url": "https://api.fantasticfurniture.com.au/medias/Product-Detail-Spartacus-FantasticFurniture-WF-null?context=bWFzdGVyfGltYWdlc3wxMjAwNjZ8aW1hZ2UvanBlZ3xhRFpoTDJoalpTOHhNRE16TXpNME9EYzFOelV6TkM5UWNtOWtkV04wTFVSbGRHRnBiQzFUY0dGeWRHRmpkWE5mUm1GdWRHRnpkR2xqUm5WeWJtbDBkWEpsTFZkR1gyNTFiR3d8NmQ0YzA3NjEwMmM2ZmEzMTVmMDE3YWFlMzk3OWIwOGRlNWRhOTNhMDM5MGY2NmViYzY5ZGVkYzNmMTllYzg2Nw",
+      "dimensions_cm": {
+        "w": 60,
+        "d": 6,
+        "h": 160
+      },
+      "materials": [
+        "glass",
+        "boucle",
+        "mdf"
+      ],
+      "style_tags": [
+        "wavy",
+        "full-length",
+        "sculptural"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "temple-webster-milos-wavy-full-length-mirror",
+      "role": "alternative",
+      "for": "poltronova-ultrafragola-mirror-by-ettore-sottsass-pink-neon",
+      "category": "bedroom",
+      "retailer": "Temple & Webster",
+      "name": "Milos Wavy Full Length Mirror",
+      "price_aud": 229,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.templeandwebster.com.au/Milos-Wavy-Full-Length-Mirror-TMPL5197.html",
+      "materials": [
+        "glass"
+      ],
+      "style_tags": [
+        "wavy",
+        "full-length"
+      ]
+    },
+    {
+      "id": "republic-of-rattan-carmel-bedhead-queen",
+      "role": "original",
+      "category": "bedroom",
+      "brand": "Republic of Rattan",
+      "name": "Carmel Bedhead (Queen)",
+      "price_aud": 999,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://republicofrattan.com.au/products/carmel-bedhead-single-double-1",
+      "dimensions_cm": {
+        "w": 195,
+        "d": 26,
+        "h": 170
+      },
+      "materials": [
+        "rattan"
+      ],
+      "style_tags": [
+        "arched",
+        "woven",
+        "curved",
+        "sculptural",
+        "coastal"
+      ],
+      "colour": "natural"
+    },
+    {
+      "id": "fantastic-furniture-frangipani-double-rattan-bedhead",
+      "role": "alternative",
+      "for": "republic-of-rattan-carmel-bedhead-queen",
+      "category": "bedroom",
+      "retailer": "Fantastic Furniture",
+      "name": "Frangipani Double Rattan Bedhead",
+      "price_aud": 379,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.fantasticfurniture.com.au/frangipani-double-rattan-bedhead/p/FRGBHDDBLOOORATNAT",
+      "image_url": "https://api.fantasticfurniture.com.au/medias/Product-Detail-Spartacus-FRGBHDDBLOOORATNAT-LIF-CONTAINER-original-FantasticFurniture-WF",
+      "dimensions_cm": {
+        "w": 137,
+        "d": 3,
+        "h": 150
+      },
+      "materials": [
+        "rattan"
+      ],
+      "style_tags": [
+        "woven",
+        "curved",
+        "coastal"
+      ],
+      "colour": "natural"
+    },
+    {
+      "id": "paradise-living-co-sunrise-rattan-bedhead-single",
+      "role": "alternative",
+      "for": "republic-of-rattan-carmel-bedhead-queen",
+      "category": "bedroom",
+      "retailer": "Paradise Living Co.",
+      "name": "Sunrise Rattan Bedhead (Single)",
+      "price_aud": 199,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://paradiselivingco.com.au/products/sunrise-rattan-bedhead-assorted-size",
+      "image_url": "https://paradiselivingco.com.au/cdn/shop/products/SunriseRattanBedhead_King.jpg?v=1617092469&width=1500",
+      "dimensions_cm": {
+        "w": 92,
+        "h": 126
+      },
+      "materials": [
+        "cane",
+        "rattan"
+      ],
+      "style_tags": [
+        "arched",
+        "woven",
+        "coastal"
+      ],
+      "colour": "natural"
+    },
+    {
+      "id": "koko-collective-charlie-arched-rattan-bedhead-single",
+      "role": "alternative",
+      "for": "republic-of-rattan-carmel-bedhead-queen",
+      "category": "bedroom",
+      "retailer": "Koko Collective",
+      "name": "Charlie Arched Rattan Bedhead (Single)",
+      "price_aud": 440,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://kokocollective.com.au/products/charlie-arched-rattan-bedhead",
+      "dimensions_cm": {
+        "w": 92,
+        "h": 120
+      },
+      "materials": [
+        "rattan"
+      ],
+      "style_tags": [
+        "arched",
+        "woven",
+        "coastal"
+      ],
+      "colour": "natural"
+    },
+    {
+      "id": "tradition-flowerpot-vp9-portable-table-lamp-verner-panton",
+      "role": "original",
+      "category": "lighting",
+      "brand": "&Tradition",
+      "name": "Flowerpot VP9 Portable Table Lamp (Verner Panton)",
+      "price_aud": 349,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://cultdesign.com.au/products/flowerpot-vp9-portable-table-lamp",
+      "image_url": "https://cultdesign.com.au/cdn/shop/files/63dc645b76e8d622688ba199_b19a7ea7-e6ed-4cee-bd39-be66587d278a_1024x1024.jpg",
+      "dimensions_cm": {
+        "w": 16,
+        "h": 29.5
+      },
+      "materials": [
+        "polycarbonate"
+      ],
+      "style_tags": [
+        "dome",
+        "mushroom",
+        "portable",
+        "space-age",
+        "mid-century",
+        "curved"
+      ],
+      "colour": "vermilion red"
+    },
+    {
+      "id": "freedom-cosh-portable-led-table-lamp-stone",
+      "role": "alternative",
+      "for": "tradition-flowerpot-vp9-portable-table-lamp-verner-panton",
+      "category": "lighting",
+      "retailer": "Freedom",
+      "name": "COSH Portable LED Table Lamp (Stone)",
+      "price_aud": 69.95,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.freedom.com.au/product/24683890",
+      "image_url": "https://api-prod.freedom.com.au/medias/800Wx800H-24683890-PD-1-ORIGINAL.jpg?context=bWFzdGVyfGltYWdlc3wxNDI2NTV8aW1hZ2UvanBlZ3xhR0V5TDJoaU1pOHhNVEU1TVRrMk9UYzBNamczT0M4NE1EQlhlRGd3TUVoZk1qUTJPRE00T1RCZlVFUmZNVjlQVWtsSFNVNUJUQzVxY0djfDMwZDlhZDg3NTFlNTdiYmNiZjNiOWYzNWJlOTVlMmJiZjM4YWJkMWM2ZjFiMDQ3MzllOGZhODYwMjAzNTQ3ZGM",
+      "dimensions_cm": {
+        "w": 18,
+        "d": 18,
+        "h": 22.5
+      },
+      "materials": [
+        "plastic"
+      ],
+      "style_tags": [
+        "dome",
+        "mushroom",
+        "portable",
+        "curved"
+      ],
+      "colour": "stone"
+    },
+    {
+      "id": "mocka-dome-gloss-table-lamp",
+      "role": "alternative",
+      "for": "tradition-flowerpot-vp9-portable-table-lamp-verner-panton",
+      "category": "lighting",
+      "retailer": "Mocka",
+      "name": "Dome Gloss Table Lamp",
+      "price_aud": 119.99,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.mocka.com.au/products/dome-gloss-table-lamp",
+      "image_url": "https://www.mocka.com.au/cdn/shop/files/T04682_20_Low_03.jpg",
+      "dimensions_cm": {
+        "w": 30,
+        "h": 43
+      },
+      "materials": [
+        "metal"
+      ],
+      "style_tags": [
+        "dome",
+        "mushroom",
+        "curved",
+        "mid-century"
+      ]
+    },
+    {
+      "id": "beacon-lighting-arne-led-portable-rechargeable-table-lamp-in-natural-travertine-with-opal-glass",
+      "role": "alternative",
+      "for": "tradition-flowerpot-vp9-portable-table-lamp-verner-panton",
+      "category": "lighting",
+      "retailer": "Beacon Lighting",
+      "name": "Arne LED Portable Rechargeable Table Lamp in Natural Travertine with Opal Glass",
+      "price_aud": 129,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.beaconlighting.com.au/arne-led-portable-rechargeable-table-lamp-in-natural-travertine-with-opal-glass",
+      "image_url": "https://www.beaconlighting.com.au/media/catalog/product/2/7/27166010.jpg",
+      "dimensions_cm": {
+        "w": 20,
+        "d": 20,
+        "h": 22.5
+      },
+      "materials": [
+        "travertine",
+        "glass"
+      ],
+      "style_tags": [
+        "dome",
+        "mushroom",
+        "portable",
+        "curved"
+      ],
+      "colour": "beige"
+    },
+    {
+      "id": "herman-miller-nelson-saucer-bubble-pendant-george-nelson",
+      "role": "original",
+      "category": "lighting",
+      "brand": "Herman Miller",
+      "name": "Nelson Saucer Bubble Pendant (George Nelson)",
+      "price_aud": 1145,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://livingedge.com.au/lighting/pendant-lights/herman_miller-nelson_saucer_bubble_pendant/HM-H763.html",
+      "image_url": "https://livingedge.com.au/dw/image/v2/BDDH_PRD/on/demandware.static/-/Sites-livingedge-master/default/dw13d52c49/HM_NBL_Saucer_2_1600x1600.jpg",
+      "dimensions_cm": {
+        "w": 44.5,
+        "h": 17.8
+      },
+      "materials": [
+        "steel",
+        "plastic"
+      ],
+      "style_tags": [
+        "saucer",
+        "bubble",
+        "mid-century",
+        "curved",
+        "translucent",
+        "sculptural"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "ikea-australia-regnskur-sunneby-pendant-lamp-round-white-50-cm",
+      "role": "alternative",
+      "for": "herman-miller-nelson-saucer-bubble-pendant-george-nelson",
+      "category": "lighting",
+      "retailer": "IKEA Australia",
+      "name": "REGNSKUR / SUNNEBY Pendant Lamp, Round White 50 cm",
+      "price_aud": 73.99,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.ikea.com/au/en/p/regnskur-sunneby-pendant-lamp-white-s89392603/",
+      "dimensions_cm": {
+        "w": 50,
+        "h": 46
+      },
+      "materials": [
+        "polyester",
+        "steel"
+      ],
+      "style_tags": [
+        "bubble",
+        "round",
+        "curved",
+        "translucent"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "online-lighting-replica-george-nelson-saucer-shape-bubble-pendant-light-400mm",
+      "role": "alternative",
+      "for": "herman-miller-nelson-saucer-bubble-pendant-george-nelson",
+      "category": "lighting",
+      "retailer": "Online Lighting",
+      "name": "Replica George Nelson Saucer Shape Bubble Pendant Light 400mm",
+      "price_aud": 349,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://onlinelighting.com.au/replica-george-nelson-saucer-shape-bubble-pendant-light-400mm.html",
+      "dimensions_cm": {
+        "w": 40,
+        "h": 22
+      },
+      "materials": [
+        "fabric",
+        "steel"
+      ],
+      "style_tags": [
+        "saucer",
+        "bubble",
+        "mid-century",
+        "curved",
+        "translucent"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "replica-lights-replica-george-nelson-bubble-saucer-pendant-light-small",
+      "role": "alternative",
+      "for": "herman-miller-nelson-saucer-bubble-pendant-george-nelson",
+      "category": "lighting",
+      "retailer": "Replica Lights",
+      "name": "Replica George Nelson Bubble Saucer Pendant Light (Small)",
+      "price_aud": 399,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.replicalights.com.au/george-nelson-bubble-saucer-lamp/",
+      "image_url": "https://www.replicalights.com.au/wp-content/uploads/2014/11/George-Nelson-Bubble-Saucer-400x392.jpg",
+      "dimensions_cm": {
+        "w": 40
+      },
+      "materials": [
+        "polymer",
+        "steel"
+      ],
+      "style_tags": [
+        "saucer",
+        "bubble",
+        "mid-century",
+        "curved",
+        "translucent"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "citilux-replica-george-nelson-bubble-lamp-saucer-premium-pendant-light",
+      "role": "alternative",
+      "for": "herman-miller-nelson-saucer-bubble-pendant-george-nelson",
+      "category": "lighting",
+      "retailer": "Citilux",
+      "name": "Replica George Nelson Bubble Lamp - Saucer Premium Pendant Light",
+      "price_aud": 421.4,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.citilux.com.au/replica-george-nelson-bubble-lamp-saucer-premium-pendant-light-citilux.html",
+      "image_url": "https://www.citilux.com.au/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/r/e/replica-george-nelson-bubble-lamp-saucer-premium-pendant-light-citilux-nu102-1054.jpg",
+      "dimensions_cm": {
+        "w": 66,
+        "h": 30
+      },
+      "materials": [
+        "polymer",
+        "steel"
+      ],
+      "style_tags": [
+        "saucer",
+        "bubble",
+        "mid-century",
+        "curved",
+        "translucent"
+      ],
+      "colour": "white"
+    },
+    {
+      "id": "serge-mouille-editions-serge-mouille-lampadaire-3-bras-three-arm-floor-lamp",
+      "role": "original",
+      "category": "lighting",
+      "brand": "Serge Mouille (Editions Serge Mouille)",
+      "name": "Lampadaire 3 Bras (Three-Arm Floor Lamp)",
+      "price_aud": 21124,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://cultdesign.com.au/collections/serge-mouille/products/lampadaire-3-bras",
+      "image_url": "https://cdn.shopify.com/s/files/1/0261/6809/8904/files/5e32b628323f880b56ab25ca_7e6dda9b-254c-44aa-9eee-57ba7e928923.jpg",
+      "dimensions_cm": {
+        "w": 145,
+        "d": 135,
+        "h": 210
+      },
+      "materials": [
+        "steel",
+        "aluminium",
+        "brass"
+      ],
+      "style_tags": [
+        "spider",
+        "three-arm",
+        "mid-century",
+        "sculptural",
+        "adjustable",
+        "angular"
+      ],
+      "colour": "black"
+    },
+    {
+      "id": "replica-lights-replica-serge-mouille-three-arm-standing-floor-lamp",
+      "role": "alternative",
+      "for": "serge-mouille-editions-serge-mouille-lampadaire-3-bras-three-arm-floor-lamp",
+      "category": "lighting",
+      "retailer": "Replica Lights",
+      "name": "Replica Serge Mouille Three Arm Standing Floor Lamp",
+      "price_aud": 1189,
+      "price_confidence": "checked",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.replicalights.com.au/serge-mouille-3-arm-standing-floor-lamp/",
+      "image_url": "https://www.replicalights.com.au/wp-content/uploads/cm/narxsrf/tdn67vi5/products/286/images/1256/ReplicaSerge3Armfloor__12177.1462425319.1280.1280-400x400.jpg",
+      "dimensions_cm": {
+        "w": 128,
+        "h": 210
+      },
+      "materials": [
+        "aluminium",
+        "brass",
+        "steel"
+      ],
+      "style_tags": [
+        "spider",
+        "three-arm",
+        "mid-century",
+        "adjustable",
+        "angular"
+      ],
+      "colour": "matte black"
+    },
+    {
+      "id": "temple-webster-observatory-lighting-black-serge-mouille-replica-floor-lamp-single-arm-160cm",
+      "role": "alternative",
+      "for": "serge-mouille-editions-serge-mouille-lampadaire-3-bras-three-arm-floor-lamp",
+      "category": "lighting",
+      "retailer": "Temple & Webster",
+      "name": "Observatory Lighting Black Serge Mouille Replica Floor Lamp (single arm, 160cm)",
+      "price_aud": 599,
+      "price_confidence": "estimate",
+      "price_last_checked": "2026-07-23",
+      "url": "https://www.templeandwebster.com.au/Black-Serge-Mouille-Replica-Floor-Lamp-AMF010-ASOL1291.html",
+      "dimensions_cm": {
+        "h": 160
+      },
+      "materials": [
+        "steel"
+      ],
+      "style_tags": [
+        "single-arm",
+        "mid-century",
+        "adjustable",
+        "angular"
+      ],
+      "colour": "black"
     }
   ]
 }
