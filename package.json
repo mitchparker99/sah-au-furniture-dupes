@@ -10,6 +10,7 @@
     "match": "node scripts/match.js",
     "build": "node scripts/build-site.js",
     "add": "node scripts/add-product.js",
+    "import": "node scripts/import-csv.js",
     "photo": "node scripts/photo-match.js",
     "staleness": "node scripts/staleness.js",
     "report": "node scripts/report.js",
@@ -17,13 +18,14 @@
     "test:match": "node scripts/match.js --test",
     "test:build": "node scripts/build-site.js --test",
     "test:add": "node scripts/add-product.js --test",
+    "test:import": "node scripts/import-csv.js --test",
     "test:photo": "node scripts/photo-match.js --test",
     "test:staleness": "node scripts/staleness.js --test",
     "test:report": "node scripts/report.js --test",
     "test:similarity": "node lib/similarity.js --test",
     "test:affiliates": "node lib/affiliates.js --test",
     "test:catalogue": "node lib/catalogue.js --test",
-    "test:all": "npm run test:doctor && npm run test:catalogue && npm run test:similarity && npm run test:affiliates && npm run test:match && npm run test:build && npm run test:add && npm run test:photo && npm run test:staleness && npm run test:report"
+    "test:all": "npm run test:doctor && npm run test:catalogue && npm run test:similarity && npm run test:affiliates && npm run test:match && npm run test:build && npm run test:add && npm run test:import && npm run test:photo && npm run test:staleness && npm run test:report"
   },
   "dependencies": {
     "dotenv": "^16.4.0"

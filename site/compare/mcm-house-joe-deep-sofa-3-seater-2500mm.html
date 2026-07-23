@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MCM House Joe Deep Sofa (3 Seater, 2500mm) lookalikes - Lookalike Living</title>
-  <meta name="description" content="Budget alternatives that resemble the MCM House Joe Deep Sofa (3 Seater, 2500mm), scored on published dimensions, materials and styling.">
+  <title>MCM House Joe Deep Sofa (3 Seater, 2500mm) dupes and lookalikes in Australia - Lookalike Living</title>
+  <meta name="description" content="3 budget alternatives that resemble the MCM House Joe Deep Sofa (3 Seater, 2500mm), scored on published dimensions, materials and styling - save up to 89%.">
   
   <meta property="og:type" content="website">
-  <meta property="og:title" content="MCM House Joe Deep Sofa (3 Seater, 2500mm) lookalikes - Lookalike Living">
-  <meta property="og:description" content="Budget alternatives that resemble the MCM House Joe Deep Sofa (3 Seater, 2500mm), scored on published dimensions, materials and styling.">
+  <meta property="og:title" content="MCM House Joe Deep Sofa (3 Seater, 2500mm) dupes and lookalikes in Australia - Lookalike Living">
+  <meta property="og:description" content="3 budget alternatives that resemble the MCM House Joe Deep Sofa (3 Seater, 2500mm), scored on published dimensions, materials and styling - save up to 89%.">
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -37,6 +37,9 @@
           <div><dt>Colour</dt><dd><span class="tag">off-white</span></dd></div>
         </dl>
       </div>
+    </section>
+    <section class="seo-note reveal">
+      <p>Searching for a MCM House Joe Deep Sofa (3 Seater, 2500mm) &quot;dupe&quot;? We tracked 3 lookalikes sold in Australia by Temple &amp; Webster that echo its slouchy, deep-seat, slipcover lines, from $467 - up to 89% less than the original at $4,395. Every score below measures resemblance of published dimensions, materials and styling only; none of these pieces is made or endorsed by MCM House.</p>
     </section>
     <section class="alts">
       <h2 class="alts-title">3 lookalikes, ranked by resemblance</h2>
@@ -108,6 +111,7 @@
     </article>
     </section>
   </main>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"MCM House Joe Deep Sofa (3 Seater, 2500mm) lookalikes in Australia","numberOfItems":3,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Temple & Webster Softy 3 Seater Premium Slipcover Sofa","brand":"Temple & Webster","url":"https://www.templeandwebster.com.au/Softy-3-Seater-Premium-Slipcover-Sofa-TMPL5094.html?utm_source=lookalikeliving&utm_medium=comparison","offers":{"@type":"Offer","price":"1599","priceCurrency":"AUD"}}},{"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Oakleigh Home Vega 2 Seater Togo Lazy Caterpillar Replica Lounge Sofa","brand":"Temple & Webster","url":"https://www.templeandwebster.com.au/Vega-2-Seater-Togo-Lazy-Caterpillar-Replica-Lounge-Sofa-LEVE3720.html?utm_source=lookalikeliving&utm_medium=comparison","offers":{"@type":"Offer","price":"467","priceCurrency":"AUD"}}},{"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Oakleigh Home Vega 3 Seater Togo Lazy Caterpillar Replica Lounge Sofa","brand":"Temple & Webster","url":"https://www.templeandwebster.com.au/Vega-3-Seater-Togo-Lazy-Caterpillar-Replica-Lounge-Sofa-LEVE3724.html?utm_source=lookalikeliving&utm_medium=comparison","offers":{"@type":"Offer","price":"654","priceCurrency":"AUD"}}}]}</script>
 
   <footer class="footer">
     <div class="wrap">
@@ -118,7 +122,7 @@
       with the original brand. All trademarks belong to their owners. Prices are checked periodically and may
       have changed &mdash; always confirm on the retailer's site. Some outbound links may earn us a commission
       at no cost to you.</p>
-      <p class="footer-links"><a href="../index.html">Home</a> &middot; <a href="../methodology.html">How scoring works</a></p>
+      <p class="footer-links"><a href="../index.html">Home</a> &middot; <a href="../methodology.html">How scoring works</a> &middot; <a href="../privacy.html">Privacy</a> &middot; <a href="../under-500.html">Under $500</a> &middot; <a href="../under-1000.html">Under $1,000</a> &middot; <a href="../under-2000.html">Under $2,000</a></p>
     </div>
   </footer>
 
@@ -133,6 +137,22 @@
     document.querySelectorAll('.ring').forEach(function (r) {
       var v = Number(r.getAttribute('data-score') || 0);
       requestAnimationFrame(function () { r.style.setProperty('--p', v); });
+    });
+    var chips = document.querySelectorAll('.chip');
+    chips.forEach(function (c) {
+      c.addEventListener('click', function () {
+        chips.forEach(function (x) { x.classList.remove('on'); x.setAttribute('aria-pressed', 'false'); });
+        c.classList.add('on');
+        c.setAttribute('aria-pressed', 'true');
+        var cap = Number(c.getAttribute('data-cap') || 0);
+        document.querySelectorAll('.card').forEach(function (card) {
+          var p = Number(card.getAttribute('data-price') || 0);
+          card.classList.toggle('hide', cap > 0 && p > cap);
+        });
+        document.querySelectorAll('.cat-block').forEach(function (b) {
+          b.classList.toggle('hide', !b.querySelectorAll('.card:not(.hide)').length);
+        });
+      });
     });
   })();
   </script>

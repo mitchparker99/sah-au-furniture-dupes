@@ -58,6 +58,7 @@ npm run doctor       # preflight: catalogue valid? env wired? paused?
 npm run match        # score alternatives -> data/matches.json
 npm run build        # generate site/ (runs match implicitly if needed)
 npm run add -- ...   # append a product to the catalogue (see scripts/add-product.js)
+npm run import       # bulk import data/inbox.csv (spreadsheet-friendly, per-row validation)
 npm run photo -- --image <url|path>   # Claude photo search over the catalogue
 npm run staleness    # which prices are older than STALE_DAYS -> staleness.md
 npm run report       # catalogue digest -> report.md

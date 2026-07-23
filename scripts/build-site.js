@@ -49,6 +49,21 @@ if (process.argv.includes('--test')) {
   for (const f of ['style.css', 'robots.txt', 'sitemap.xml', '404.html']) {
     assert.ok(fs.existsSync(path.join(tmp, f)), `${f} generated`);
   }
+  // New pages: privacy (affiliate-network requirement) + budget landing pages
+  // + chip filter bar + delta badges + JSON-LD on compare pages.
+  const privacy = fs.readFileSync(path.join(tmp, 'privacy.html'), 'utf8');
+  assert.ok(privacy.includes('What we collect'), 'privacy page generated');
+  const under1000 = fs.readFileSync(path.join(tmp, 'under-1000.html'), 'utf8');
+  assert.ok(under1000.includes('Dome Table Lamp'), 'budget page lists the $129 fixture lamp');
+  assert.ok(!under1000.includes('Cloudline 3 Seater'), 'budget page excludes over-cap products');
+  assert.ok(fs.existsSync(path.join(tmp, 'under-500.html')) && fs.existsSync(path.join(tmp, 'under-2000.html')), 'all budget caps generated');
+  assert.ok(index.includes('class="chip on" data-cap="0"'), 'index has the filter chipbar');
+  assert.ok(index.includes('data-price='), 'index cards carry data-price for filtering');
+  assert.ok(compare.includes('application/ld+json'), 'compare pages carry JSON-LD');
+  assert.ok(compare.includes('"@type":"ItemList"'), 'JSON-LD is an ItemList');
+  assert.ok(compare.includes('class="delta'), 'compare pages show dimension deltas');
+  assert.ok(index.includes('privacy.html'), 'footer links privacy');
+
   // Non-ASCII data must land as numeric entities (e.g. IKEA's JATTEBO with a
   // diaeresis), and the 404 must be styled + linked at any path depth.
   const { esc } = require('../lib/site-builder');
@@ -58,7 +73,7 @@ if (process.argv.includes('--test')) {
   assert.ok(notFound.includes('href="https://example.org/index.html"'), '404 links home absolutely when SITE_URL set');
   assert.ok(!/[^\x00-\x7F]/.test(notFound), '404 is ASCII-only');
   // House rules: no emoji, ASCII-only source.
-  for (const page of [index, compare, method]) {
+  for (const page of [index, compare, method, privacy, under1000]) {
     assert.ok(!/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/u.test(page), 'no emoji in generated pages');
     assert.ok(!/[^\x00-\x7F]/.test(page), 'generated pages are ASCII-only');
   }

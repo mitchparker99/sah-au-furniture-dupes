@@ -100,6 +100,18 @@ dd { font-size: 14px; }
 .footer-links a { color: var(--dim); border-bottom: 1px solid var(--line); }
 .footer-links a:hover { color: var(--accent); }
 
+.delta { font-family: var(--mono); font-size: 10px; color: var(--dim); letter-spacing: .04em; border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; margin-left: 2px; }
+.delta.zero { color: var(--accent); border-color: var(--accent-dim); }
+.seo-note { border-left: 2px solid var(--accent-dim); padding: 4px 0 4px 18px; margin-bottom: 36px; }
+.seo-note p { font-size: 13px; color: var(--dim); max-width: 760px; line-height: 1.7; }
+
+.chipbar { display: flex; align-items: center; gap: 10px; padding: 26px 24px 0; flex-wrap: wrap; }
+.chipbar-label { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--dim); }
+.chip { background: none; cursor: pointer; font: inherit; font-size: 13px; color: var(--dim); border: 1px solid var(--line); padding: 6px 14px; border-radius: 999px; transition: border-color .2s, color .2s; }
+.chip:hover { border-color: var(--accent); color: var(--accent); }
+.chip.on { border-color: var(--accent); color: var(--accent); }
+.hide { display: none !important; }
+
 .reveal { opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
 .reveal.in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } .scanline { animation: none; } }

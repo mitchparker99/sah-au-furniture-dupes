@@ -16,7 +16,7 @@ Status: v1 engine + site shipped 2026-07-20. Items ordered inside each phase.
 - [x] 9. Staleness report + catalogue digest
 - [x] 10. Nightly CI: doctor -> tests -> match -> build -> deploy (GitHub Pages) + kill-switch
 - [x] 11. Seed catalogue researched across 6 categories (web-verified where possible)
-- [ ] 12. GitHub repo + Pages live (operator: see SETUP.md)
+- [x] 12. GitHub repo + Pages live (2026-07-21: mitchparker99/sah-au-furniture-dupes, site deployed) (operator: see SETUP.md)
 - [ ] 13. Domain + brand check (working name: Lookalike Living)
 
 ## Phase 2 — Catalogue depth
@@ -24,7 +24,7 @@ Status: v1 engine + site shipped 2026-07-20. Items ordered inside each phase.
 - [ ] 14. 30+ originals across all 6 categories (dupe-culture icons first: Camaleonda, Togo, wishbone, Componibili, Panthella, Eames, Noguchi)
 - [ ] 15. Image URLs recorded for every product (for vision + future UI)
 - [ ] 16. Weekly "new lookalikes" additions cadence (batch add via CSV import script)
-- [ ] 17. CSV bulk import (data/inbox.csv -> catalogue with validation)
+- [x] 17. CSV bulk import (npm run import, data/inbox.csv, per-row validation)
 - [ ] 18. Colour variants as first-class data (one product, many colourways)
 - [ ] 19. Category expansion: outdoor, rugs, office
 - [ ] 20. "Verified dimensions" badge when both retailers publish full W/D/H
@@ -32,13 +32,13 @@ Status: v1 engine + site shipped 2026-07-20. Items ordered inside each phase.
 ## Phase 3 — Product quality
 
 - [ ] 21. Vision scoring pass across the full catalogue (one-off backfill)
-- [ ] 22. Per-attribute delta table on compare pages (dims side-by-side with % delta)
-- [ ] 23. Filters on index (category, budget cap, material, colour family)
+- [x] 22. Per-axis dimension deltas on compare pages (W/D/H vs original, % badges)
+- [x] 23. Budget-cap filter chips on index (category/material filters still open)
 - [ ] 24. Client-side search box (lunr-style prebuilt index, static-friendly)
-- [ ] 25. "Under $X" budget landing pages (SEO: "camaleonda dupe under $1000 australia")
-- [ ] 26. Per-original SEO copy block (generated, human-reviewed)
+- [x] 25. "Under $X" budget landing pages (under-500/1000/2000, in sitemap)
+- [x] 26. Per-original SEO copy block (deterministic, dupe-as-search-term only)
 - [ ] 27. OG images per compare page (generated spec-card PNGs)
-- [ ] 28. JSON-LD Product + ItemList structured data
+- [x] 28. JSON-LD ItemList + Product offers on compare pages
 
 ## Phase 4 — Automation (runs while asleep)
 
@@ -70,3 +70,4 @@ Status: v1 engine + site shipped 2026-07-20. Items ordered inside each phase.
 - [ ] 48. API for publishers ("similar for less" widget embeds)
 - [ ] 49. White-label for interiors publishers
 - [ ] 50. Auto-generated category guides ("The best boucle sofa lookalikes in Australia, ranked by score")
+- [x] 51. Privacy policy page (affiliate network requirement)
