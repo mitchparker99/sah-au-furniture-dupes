@@ -12,7 +12,7 @@ on:
         required: false
         default: ''
         type: choice
-        options: ['', match, build, staleness, report]
+        options: ['', match, build, staleness, report, links]
 
 permissions:
   contents: read
@@ -76,6 +76,11 @@ jobs:
         continue-on-error: true
         run: node scripts/report.js
 
+      - name: Link check (report-only)
+        if: ${{ !github.event.inputs.step || github.event.inputs.step == 'links' }}
+        continue-on-error: true
+        run: node scripts/link-check.js
+
       - name: Upload reports artifact
         if: ${{ always() }}
         continue-on-error: true
@@ -85,6 +90,7 @@ jobs:
           path: |
             report.md
             staleness.md
+            link-check.md
           if-no-files-found: ignore
 
       - name: Upload pages artifact

@@ -116,6 +116,12 @@
       <div class="card-match"><span class="match-score">68/100</span>
       <span class="match-detail">echoes the GlobeWest Willow Woven Bedside Table &middot; save 89%</span></div>
     </a>
+<a class="card reveal" style="transition-delay:400ms" href="compare/ellison-studios-sarah-ellison-float-4-seat-sofa-byron-oyster.html">
+      <div class="card-head"><span class="card-brand">Luxo Living</span><span class="card-price">$699</span></div>
+      <h3 class="card-name">Parisa 3 Seater Tufted Boucle Sofa in Cream White</h3>
+      <div class="card-match"><span class="match-score">67/100</span>
+      <span class="match-detail">echoes the Ellison Studios (Sarah Ellison) Float 4 Seat Sofa - Byron Oyster &middot; save 90%</span></div>
+    </a>
 <a class="card reveal" style="transition-delay:400ms" href="compare/ellison-studios-sarah-ellison-lull-queen-bed-malibu-piccolo.html">
       <div class="card-head"><span class="card-brand">Temple &amp; Webster</span><span class="card-price">$749</span></div>
       <h3 class="card-name">Paloma Boucle Bed (Queen)</h3>
@@ -188,12 +194,6 @@
       <div class="card-match"><span class="match-score">58/100</span>
       <span class="match-detail">echoes the Sarah Ellison (Ellison Studios) Yoko Capsule Coffee Table - Oak &middot; save 63%</span></div>
     </a>
-<a class="card reveal" style="transition-delay:400ms" href="compare/ellison-studios-sarah-ellison-float-4-seat-sofa-byron-oyster.html">
-      <div class="card-head"><span class="card-brand">Luxo Living</span><span class="card-price">$699</span></div>
-      <h3 class="card-name">Parisa 3 Seater Tufted Boucle Sofa in Cream White</h3>
-      <div class="card-match"><span class="match-score">56/100</span>
-      <span class="match-detail">echoes the Ellison Studios (Sarah Ellison) Float 4 Seat Sofa - Byron Oyster &middot; save 90%</span></div>
-    </a>
 <a class="card reveal" style="transition-delay:400ms" href="compare/mcm-house-joe-deep-sofa-3-seater-2500mm.html">
       <div class="card-head"><span class="card-brand">Temple &amp; Webster</span><span class="card-price">$467</span></div>
       <h3 class="card-name">Oakleigh Home Vega 2 Seater Togo Lazy Caterpillar Replica Lounge Sofa</h3>
@@ -235,21 +235,30 @@
       requestAnimationFrame(function () { r.style.setProperty('--p', v); });
     });
     var chips = document.querySelectorAll('.chip');
+    var search = document.getElementById('search');
+    function applyFilters() {
+      var on = document.querySelector('.chip.on');
+      var cap = on ? Number(on.getAttribute('data-cap') || 0) : 0;
+      var q = search ? search.value.trim().toLowerCase() : '';
+      document.querySelectorAll('.card').forEach(function (card) {
+        var p = Number(card.getAttribute('data-price') || 0);
+        var hay = card.getAttribute('data-search') || '';
+        var hide = (cap > 0 && p > cap) || (q && hay.indexOf(q) === -1);
+        card.classList.toggle('hide', hide);
+      });
+      document.querySelectorAll('.cat-block').forEach(function (b) {
+        b.classList.toggle('hide', !b.querySelectorAll('.card:not(.hide)').length);
+      });
+    }
     chips.forEach(function (c) {
       c.addEventListener('click', function () {
         chips.forEach(function (x) { x.classList.remove('on'); x.setAttribute('aria-pressed', 'false'); });
         c.classList.add('on');
         c.setAttribute('aria-pressed', 'true');
-        var cap = Number(c.getAttribute('data-cap') || 0);
-        document.querySelectorAll('.card').forEach(function (card) {
-          var p = Number(card.getAttribute('data-price') || 0);
-          card.classList.toggle('hide', cap > 0 && p > cap);
-        });
-        document.querySelectorAll('.cat-block').forEach(function (b) {
-          b.classList.toggle('hide', !b.querySelectorAll('.card:not(.hide)').length);
-        });
+        applyFilters();
       });
     });
+    if (search) search.addEventListener('input', applyFilters);
   })();
   </script>
 </body>

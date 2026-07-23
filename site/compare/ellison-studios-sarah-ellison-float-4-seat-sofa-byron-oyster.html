@@ -88,9 +88,9 @@
       </div>
     </article>
 <article class="alt-row reveal" style="transition-delay:120ms">
-      <div class="alt-score"><div class="ring" data-score="56" role="img" aria-label="Similarity 56 out of 100">
+      <div class="alt-score"><div class="ring" data-score="67" role="img" aria-label="Similarity 67 out of 100">
     <div class="ring-fill"></div>
-    <div class="ring-core"><span class="ring-num">56</span><span class="ring-unit">/100</span></div>
+    <div class="ring-core"><span class="ring-num">67</span><span class="ring-unit">/100</span></div>
   </div>
   <p class="band-label">Same style family</p></div>
       <div class="alt-body">
@@ -110,9 +110,9 @@
       </div>
     </article>
 <article class="alt-row reveal" style="transition-delay:180ms">
-      <div class="alt-score"><div class="ring" data-score="56" role="img" aria-label="Similarity 56 out of 100">
+      <div class="alt-score"><div class="ring" data-score="67" role="img" aria-label="Similarity 67 out of 100">
     <div class="ring-fill"></div>
-    <div class="ring-core"><span class="ring-num">56</span><span class="ring-unit">/100</span></div>
+    <div class="ring-core"><span class="ring-num">67</span><span class="ring-unit">/100</span></div>
   </div>
   <p class="band-label">Same style family</p></div>
       <div class="alt-body">
@@ -161,21 +161,30 @@
       requestAnimationFrame(function () { r.style.setProperty('--p', v); });
     });
     var chips = document.querySelectorAll('.chip');
+    var search = document.getElementById('search');
+    function applyFilters() {
+      var on = document.querySelector('.chip.on');
+      var cap = on ? Number(on.getAttribute('data-cap') || 0) : 0;
+      var q = search ? search.value.trim().toLowerCase() : '';
+      document.querySelectorAll('.card').forEach(function (card) {
+        var p = Number(card.getAttribute('data-price') || 0);
+        var hay = card.getAttribute('data-search') || '';
+        var hide = (cap > 0 && p > cap) || (q && hay.indexOf(q) === -1);
+        card.classList.toggle('hide', hide);
+      });
+      document.querySelectorAll('.cat-block').forEach(function (b) {
+        b.classList.toggle('hide', !b.querySelectorAll('.card:not(.hide)').length);
+      });
+    }
     chips.forEach(function (c) {
       c.addEventListener('click', function () {
         chips.forEach(function (x) { x.classList.remove('on'); x.setAttribute('aria-pressed', 'false'); });
         c.classList.add('on');
         c.setAttribute('aria-pressed', 'true');
-        var cap = Number(c.getAttribute('data-cap') || 0);
-        document.querySelectorAll('.card').forEach(function (card) {
-          var p = Number(card.getAttribute('data-price') || 0);
-          card.classList.toggle('hide', cap > 0 && p > cap);
-        });
-        document.querySelectorAll('.cat-block').forEach(function (b) {
-          b.classList.toggle('hide', !b.querySelectorAll('.card:not(.hide)').length);
-        });
+        applyFilters();
       });
     });
+    if (search) search.addEventListener('input', applyFilters);
   })();
   </script>
 </body>

@@ -2,7 +2,7 @@
   "name": "sah-au-furniture-dupes",
   "version": "1.0.0",
   "private": true,
-  "description": "SAH Studios AU Furniture Lookalikes — an Australian designer-furniture comparison engine. Curated catalogue of designer originals + budget lookalikes, a spec-based similarity score (optional Claude vision blend), and a generated static comparison site monetised with affiliate links and featured placements.",
+  "description": "SAH Studios AU Furniture Lookalikes \u2014 an Australian designer-furniture comparison engine. Curated catalogue of designer originals + budget lookalikes, a spec-based similarity score (optional Claude vision blend), and a generated static comparison site monetised with affiliate links and featured placements.",
   "scripts": {
     "doctor": "node scripts/doctor.js",
     "pause": "node -e \"require('fs').writeFileSync('PAUSED','paused '+new Date().toISOString()+'\\n')\" && echo \"Kill-switch ENGAGED (PAUSED file created). Run npm run resume to lift.\"",
@@ -25,7 +25,9 @@
     "test:similarity": "node lib/similarity.js --test",
     "test:affiliates": "node lib/affiliates.js --test",
     "test:catalogue": "node lib/catalogue.js --test",
-    "test:all": "npm run test:doctor && npm run test:catalogue && npm run test:similarity && npm run test:affiliates && npm run test:match && npm run test:build && npm run test:add && npm run test:import && npm run test:photo && npm run test:staleness && npm run test:report"
+    "test:all": "npm run test:doctor && npm run test:catalogue && npm run test:similarity && npm run test:affiliates && npm run test:match && npm run test:build && npm run test:add && npm run test:import && npm run test:links && npm run test:photo && npm run test:staleness && npm run test:report",
+    "links": "node scripts/link-check.js",
+    "test:links": "node scripts/link-check.js --test"
   },
   "dependencies": {
     "dotenv": "^16.4.0"
