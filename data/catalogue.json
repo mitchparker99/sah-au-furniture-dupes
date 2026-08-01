@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23",
+  "updated": "2026-08-02",
   "products": [
     {
       "id": "kartell-componibili-3-tier",
@@ -25,7 +25,8 @@
         "sculptural",
         "space-age"
       ],
-      "colour": "white"
+      "colour": "white",
+      "image_url": "https://www.spacefurniture.com.au/cdn/shop/files/componibili-3-round-storage-unit-kartell.jpg?v=1746429808"
     },
     {
       "id": "louis-poulsen-panthella-250-portable-lamp",
@@ -52,7 +53,8 @@
         "sculptural",
         "portable"
       ],
-      "colour": "opal white"
+      "colour": "opal white",
+      "image_url": "https://cultdesign.com.au/cdn/shop/files/33ZbMUUt-panthella-250-portable-lamp-opal-original-red-chrome-off_1200x1200.jpg?v=1783920326"
     },
     {
       "id": "ikea-australia-tokabo-table-lamp-glass-opal-white",
@@ -130,7 +132,8 @@
         "curved",
         "sculptural",
         "minimalist"
-      ]
+      ],
+      "image_url": "https://img.zcdn.com.au/lf/48/hash/38080/20539238/4/33cm%2BHalle%2BTable%2BLamp.jpg"
     },
     {
       "id": "flos-arco-floor-lamp",
@@ -185,7 +188,8 @@
         "curved",
         "minimalist",
         "mid-century"
-      ]
+      ],
+      "image_url": "https://img.zcdn.com.au/lf/48/hash/38080/20831981/4/203cm%2BLorah%2BArc%2BFloor%2BLamp.jpg"
     },
     {
       "id": "vitra-isamu-noguchi-akari-10a-floor-lamp",
@@ -416,7 +420,8 @@
         "slouchy",
         "organic",
         "armless"
-      ]
+      ],
+      "image_url": "https://img.zcdn.com.au/lf/48/hash/38295/20441653/4/2%2BSeater%2BVega%2BBean%2BBag%2BChair.jpg"
     },
     {
       "id": "temple-webster-oakleigh-home-vega-3-seater-togo-lazy-caterpillar-replica-lounge-sofa",
@@ -439,7 +444,8 @@
         "slouchy",
         "organic",
         "armless"
-      ]
+      ],
+      "image_url": "https://img.zcdn.com.au/lf/48/hash/38295/20954441/4/Vega%2B3%2BSeater%2BTogo%2BLazy%2BCaterpillar%2BReplica%2BLounge%2BSofa.jpg"
     },
     {
       "id": "mcm-house-joe-deep-sofa-3-seater-2500mm",
@@ -492,7 +498,8 @@
         "slouchy",
         "deep-seat",
         "relaxed"
-      ]
+      ],
+      "image_url": "https://img.zcdn.com.au/lf/48/hash/38080/20275681/4/Softy-3-Seater-Premium-Slipcover-Sofa.jpg"
     },
     {
       "id": "carl-hansen-son-via-cult-design-au-ch24-wishbone-chair",
@@ -550,7 +557,8 @@
         "mid-century",
         "organic"
       ],
-      "colour": "natural"
+      "colour": "natural",
+      "image_url": "https://img.zcdn.com.au/lf/48/hash/38080/20288917/4/Hans-Wegner-Wishbone-Replica-Solid-Beech-Wood-Dining-Chairs.jpg"
     },
     {
       "id": "life-interiors-noris-paper-cord-dining-chair-natural-ash",
@@ -756,7 +764,8 @@
         "panelled",
         "japandi"
       ],
-      "colour": "oak"
+      "colour": "oak",
+      "image_url": "https://lifeinteriors.com.au/cdn/shop/files/DT-SQH-NOIR-OVA-BLAC-220_1_600x.jpg?v=1755602438"
     },
     {
       "id": "interior-secrets-valdis-24m-dining-table-natural-oak",
@@ -933,7 +942,8 @@
         "hugging",
         "low-profile"
       ],
-      "colour": "ivory"
+      "colour": "ivory",
+      "image_url": "https://img.zcdn.com.au/lf/48/hash/38080/20506030/4/Gala%2BBoucle%2BArmchair.jpg"
     },
     {
       "id": "herman-miller-eames-lounge-chair-ottoman",
@@ -992,7 +1002,8 @@
         "swivel",
         "low-profile"
       ],
-      "colour": "black"
+      "colour": "black",
+      "image_url": "https://assets.kogan.com/files/product/2026/MBREPEAMBLD/MBREPEAMBLD_1.png"
     },
     {
       "id": "matt-blatt-shangri-la-eames-replica-lounge-chair-and-ottoman-blackwalnut",
@@ -1017,7 +1028,8 @@
         "tufted",
         "low-profile"
       ],
-      "colour": "black"
+      "colour": "black",
+      "image_url": "https://assets.kogan.com/files/product/2026/SLREPEAMBLA/SLREPEAMBLA_1_V3.png"
     },
     {
       "id": "gubi-beetle-dining-chair-front-upholstered-conic-base-via-cult-design",
@@ -1195,7 +1207,8 @@
         "upholstered",
         "low-profile"
       ],
-      "colour": "beige"
+      "colour": "beige",
+      "image_url": "https://img.zcdn.com.au/lf/48/hash/38080/21131244/4/Paloma%2BBoucle%2BBed.jpg"
     },
     {
       "id": "globewest-willow-woven-bedside-table",
@@ -1359,7 +1372,8 @@
         "coastal",
         "scandi"
       ],
-      "colour": "natural"
+      "colour": "natural",
+      "image_url": "https://www.mocka.com.au/cdn/shop/files/T03956_Square_Lores_01_f16a7c69-33f1-4f78-a328-1b118d706fef.jpg?v=1764594516"
     },
     {
       "id": "vitra-at-living-edge-noguchi-coffee-table",
@@ -1563,7 +1577,8 @@
         "round",
         "chunky"
       ],
-      "colour": "natural"
+      "colour": "natural",
+      "image_url": "https://api-prod.freedom.com.au/medias/800Wx800H-24747561-PD-1-ORIGINAL.webp?context=bWFzdGVyfGltYWdlc3w3NzcyfGltYWdlL3dlYnB8YUdFNEwyZzBZaTh4TWpBek16SXdPVEkzTURNd01pODRNREJYZURnd01FaGZNalEzTkRjMU5qRmZVRVJmTVY5UFVrbEhTVTVCVEM1M1pXSnd8ZTAzMDVjMGU3ZTM3N2E2NGZiMDRjNmQ5MmM0NjkyYjAwYjk2ZDljYzVjMTQzZDkwYjIzNDRhM2QzMWIxZGEwZQ"
     },
     {
       "id": "west-elm-au-travertine-side-table-53-cm",
@@ -1590,7 +1605,8 @@
         "organic",
         "modern"
       ],
-      "colour": "natural"
+      "colour": "natural",
+      "image_url": "https://www.westelm.com.au/site/WE/Product%20Images/travertine-side-table-h12106-202331-0086-travertine-side-table-21-2-z.jpg?resizeid=53&resizeh=450&resizew=450"
     },
     {
       "id": "sarah-ellison-ellison-studios-yoko-capsule-coffee-table-oak",
@@ -1740,27 +1756,6 @@
       "colour": "polished nickel"
     },
     {
-      "id": "temple-webster-trevi-wire-coffee-table",
-      "role": "alternative",
-      "for": "knoll-platner-coffee-table",
-      "category": "coffee-tables",
-      "retailer": "Temple & Webster",
-      "name": "Trevi Wire Coffee Table",
-      "price_aud": 99.99,
-      "price_confidence": "estimate",
-      "price_last_checked": "2026-07-23",
-      "url": "https://www.templeandwebster.com.au/Trevi-Wire-Coffee-Table-GEPAWCBK-TMPL1003.html",
-      "materials": [
-        "steel"
-      ],
-      "style_tags": [
-        "wire",
-        "cage",
-        "round",
-        "sculptural"
-      ]
-    },
-    {
       "id": "ikea-au-kvistbro-storage-table-white-44-cm",
       "role": "alternative",
       "for": "knoll-platner-coffee-table",
@@ -1865,7 +1860,8 @@
         "round",
         "mid-century"
       ],
-      "colour": "white"
+      "colour": "white",
+      "image_url": "https://assets.kogan.com/files/product/2020/MBESSTSTMBA/MBESSTSTMBA_1.jpg?auto=webp&bg-color=fff&canvas=260%2C260&fit=bounds&height=260&quality=90&width=260"
     },
     {
       "id": "gubi-pacha-lounge-chair-pierre-paulin",
@@ -2074,7 +2070,8 @@
         "modernist",
         "bauhaus"
       ],
-      "colour": "black"
+      "colour": "black",
+      "image_url": "https://assets.kogan.com/images/skybluefurniture/SBF-JMC-1085-Black/1-c9df5aa122-jmc-1085-black.jpg?auto=webp&bg-color=fff&canvas=260%2C260&fit=bounds&height=260&quality=90&width=260"
     },
     {
       "id": "matt-blatt-white-barcelona-chair-classic-version-replica",
@@ -2102,7 +2099,8 @@
         "modernist",
         "bauhaus"
       ],
-      "colour": "white"
+      "colour": "white",
+      "image_url": "https://assets.kogan.com/images/skybluefurniture/SBF-JMC-1085-White/1-9d667fbfa4-barcelona-white-1-785x1000.jpg?auto=webp&bg-color=fff&canvas=260%2C260&fit=bounds&height=260&quality=90&width=260"
     },
     {
       "id": "kartell-louis-ghost-chair-by-philippe-starck",
@@ -2128,7 +2126,8 @@
         "curved",
         "sculptural"
       ],
-      "colour": "clear"
+      "colour": "clear",
+      "image_url": "https://www.spacefurniture.com.au/cdn/shop/products/louis-ghost-chair-kartell.jpg?v=1746429654"
     },
     {
       "id": "replica-furniture-replica-louis-ghost-chair-transparent-polycarbonate",
@@ -2154,7 +2153,8 @@
         "baroque",
         "curved"
       ],
-      "colour": "clear"
+      "colour": "clear",
+      "image_url": "https://www.replicafurniture.com.au/media/catalog/product/cache/7800bb778a954cb4c97ef3c76a1a4610/r/e/replica-louis-ghost-chair-transparent-polycarbonate-angled.jpg"
     },
     {
       "id": "replica-furniture-replica-victoria-ghost-chair",
@@ -2180,7 +2180,8 @@
         "baroque",
         "curved"
       ],
-      "colour": "clear"
+      "colour": "clear",
+      "image_url": "https://www.replicafurniture.com.au/media/catalog/product/cache/7800bb778a954cb4c97ef3c76a1a4610/r/e/replica-victoria-ghost-chair-clear-polycarbonate-angled.jpg"
     },
     {
       "id": "thonet-s-32-v-cantilever-chair-cesca-by-marcel-breuer",
@@ -2349,7 +2350,8 @@
         "sculptural",
         "mid-century"
       ],
-      "colour": "white"
+      "colour": "white",
+      "image_url": "https://www.replicafurniture.com.au/media/catalog/product/cache/7800bb778a954cb4c97ef3c76a1a4610/r/e/replica_marble_tulip_table_120cm.jpg"
     },
     {
       "id": "replica-furniture-tulip-table-replica-eero-saarinen-90cm-tulip-dining-table",
@@ -2376,7 +2378,8 @@
         "sculptural",
         "mid-century"
       ],
-      "colour": "white"
+      "colour": "white",
+      "image_url": "https://www.replicafurniture.com.au/media/catalog/product/cache/7800bb778a954cb4c97ef3c76a1a4610/r/e/replica_tulip_dining_table_90_cm.jpg"
     },
     {
       "id": "poltronova-ultrafragola-mirror-by-ettore-sottsass-pink-neon",
@@ -2437,7 +2440,8 @@
         "illuminated",
         "full-length"
       ],
-      "colour": "white"
+      "colour": "white",
+      "image_url": "https://www.luxoliving.com.au/cdn/shop/files/LMDAVOR-WHT_photo1.jpg?v=1772086486"
     },
     {
       "id": "fantastic-furniture-milos-160cm-white-wavy-mirror",
@@ -2485,7 +2489,8 @@
       "style_tags": [
         "wavy",
         "full-length"
-      ]
+      ],
+      "image_url": "https://img.zcdn.com.au/lf/48/hash/38080/20558201/4/Milos-Wavy-Full-Length-Mirror.jpg"
     },
     {
       "id": "republic-of-rattan-carmel-bedhead-queen",
@@ -2512,7 +2517,8 @@
         "sculptural",
         "coastal"
       ],
-      "colour": "natural"
+      "colour": "natural",
+      "image_url": "https://republicofrattan.com.au/cdn/shop/products/alida-bedhead-single-04_27920679-e66f-4ea5-8507-c6a9c7628c9d.jpg?v=1619685579"
     },
     {
       "id": "fantastic-furniture-frangipani-double-rattan-bedhead",
@@ -2591,7 +2597,8 @@
         "woven",
         "coastal"
       ],
-      "colour": "natural"
+      "colour": "natural",
+      "image_url": "https://kokocollective.com.au/cdn/shop/files/KokoCollectiveCharlieBedhead.jpg?v=1697066621"
     },
     {
       "id": "tradition-flowerpot-vp9-portable-table-lamp-verner-panton",
@@ -2758,7 +2765,8 @@
         "curved",
         "translucent"
       ],
-      "colour": "white"
+      "colour": "white",
+      "image_url": "https://www.ikea.com/au/en/images/products/regnskur-sunneby-pendant-lamp-white__0928627_pe789930_s5.jpg"
     },
     {
       "id": "online-lighting-replica-george-nelson-saucer-shape-bubble-pendant-light-400mm",
@@ -2786,7 +2794,8 @@
         "curved",
         "translucent"
       ],
-      "colour": "white"
+      "colour": "white",
+      "image_url": "https://onlinelighting.com.au/images/detailed/201/Cloud-UFO.jpg"
     },
     {
       "id": "replica-lights-replica-george-nelson-bubble-saucer-pendant-light-small",
@@ -2929,7 +2938,8 @@
         "adjustable",
         "angular"
       ],
-      "colour": "black"
+      "colour": "black",
+      "image_url": "https://img.zcdn.com.au/lf/48/hash/30652/19051609/4/Serge%2BMouille%2BStanding%2BFloor%2BLamp%2BReplica.jpg"
     },
     {
       "id": "bb-italia-camaleonda-sofa-mario-bellini",
@@ -2959,7 +2969,8 @@
         "retro",
         "sculptural"
       ],
-      "colour": "chalk white"
+      "colour": "chalk white",
+      "image_url": "https://www.spacefurniture.com.au/cdn/shop/files/Camaleonda_chalk-white-pouf_Gesso206_1792x1174px.jpg?v=1781576535"
     },
     {
       "id": "luxo-living-keila-2-seater-modular-tufted-boucle-sofa-set-in-cream-white",
@@ -2989,7 +3000,8 @@
         "low-profile",
         "rounded"
       ],
-      "colour": "cream white"
+      "colour": "cream white",
+      "image_url": "https://www.luxoliving.com.au/cdn/shop/files/LZKEILA-TWO-CWT_1__40764.jpg?v=1750732802"
     },
     {
       "id": "temple-webster-ever-dreaming-living-leia-35-seater-boucle-modular-sofa",
@@ -3010,7 +3022,8 @@
         "tufted",
         "low-profile",
         "curved"
-      ]
+      ],
+      "image_url": "https://img.zcdn.com.au/lf/48/hash/38841/20323155/4/Leia-3.5-Seater-Boucle-Modular-Sofa.jpg"
     },
     {
       "id": "luxo-living-kazumi-4-seater-boucle-modular-sofa-set-in-cream-white",
@@ -3039,7 +3052,8 @@
         "rounded",
         "armless"
       ],
-      "colour": "cream white"
+      "colour": "cream white",
+      "image_url": "https://www.luxoliving.com.au/cdn/shop/files/LZKAZUMI-4-CRM_1__95213.jpg?v=1740922423"
     },
     {
       "id": "king-living-jasper-modular-sofa-package-13",
@@ -3068,7 +3082,8 @@
         "boxy",
         "wide-arm",
         "contemporary"
-      ]
+      ],
+      "image_url": "https://www.kingliving.com.au/pub/media/catalog/product/cache/63b6ef4eb0866d42d60b2a1a9141caf6/j/a/jasper_package_13_1.jpg"
     },
     {
       "id": "castlery-au-adams-l-shape-sectional-sofa",
@@ -3097,7 +3112,8 @@
         "boxy",
         "wide-arm"
       ],
-      "colour": "dove grey"
+      "colour": "dove grey",
+      "image_url": "https://res.cloudinary.com/castlery/image/private/c_fit,f_auto,q_auto,w_1000/v1624962923/crusader/variants/T50440441-SR4004-GD/Adams-L-Chaise-Sectional-Sofa-Dove-Grey-Angle-gold.png"
     },
     {
       "id": "lounge-lovers-long-beach-3-seat-sofa",
@@ -3128,7 +3144,8 @@
         "deep-seat",
         "contemporary"
       ],
-      "colour": "ivory"
+      "colour": "ivory",
+      "image_url": "https://www.loungelovers.com.au/media/catalog/product/s/o/so3slonglgr00_1_2.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=900&width=1600&canvas=1600:900"
     },
     {
       "id": "freedom-aspect-fabric-modular-sofa-6-seater-ottoman",
@@ -3159,7 +3176,8 @@
         "deep-seat",
         "boxy"
       ],
-      "colour": "grey"
+      "colour": "grey",
+      "image_url": "https://api-prod.freedom.com.au/medias/800Wx800H-24130974-PD-1-ORIGINAL.webp?context=bWFzdGVyfGltYWdlc3wxMjM4MHxpbWFnZS93ZWJwfGFHSXpMMmcyTnk4eE1UZ3lNVEUwTXpZNE56RTVPQzg0TURCWGVEZ3dNRWhmTWpReE16QTVOelJmVUVSZk1WOVBVa2xIU1U1QlRDNTNaV0p3fGZkZGNmYjNjYWZlMjQ4NTY1NGZhNzU3ZmJiOTIxMGFhMDY0N2JhOGVlMDJiNTYyMjk1MzM1OGM5NDYxZDViODE"
     },
     {
       "id": "jardan-valley-sofa-25-seater-va196",
@@ -3188,7 +3206,8 @@
         "rounded",
         "sculptural",
         "contemporary"
-      ]
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0267/2374/5838/files/VA196_HERO_770cadfc-b9b5-43ac-b8c1-10956786af31.png?v=1776088461"
     },
     {
       "id": "temple-webster-gala-3-seater-boucle-sofa",
@@ -3216,7 +3235,8 @@
         "curved",
         "rounded",
         "low-profile"
-      ]
+      ],
+      "image_url": "https://img.zcdn.com.au/lf/48/hash/38080/20902380/4/Gala%2B3%2BSeater%2BBoucle%2BSofa.jpg"
     },
     {
       "id": "big-w-black-barcelona-chair-classic-version-replica",
@@ -3239,7 +3259,8 @@
         "low-profile",
         "mid-century"
       ],
-      "colour": "black"
+      "colour": "black",
+      "image_url": "https://www.bigw.com.au/medias/sys_master/images/images/h30/h0f/115542738599966.jpg"
     },
     {
       "id": "big-w-white-barcelona-chair-classic-version-replica",
@@ -3262,7 +3283,8 @@
         "low-profile",
         "mid-century"
       ],
-      "colour": "white"
+      "colour": "white",
+      "image_url": "https://www.bigw.com.au/medias/sys_master/images/images/h16/h2a/103908372086814.jpg"
     },
     {
       "id": "big-w-sk-designer-living-replica-philippe-starck-louis-ghost-arm-chair-clear",
@@ -3289,7 +3311,8 @@
         "curved",
         "stackable"
       ],
-      "colour": "clear"
+      "colour": "clear",
+      "image_url": "https://www.bigw.com.au/medias/sys_master/images/images/h22/hf6/150517313273886.jpg"
     },
     {
       "id": "big-w-sk-designer-living-pack-of-4-replica-philippe-starck-louis-ghost-arm-chair-clear",
@@ -3316,7 +3339,8 @@
         "curved",
         "stackable"
       ],
-      "colour": "clear"
+      "colour": "clear",
+      "image_url": "https://www.bigw.com.au/medias/sys_master/images/images/h08/hba/150519102963742.jpg"
     },
     {
       "id": "big-w-sk-designer-living-replica-philippe-starck-louis-ghost-victoria-chair-clear",
@@ -3344,7 +3368,8 @@
         "stackable",
         "armless"
       ],
-      "colour": "clear"
+      "colour": "clear",
+      "image_url": "https://www.bigw.com.au/medias/sys_master/images/images/he7/h08/150517738733598.jpg"
     },
     {
       "id": "freedom-beilen-set-of-2-dining-chair-kulta-home-rattan-cantilever-cesca-reproduction",
@@ -3373,7 +3398,8 @@
         "mid-century",
         "curved"
       ],
-      "colour": "natural and black"
+      "colour": "natural and black",
+      "image_url": "https://api-prod.freedom.com.au/medias/800Wx800H-null?context=bWFzdGVyfHJvb3R8MzYzNzQ4fGltYWdlL2pwZWd8YURaa0wyZ3dOeTh4TVRFNU9EZ3pPREUwTlRBMU5DODRNREJYZURnd01FaGZiblZzYkF8OTc4ZWYzNmNiNTQyMjcyNWE5YjI2MWJlZThiZmEwYTdkMmE1Njk4OWYxYjVlOWRiOTBmMDQ4YTgwNWMyMWNlZA"
     },
     {
       "id": "freedom-futtsu-set-of-2-dining-chair-green-rattan-back-cantilever",
@@ -3403,7 +3429,8 @@
         "curved",
         "mid-century"
       ],
-      "colour": "green"
+      "colour": "green",
+      "image_url": "https://api-prod.freedom.com.au/medias/800Wx800H-null?context=bWFzdGVyfHJvb3R8NzUzNDUyfGltYWdlL2pwZWd8YUdWbEwyaGtNeTh4TWpjMU9EWXpNamM1TWpBNU5DODRNREJYZURnd01FaGZiblZzYkF8ODg4MGZjNmY2MjZlNzk5N2IzNzkyODAzMWQ4YjgwNzliNzY1YzFkZjAxYTdmNjJjZmRjNWY1MzExNTUzZTAzMw"
     },
     {
       "id": "temple-webster-palm-cove-living-curved-cuba-rattan-bedhead",
@@ -3426,7 +3453,8 @@
         "boho",
         "curved"
       ],
-      "colour": "natural"
+      "colour": "natural",
+      "image_url": "https://img.zcdn.com.au/lf/48/hash/38231/19056220/4/Curved%2BCuba%2BRattan%2BBedhead.jpg"
     },
     {
       "id": "big-w-156cm-artiss-bed-head-headboard-queen-rattan-ribo-pine",
@@ -3453,7 +3481,8 @@
         "coastal",
         "boho"
       ],
-      "colour": "natural pine"
+      "colour": "natural pine",
+      "image_url": "https://www.bigw.com.au/medias/sys_master/images/images/hf8/hf3/118654052663326.jpg"
     }
   ]
 }

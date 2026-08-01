@@ -22,7 +22,7 @@ Status: v1 engine + site shipped 2026-07-20. Items ordered inside each phase.
 ## Phase 2 — Catalogue depth
 
 - [x] 14. 30+ originals across all 6 categories (34 as of 2026-07-23; Camaleonda, Togo, Wishbone, Componibili, Panthella, Eames, Noguchi, Barcelona, Louis Ghost, Cesca, Saarinen, Ultrafragola all in)
-- [ ] 15. Image URLs recorded for every product (for vision + future UI)
+- [x] 15. Image URLs recorded (120/122 via backfill fleet 2026-08-02; 2 Kmart pages bot-walled - grab those two by hand)
 - [ ] 16. Weekly "new lookalikes" additions cadence (batch add via CSV import script)
 - [x] 17. CSV bulk import (npm run import, data/inbox.csv, per-row validation)
 - [ ] 18. Colour variants as first-class data (one product, many colourways)
