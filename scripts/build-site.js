@@ -64,6 +64,15 @@ if (process.argv.includes('--test')) {
   assert.ok(compare.includes('class="delta'), 'compare pages show dimension deltas');
   assert.ok(index.includes('privacy.html'), 'footer links privacy');
 
+  // Product photos: hotlinked (never rehosted) from the fixture's image_url,
+  // with a graceful fallback for products that don't have one yet.
+  assert.ok(compare.includes('class="thumb thumb-hero"') && compare.includes('src="https://example.com/images/original-sofa.jpg"'), 'original photo hotlinked on compare page');
+  assert.ok(compare.includes('src="https://example.com/images/alt-sofa.jpg"'), 'alternative photo hotlinked on compare page');
+  assert.ok(compare.includes('referrerpolicy="no-referrer"') && compare.includes('loading="lazy"'), 'photos are lazy-loaded and referrer-stripped');
+  const lampCompare = fs.readFileSync(path.join(tmp, 'compare', 'studio-one-halo-lamp.html'), 'utf8');
+  assert.ok(lampCompare.includes('thumb-hero thumb-empty'), 'missing original image falls back to a placeholder, not a broken <img>');
+  assert.ok(index.includes('class="thumb thumb-card"'), 'index cards carry a photo');
+
   // Non-ASCII data must land as numeric entities (e.g. IKEA's JATTEBO with a
   // diaeresis), and the 404 must be styled + linked at any path depth.
   const { esc } = require('../lib/site-builder');

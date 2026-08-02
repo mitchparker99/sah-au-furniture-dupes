@@ -2,7 +2,7 @@
   "name": "sah-au-furniture-dupes",
   "version": "1.0.0",
   "private": true,
-  "description": "SAH Studios AU Furniture Lookalikes \u2014 an Australian designer-furniture comparison engine. Curated catalogue of designer originals + budget lookalikes, a spec-based similarity score (optional Claude vision blend), and a generated static comparison site monetised with affiliate links and featured placements.",
+  "description": "SAH Studios AU Furniture Lookalikes — an Australian designer-furniture comparison engine. Curated catalogue of designer originals + budget lookalikes, a spec-based similarity score (optional Claude vision blend), and a generated static comparison site monetised with affiliate links and featured placements.",
   "scripts": {
     "doctor": "node scripts/doctor.js",
     "pause": "node -e \"require('fs').writeFileSync('PAUSED','paused '+new Date().toISOString()+'\\n')\" && echo \"Kill-switch ENGAGED (PAUSED file created). Run npm run resume to lift.\"",
@@ -30,6 +30,7 @@
     "test:links": "node scripts/link-check.js --test"
   },
   "dependencies": {
+    "@vercel/og": "^0.11.1",
     "dotenv": "^16.4.0"
   },
   "engines": {

@@ -28,6 +28,7 @@ Status: v1 engine + site shipped 2026-07-20. Items ordered inside each phase.
 - [ ] 18. Colour variants as first-class data (one product, many colourways)
 - [ ] 19. Category expansion: outdoor, rugs, office
 - [ ] 20. "Verified dimensions" badge when both retailers publish full W/D/H
+- [x] 52. Real product photos on index + compare pages (hotlinked from retailer, graceful placeholder fallback) - closes the "why is this all text" gap
 
 ## Phase 3 — Product quality
 

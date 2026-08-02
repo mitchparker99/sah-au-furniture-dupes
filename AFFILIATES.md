@@ -34,6 +34,32 @@ Covers: Castlery AU, West Elm. Same story as above; apply to those two
 brand programs after the marketplace account is approved. ID goes into
 `AFFILIATE_IMPACT_ID`.
 
+## Image sourcing (why product photos are safe to show)
+
+Every compare/index page now shows a real product photo per item. These are
+**hotlinked from the retailer's own hosted URL** (`<img src="their-cdn-url">`)
+— never downloaded, stored, or re-hosted by us, and never run through any
+kind of filter/AI restyling. That distinction matters legally: hotlinking is
+the standard, low-risk pattern every price-comparison site uses (Google
+Shopping, PriceRunner, etc.) because we're not copying their file onto our
+infrastructure, just referencing it — same as a browser bookmark. Restyling
+a retailer's photo would NOT reduce copyright exposure (a filtered image is
+still a derivative of their copyrighted photo) and would look worse, not
+better, if it ever became a dispute — don't go down that path.
+
+The properly-licensed, zero-risk version of this is exactly what's already
+in progress above: once Commission Factory / Impact approve us, their
+datafeeds explicitly license using retailer product images for approved
+affiliate promotion. That's the real long-term fix, not a filter.
+
+If a specific retailer ever formally objects to hotlinking (rare, but
+possible), the fix is one line: drop that product's `image_url` from
+`data/catalogue.json` and the site falls back to the placeholder box
+automatically — nothing else breaks.
+
+(Not legal advice — worth a quick real lawyer read once revenue starts
+flowing, same as every other "not X advice" disclaimer in this fleet.)
+
 ## Notes
 
 - Kmart, IKEA and Matt Blatt have no mainstream AU affiliate program right
