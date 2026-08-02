@@ -8,11 +8,11 @@ import { loadCatalogue, buildOriginalCard, buildSiteWideCard, loadFonts, IMAGE_R
 
 export const config = { runtime: 'edge' };
 
-export default function handler(request) {
+export default async function handler(request) {
   const { searchParams } = new URL(request.url);
   const id = searchParams.get('id');
 
-  const catalogue = loadCatalogue();
+  const catalogue = await loadCatalogue();
   const original = id ? catalogue.products.find((p) => p.id === id && p.role === 'original') : null;
   const tree = (original && buildOriginalCard(original, catalogue)) || buildSiteWideCard(catalogue);
 

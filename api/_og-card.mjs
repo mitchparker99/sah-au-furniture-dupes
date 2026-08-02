@@ -13,16 +13,27 @@
 import similarityModule from '../lib/similarity.js';
 const { similarity, savingsPct, MIN_SCORE } = similarityModule;
 
-// Catalogue + fonts as plain imports, not `fetch(new URL('./x', import.meta.url))`.
-// That relative-asset-fetch pattern is a Next.js build-time convenience, not
-// a bare-Vercel-Edge-Function guarantee - it 500'd with "Invalid URL string"
-// on the very first real deploy of this project (no framework, so nothing
-// rewrote it). A plain import is bundled deterministically by any bundler.
-// Catalogue data is therefore frozen as of the last deploy (same staleness
-// cadence as the GitHub Pages build - both only refresh on a new build).
-import catalogueData from '../data/catalogue.json' with { type: 'json' };
+// Fonts as plain base64 JS modules (not fetch(new URL('./x', import.meta.url))
+// - that relative-asset-fetch pattern is a Next.js build-time convenience,
+// not a bare-Vercel-Edge-Function guarantee; it 500'd with "Invalid URL
+// string" here, since nothing rewrites it without a framework).
 import fontRegularB64 from './fonts/space-mono-regular.mjs';
 import fontBoldB64 from './fonts/space-mono-bold.mjs';
+
+// Catalogue data: fetched from the repo's own raw GitHub content, not a
+// local import. A static `import catalogue from '../data/catalogue.json'`
+// hits the opposite problem - Node's ESM loader REQUIRES an import
+// attribute (`with { type: 'json' }`) that Vercel's esbuild-based bundler
+// does not parse, and neither side budges. A plain https fetch has no
+// import-syntax ambiguity at all, works identically in Node and the Edge
+// Runtime, and - as a bonus - always reflects the latest push to main
+// rather than freezing catalogue data at each Vercel deploy.
+const CATALOGUE_URL = 'https://raw.githubusercontent.com/mitchparker99/sah-au-furniture-dupes/main/data/catalogue.json';
+
+export async function loadCatalogue() {
+  const res = await fetch(CATALOGUE_URL);
+  return res.json();
+}
 
 const CATEGORY_LABELS = {
   sofas: 'Sofas', armchairs: 'Armchairs', dining: 'Dining',
@@ -54,10 +65,6 @@ function truncate(str, max) {
 
 function money(n) {
   return '$' + Number(n).toLocaleString('en-AU', { maximumFractionDigits: 0 });
-}
-
-export function loadCatalogue() {
-  return catalogueData;
 }
 
 // Mirrors scripts/match.js's core filter (score >= floor, genuinely cheaper)
