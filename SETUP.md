@@ -10,9 +10,33 @@ secrets from day one (`npm install && npm run build`).
    `git remote add origin git@github.com:<you>/sah-au-furniture-dupes.git && git push -u origin main`
 2. Repo Settings -> Pages -> Source: **GitHub Actions**. The nightly workflow
    deploys `site/` on every push to main and every night at 11pm AEST.
-3. Optional repo **variables**: `SITE_NAME`, `SITE_URL`, `UTM_SOURCE`,
-   `STALE_DAYS`, `VISION_ENABLED`, `VISION_MAX_PAIRS`, `CLAUDE_MODEL`.
-   Kill-switch variable: `PAUSED=true`.
+3. Optional repo **variables**: `SITE_NAME`, `SITE_URL`, `OG_IMAGE_BASE_URL`,
+   `UTM_SOURCE`, `STALE_DAYS`, `VISION_ENABLED`, `VISION_MAX_PAIRS`,
+   `CLAUDE_MODEL`. Kill-switch variable: `PAUSED=true`.
+
+## 1a. OG share cards (Vercel — already set up, here for reference)
+
+GitHub Pages can't run serverless functions, so the share-preview image
+generator (`api/og.js`) lives on its own Vercel deployment:
+
+1. `vercel link --yes --project sah-au-furniture-dupes` from the repo root
+   (Vercel CLI must be installed + authenticated — `vercel whoami` to check).
+   It auto-connects the same GitHub repo, so pushes to `main` redeploy it too.
+2. `vercel deploy --prod --yes` to ship. Test with
+   `curl -I https://<project>.vercel.app/api/og` — should be `200 image/png`.
+3. Set the GitHub repo variable `OG_IMAGE_BASE_URL` to that Vercel URL, then
+   re-run the nightly workflow once so the static HTML picks up the
+   `og:image` meta tags (`gh workflow run nightly.yml -R <repo>`).
+
+If you ever touch `api/og.js` or `api/_og-card.mjs`: test locally first with
+`npm run test:og` (renders 3 real PNGs via the actual handler, no Vercel
+needed) before deploying — three real deploy-only failure modes already got
+found and fixed this way (see the git log for `api/`). The short version:
+Vercel's Edge Runtime has no `require` global and no working
+`import.meta.url`-relative asset fetching, and its esbuild bundler rejects
+the `with { type: 'json' }` import-attribute syntax Node's ESM loader
+requires for JSON imports — none of those show up in a local Node test
+unless you specifically guard for them, which `npm run test:og` now does.
 
 ## 2. Domain (when ready)
 

@@ -5,6 +5,16 @@
        for free Pages). Live site:
        https://mitchparker99.github.io/sah-au-furniture-dupes/
        CI deploys nightly at 11pm AEST and on every push.
+- [x] 1b. Real product photos — DONE 2026-08-02. Every compare/index card now
+       shows the actual product photo, hotlinked from the retailer's own page
+       (never downloaded/rehosted — see AFFILIATES.md "Image sourcing" for
+       why that's the safe pattern, and why an AI filter would not help).
+- [x] 1c. OG share cards — DONE 2026-08-02. Link previews (WhatsApp, Slack,
+       Twitter/X, iMessage) now show a branded score card, not a blank/plain
+       preview. Runs on its own Vercel deployment (GitHub Pages can't run
+       serverless functions): https://sah-au-furniture-dupes.vercel.app —
+       linked to the same GitHub repo, redeploys itself on every push to
+       main. Nothing to do here unless it ever needs a custom domain.
 - [x] 2. Indicative prices — verified against live retailer pages by the
        price-verify fleet 2026-07-21 (see data/catalogue.json confidence
        flags). Only ones it could not confirm are listed in staleness.md /

@@ -38,7 +38,7 @@ Status: v1 engine + site shipped 2026-07-20. Items ordered inside each phase.
 - [ ] 24. Client-side search box (lunr-style prebuilt index, static-friendly)
 - [x] 25. "Under $X" budget landing pages (under-500/1000/2000, in sitemap)
 - [x] 26. Per-original SEO copy block (deterministic, dupe-as-search-term only)
-- [ ] 27. OG images per compare page (generated spec-card PNGs)
+- [x] 27. OG images per compare page (Vercel Edge Function, api/og.js - live at sah-au-furniture-dupes.vercel.app)
 - [x] 28. JSON-LD ItemList + Product offers on compare pages
 
 ## Phase 4 — Automation (runs while asleep)
