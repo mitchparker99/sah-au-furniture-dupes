@@ -9,6 +9,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert';
+import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
 
 // Node's fetch() has no file:// support (Vercel's edge bundler rewrites
@@ -37,8 +38,28 @@ async function render(qs) {
   return { res, buf };
 }
 
+// Regression check for a real bug caught on first Vercel deploy: lib/*.js
+// files loaded by api/_og-card.mjs must not throw when merely EVALUATED in
+// an environment with no `require` global (Vercel's Edge Runtime). Node's
+// own module loader always injects `require` for CJS files, so a normal
+// `node script.js --test` run can never reproduce this - it has to be
+// simulated. `module` IS provided (as a real object) so the file's own
+// `module.exports = {...}` still succeeds; only `require` is withheld.
+function assertEdgeSafe(file) {
+  const src = fs.readFileSync(file, 'utf8');
+  const sandbox = { module: { exports: {} }, process: { argv: [], env: {} }, console };
+  sandbox.exports = sandbox.module.exports;
+  vm.createContext(sandbox);
+  try {
+    vm.runInContext(src, sandbox, { filename: file });
+  } catch (err) {
+    throw new Error(`${path.basename(file)} throws when \`require\` is absent (breaks api/og.js's Edge Function import chain): ${err.message}`);
+  }
+}
+
 async function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
+  for (const f of ['similarity.js']) assertEdgeSafe(path.join(__dirname, '..', 'lib', f));
 
   const catalogue = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'catalogue.json'), 'utf8'));
   const sample = catalogue.products.find((p) => p.role === 'original' && p.image_url && matchesFor(p, catalogue).length > 0);
