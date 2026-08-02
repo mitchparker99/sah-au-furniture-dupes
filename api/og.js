@@ -8,17 +8,17 @@ import { loadCatalogue, buildOriginalCard, buildSiteWideCard, loadFonts, IMAGE_R
 
 export const config = { runtime: 'edge' };
 
-export default async function handler(request) {
+export default function handler(request) {
   const { searchParams } = new URL(request.url);
   const id = searchParams.get('id');
 
-  const [catalogue, fonts] = await Promise.all([loadCatalogue(), loadFonts()]);
+  const catalogue = loadCatalogue();
   const original = id ? catalogue.products.find((p) => p.id === id && p.role === 'original') : null;
   const tree = (original && buildOriginalCard(original, catalogue)) || buildSiteWideCard(catalogue);
 
   return new ImageResponse(tree, {
     ...IMAGE_RESPONSE_OPTS,
-    fonts,
+    fonts: loadFonts(),
     headers: { 'cache-control': 'public, immutable, no-transform, max-age=86400' },
   });
 }

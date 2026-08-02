@@ -12,18 +12,6 @@ import assert from 'node:assert';
 import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
 
-// Node's fetch() has no file:// support (Vercel's edge bundler rewrites
-// fetch(new URL('./x', import.meta.url)) into a real asset load at deploy
-// time - that rewriting doesn't happen when we run the file directly under
-// plain Node). Shim file:// only, for local testing; api/*.mjs itself is
-// untouched and stays exactly what ships to Vercel.
-const realFetch = globalThis.fetch;
-globalThis.fetch = async (input, init) => {
-  const url = input instanceof URL ? input.href : (typeof input === 'string' ? input : input.url);
-  if (url.startsWith('file://')) return new Response(fs.readFileSync(fileURLToPath(url)));
-  return realFetch(input, init);
-};
-
 const { default: handler } = await import('../api/og.js');
 const { matchesFor } = await import('../api/_og-card.mjs');
 

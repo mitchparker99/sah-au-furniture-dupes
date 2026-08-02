@@ -13,6 +13,17 @@
 import similarityModule from '../lib/similarity.js';
 const { similarity, savingsPct, MIN_SCORE } = similarityModule;
 
+// Catalogue + fonts as plain imports, not `fetch(new URL('./x', import.meta.url))`.
+// That relative-asset-fetch pattern is a Next.js build-time convenience, not
+// a bare-Vercel-Edge-Function guarantee - it 500'd with "Invalid URL string"
+// on the very first real deploy of this project (no framework, so nothing
+// rewrote it). A plain import is bundled deterministically by any bundler.
+// Catalogue data is therefore frozen as of the last deploy (same staleness
+// cadence as the GitHub Pages build - both only refresh on a new build).
+import catalogueData from '../data/catalogue.json' with { type: 'json' };
+import fontRegularB64 from './fonts/space-mono-regular.mjs';
+import fontBoldB64 from './fonts/space-mono-bold.mjs';
+
 const CATEGORY_LABELS = {
   sofas: 'Sofas', armchairs: 'Armchairs', dining: 'Dining',
   'coffee-tables': 'Coffee + Side Tables', bedroom: 'Bedroom', lighting: 'Lighting',
@@ -45,9 +56,8 @@ function money(n) {
   return '$' + Number(n).toLocaleString('en-AU', { maximumFractionDigits: 0 });
 }
 
-export async function loadCatalogue() {
-  const res = await fetch(new URL('../data/catalogue.json', import.meta.url));
-  return res.json();
+export function loadCatalogue() {
+  return catalogueData;
 }
 
 // Mirrors scripts/match.js's core filter (score >= floor, genuinely cheaper)
@@ -171,14 +181,19 @@ export function buildSiteWideCard(catalogue) {
   );
 }
 
-export async function loadFonts() {
-  const [regular, bold] = await Promise.all([
-    fetch(new URL('./fonts/SpaceMono-Regular.ttf', import.meta.url)).then((r) => r.arrayBuffer()),
-    fetch(new URL('./fonts/SpaceMono-Bold.ttf', import.meta.url)).then((r) => r.arrayBuffer()),
-  ]);
+// atob(), not Buffer - guaranteed present in both Node 18+ and a genuine
+// Edge/browser-like runtime, unlike Node's Buffer global.
+function base64ToArrayBuffer(b64) {
+  const bin = atob(b64);
+  const bytes = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  return bytes.buffer;
+}
+
+export function loadFonts() {
   return [
-    { name: 'Space Mono', data: regular, weight: 400, style: 'normal' },
-    { name: 'Space Mono', data: bold, weight: 700, style: 'normal' },
+    { name: 'Space Mono', data: base64ToArrayBuffer(fontRegularB64), weight: 400, style: 'normal' },
+    { name: 'Space Mono', data: base64ToArrayBuffer(fontBoldB64), weight: 700, style: 'normal' },
   ];
 }
 
