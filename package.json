@@ -25,9 +25,10 @@
     "test:similarity": "node lib/similarity.js --test",
     "test:affiliates": "node lib/affiliates.js --test",
     "test:catalogue": "node lib/catalogue.js --test",
-    "test:all": "npm run test:doctor && npm run test:catalogue && npm run test:similarity && npm run test:affiliates && npm run test:match && npm run test:build && npm run test:add && npm run test:import && npm run test:links && npm run test:photo && npm run test:staleness && npm run test:report",
+    "test:all": "npm run test:doctor && npm run test:catalogue && npm run test:similarity && npm run test:affiliates && npm run test:match && npm run test:build && npm run test:add && npm run test:import && npm run test:links && npm run test:og && npm run test:photo && npm run test:staleness && npm run test:report",
     "links": "node scripts/link-check.js",
-    "test:links": "node scripts/link-check.js --test"
+    "test:links": "node scripts/link-check.js --test",
+    "test:og": "node scripts/test-og.mjs"
   },
   "dependencies": {
     "@vercel/og": "^0.11.1",

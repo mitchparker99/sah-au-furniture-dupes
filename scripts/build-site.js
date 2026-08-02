@@ -35,7 +35,9 @@ if (process.argv.includes('--test')) {
   const { FIXTURE_CATALOGUE } = require('../lib/fixtures');
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'fd-site-'));
   const matches = computeMatches(FIXTURE_CATALOGUE);
-  buildSite(FIXTURE_CATALOGUE, matches, tmp, { SITE_NAME: 'Lookalike Living', SITE_URL: 'https://example.org' });
+  buildSite(FIXTURE_CATALOGUE, matches, tmp, {
+    SITE_NAME: 'Lookalike Living', SITE_URL: 'https://example.org', OG_IMAGE_BASE_URL: 'https://og.example.org',
+  });
 
   const index = fs.readFileSync(path.join(tmp, 'index.html'), 'utf8');
   const compare = fs.readFileSync(path.join(tmp, 'compare', 'studio-one-curve-sofa.html'), 'utf8');
@@ -72,6 +74,19 @@ if (process.argv.includes('--test')) {
   const lampCompare = fs.readFileSync(path.join(tmp, 'compare', 'studio-one-halo-lamp.html'), 'utf8');
   assert.ok(lampCompare.includes('thumb-hero thumb-empty'), 'missing original image falls back to a placeholder, not a broken <img>');
   assert.ok(index.includes('class="thumb thumb-card"'), 'index cards carry a photo');
+
+  // OG share cards: per-id on compare pages, generic elsewhere, omitted
+  // entirely when OG_IMAGE_BASE_URL isn't configured (same pattern as
+  // SITE_URL/canonical).
+  assert.ok(compare.includes('og:image" content="https://og.example.org/api/og?id=studio-one-curve-sofa"'), 'compare page og:image targets this specific original');
+  assert.ok(index.includes('og:image" content="https://og.example.org/api/og"'), 'index og:image is the generic site-wide card');
+  assert.ok(compare.includes('twitter:card') && compare.includes('og:image:width'), 'og:image ships width/height + twitter card meta');
+  const noOgEnv = { SITE_NAME: 'Lookalike Living' };
+  const tmp2 = fs.mkdtempSync(path.join(os.tmpdir(), 'fd-site-noog-'));
+  buildSite(FIXTURE_CATALOGUE, matches, tmp2, noOgEnv);
+  const indexNoOg = fs.readFileSync(path.join(tmp2, 'index.html'), 'utf8');
+  assert.ok(!indexNoOg.includes('og:image'), 'og:image omitted entirely when OG_IMAGE_BASE_URL is unset');
+  fs.rmSync(tmp2, { recursive: true, force: true });
 
   // Non-ASCII data must land as numeric entities (e.g. IKEA's JATTEBO with a
   // diaeresis), and the 404 must be styled + linked at any path depth.

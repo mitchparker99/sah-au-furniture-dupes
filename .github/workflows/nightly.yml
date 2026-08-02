@@ -30,6 +30,7 @@ jobs:
     env:
       SITE_NAME:          ${{ vars.SITE_NAME }}
       SITE_URL:           ${{ vars.SITE_URL }}
+      OG_IMAGE_BASE_URL:  ${{ vars.OG_IMAGE_BASE_URL }}
       ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
       CLAUDE_MODEL:       ${{ vars.CLAUDE_MODEL }}
       VISION_ENABLED:     ${{ vars.VISION_ENABLED }}
